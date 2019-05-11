@@ -1,0 +1,44 @@
+% VERSION 2
+% WARNING: this file is auto-generated; do not edit
+% UNSUPPORTED: this file and its format may change and/or
+%   may be removed in a future release
+! jce.jar
+javax/crypto
+sun/security
+! jsse.jar
+com/sun/net/
+sun/security
+@ resources.jar
+META-INF/services/javax.sound.midi.spi.MidiFileWriter
+META-INF/services/sun.util.spi.XmlPropertiesProvider
+META-INF/services/javax.sound.sampled.spi.AudioFileWriter
+sun/net
+META-INF/services/javax.sound.sampled.spi.FormatConversionProvider
+META-INF/services/sun.java2d.pipe.RenderingEngine
+META-INF/mimetypes.default
+META-INF/services/javax.sound.midi.spi.MidiDeviceProvider
+com/sun/java/util/jar/pack/
+META-INF/services/sun.java2d.cmm.CMMServiceProvider
+java/lang
+META-INF/services/javax.sound.midi.spi.SoundbankReader
+META-INF/mailcap.default
+sun/text
+META-INF/services/com.sun.tools.internal.xjc.Plugin
+META-INF/services/javax.print.PrintServiceLookup
+META-INF/services/javax.sound.midi.spi.MidiFileReader
+META-INF/services/javax.sound.sampled.spi.AudioFileReader
+META-INF/services/javax.print.StreamPrintServiceFactory
+META-INF/services/javax.sound.sampled.spi.MixerProvider
+META-INF/services/com.sun.tools.internal.ws.wscompile.Plugin
+! rt.jar
+com/sun/net/
+javax/script
+com/sun/security/
+sun/
+com/sun/java/util/jar/pack/
+javax/net
+com/sun/demo/
+com/sun/nio/
+javax/security
+java/
+jdk/
