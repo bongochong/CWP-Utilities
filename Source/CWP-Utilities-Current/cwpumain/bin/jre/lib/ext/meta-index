@@ -1,0 +1,13 @@
+% VERSION 2
+% WARNING: this file is auto-generated; do not edit
+% UNSUPPORTED: this file and its format may change and/or
+%   may be removed in a future release
+# localedata.jar
+sun/text
+sun/util
+! sunec.jar
+sun/security
+! sunjce_provider.jar
+com/sun/crypto/
+! sunpkcs11.jar
+sun/security
