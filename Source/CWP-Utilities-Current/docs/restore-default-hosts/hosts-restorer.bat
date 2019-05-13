@@ -28,6 +28,7 @@ cd %~dp0
 copy /Y Windows7andNewerHosts.txt %SystemDrive%\Windows\System32\Drivers\etc\HOSTS
 echo Operation successful. We're done here. Hit enter to exit.
 pause
+exit
 
 :vista
 ECHO You have chosen to restore your hosts file for Windows Vista.
@@ -36,6 +37,7 @@ cd %~dp0
 copy /Y WindowsVistaHosts.txt %SystemDrive%\Windows\System32\Drivers\etc\HOSTS
 echo Operation successful. We're done here. Hit enter to exit.
 pause
+exit
 
 :xp
 ECHO You have chosen to restore your hosts file for Windows XP.
@@ -44,3 +46,4 @@ cd %~dp0
 copy /Y WindowsXPHosts.txt %SystemDrive%\Windows\System32\Drivers\etc\HOSTS
 echo Operation successful. We're done here. Hit enter to exit.
 pause
+exit

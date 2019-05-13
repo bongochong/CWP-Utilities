@@ -1,6 +1,10 @@
 **Changelog**:
 
-05/13/2019 - Smarter directory structure. Leaner and meaner. Takes up a lot less space. Reduced installer size drastically as well. Also added a little utility that can restore your default hosts file (it can be found in the `docs` folder of the install directory, and must be run as administrator). This is now release candidate 1, and you can download it from here: [CWP-Utilities-Installer-RC-1.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Installer-RC-1.exe) **PLEASE uninstall the old version** before installing this one. This is necessary because the directory structure has changed. It's worth it.
+05/13/2019 - Further improved directory structure and slimmed down installer. Takes up even less space. This is now release candidate 2, and you can download it from here: [CWP-Utilities-Installer-RC-2.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Installer-RC-2.exe) **PLEASE uninstall the old version** before installing this one. This is necessary because the directory structure has changed. It's worth it.
+
+---
+
+05/13/2019 - Smarter directory structure. Leaner and meaner. Takes up a lot less space. Reduced installer size drastically as well. Also added a little utility that can restore your default hosts file (it can be found in the `docs` folder of the install directory, and must be run as administrator).
 
 ---
 
