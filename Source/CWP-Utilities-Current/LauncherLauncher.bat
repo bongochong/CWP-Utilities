@@ -14,5 +14,5 @@ echo ___________________________________________
 echo ...
 cd %~dp0
 echo Ready to launch. Just hit yes, and we shall begin...
-nircmd.exe elevate WinUtilsMultiLauncher.bat
+elevate.exe WinUtilsMultiLauncher.bat
 exit
