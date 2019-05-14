@@ -1,4 +1,4 @@
-All data herein is released under a FOSS-compatible Common Public Attribution License (https://github.com/bongochong/CWP-Utilities/blob/master/LICENSE.md), with the following exceptions for the included external dependencies (which are also FOSS):
+All data herein is released under a FOSS Common Public Attribution License (https://github.com/bongochong/CWP-Utilities/blob/master/LICENSE.md), with the following exceptions for the included external dependencies:
 
 1. Several Windows ports of LiGnux tools by the GnuWin32 project (http://gnuwin32.sourceforge.net/). I use them for a good portion of the parsing commands.
 
@@ -18,4 +18,4 @@ All data herein is released under a FOSS-compatible Common Public Attribution Li
 
 9. OpenJDK JRE Compact Profile 1 (https://openjdk.java.net/). The .jar file depends on this. It's the smallest default JRE profile that can currently be generated. IF I ditch the .jar parsing class, the included JRE will be ditched as well.
 
-Just like my script utilities, these are all also open sourced and released under FOSS licenses (or public domain, which is now considered FOSS-compatible). Please inspect the respective websites for details about their particular licenses. Each website also provides the source code for the above programs / libraries.
+Just like my script utilities, these are all also fully open sourced or released under FOSS licenses (or public domain, which is now considered FOSS-compatible). Please inspect the respective websites for details about their particular licenses. Each website also provides the source code for the above programs / libraries.
