@@ -17,7 +17,7 @@ More useful features are planned for the future, as is a clean graphical interfa
 
 This set of utilities is inspired by a lot of scripting work I have done over the years to automate repetitive tasks on my personal devices, and during my stints as a SysAdmin. It was built around significantly friendlier and improved versions of the scripts from my [Combined Privacy Block Lists repository](https://github.com/bongochong/CombinedPrivacyBlockLists/), which also contains some lists I maintain, and more software. If anyone would like to pitch in - especially in regard to crafting an efficient and clean GUI - I would be more than happy to work with you as time allows.
 
-This software suite has been tested on 32 and 64 bit versions of both Windows 7, and Windows 10, though it's pretty much guaranteed to work on 8 and Vista as well. A similar suite for LiGnux is in the works as well.
+All of the scripts and underlying binaries have been tested on 32 and 64 bit versions of both Windows 7, and Windows 10, though it's pretty much guaranteed to work on 8 and Vista as well.
 
 ***Notes***: It is strongly encouraged to use the installer, as it provides a shortcut which brings you directly to the main interface. If you prefer to run it manually, the correct batch file to execute is `LauncherLauncher.bat`, which is housed in the root folder of the install directory. Do not attempt to run CWP Utilities outside of using the provided shortcut or executing the aforementioned script, as it will not work as intended if you do.
 
