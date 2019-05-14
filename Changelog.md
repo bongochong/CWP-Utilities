@@ -1,6 +1,12 @@
 **Changelog**:
 
-05/13/2019 - Further improved directory structure and slimmed down installer. Takes up even less space. This is now release candidate 3, and you can download it from here: [CWP-Utilities-Installer-RC-3.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Installer-RC-3.exe) **PLEASE uninstall the old version** before installing this one. This is necessary because the directory structure has changed. It's worth it. Made the hosts restorer script a tad bit friendlier as well, and fixed a minor bug where explorer would not show up at the end of certain scripts to display the file location.
+05/13/2019 - Replaced the one non-FOSS component with a FOSS one. CWP Utilities is now 100% FOSS. Updated a bunch of readme files with way more details. We are now at release candidate 4, and you can download it from here: [CWP-Utilities-Installer-RC-4.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Installer-RC-4.exe) **PLEASE uninstall the old version** before installing this one. This is necessary because of an improved directory structure implemented in the last two release candidates, and the replacement of a crucial binary with a better FOSS one. It's worth it.
+
+Oh, and guess what. For you size-queens (or anti-size-queens), there's now a version that does not ship with a compact JRE. You still **must have Java installed on your system** (you can check this by opening up Command Prompt and entering `java -version`). It is necessary for the hosts file updater. Anyway, here's the installer without an included JRE: [CWP-Utilities-Installer-RC-4-NoJRE.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Installer-RC-4-NoJRE.exe), you'll notice it is much smaller.
+
+---
+
+05/13/2019 - Further improved directory structure and slimmed down installer. Takes up even less space. Made the hosts restorer script a tad bit friendlier as well, and fixed a minor bug where explorer would not show up at the end of certain scripts to display the file location.
 
 ---
 
@@ -8,7 +14,7 @@
 
 ---
 
-05/10/2019 - FML. The bug-fix to the PAC file updater introduced another tiny bug. Now that's fixed. Tested it like 10 times. No issues. Sorry Folks. All good now. Please download the new beta from within the releases directory: [CWP-Utilities-Installer-Beta-05.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Installer-Beta-05.exe)
+05/10/2019 - FML. The bug-fix to the PAC file updater introduced another tiny bug. Now that's fixed. Tested it like 10 times. No issues. Sorry Folks. All good now.
 
 ---
 
