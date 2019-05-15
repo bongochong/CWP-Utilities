@@ -28,11 +28,12 @@ cat processing/btb/*.dat > processing/btb/combined-win.txt
 @echo off
 timeout 5 >nul 2>nul
 sort processing/btb/combined-win.txt > processing/btb/combined-win-sort.txt
-uniq processing/btb/combined-win-sort.txt > processing/btb/combined-final-win.dat
+uniq -i processing/btb/combined-win-sort.txt > processing/btb/combined-final-win.dat
 timeout 3 >nul 2>nul
 sed -i "/^#/d" processing/btb/combined-final-win.dat
 timeout 3 >nul 2>nul
 sed -i "/^[[:space:]]*$/d" processing/btb/combined-final-win.dat
+d2u processing/btb/combined-final-win.dat
 timeout 3 >nul 2>nul
 @echo on
 mv processing/btb/combined-final-win.dat processing/btb/processed/

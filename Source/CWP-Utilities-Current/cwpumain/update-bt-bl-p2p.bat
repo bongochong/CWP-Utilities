@@ -28,11 +28,12 @@ cat processing/btb/*.p2p > processing/btb/combined.txt
 @echo off
 timeout 5 >nul 2>nul
 sort processing/btb/combined.txt > processing/btb/combined-sort.txt
-uniq processing/btb/combined-sort.txt > processing/btb/combined-final.p2p
+uniq -i processing/btb/combined-sort.txt > processing/btb/combined-final.p2p
 timeout 3 >nul 2>nul
 sed -i "/^#/d" processing/btb/combined-final.p2p
 timeout 3 >nul 2>nul
 sed -i "/^[[:space:]]*$/d" processing/btb/combined-final.p2p
+d2u processing/btb/combined-final.p2p
 timeout 3 >nul 2>nul
 @echo on
 mv processing/btb/combined-final.p2p processing/btb/processed/

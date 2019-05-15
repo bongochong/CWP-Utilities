@@ -14,8 +14,4 @@ All data herein is released under a FOSS Common Public Attribution License (http
 
 7. 7-Zip CLI binary by Igor Pavlov (https://www.7-zip.org/). I use this to unpack the larger block lists (like for the torrent client block list updaters) prior to parsing.
 
-8. MergeHosts.jar by MathDotRandom (http://mathdotrandom.blogspot.com/2010/12/block-ads-on-pc-android-with-uber-hosts.html). I use this because it's a great hosts file parsing class, but it's a little outdated and I plan on either re-writing it, or ditching it completely. It still outputs a useful hosts file that only requires a few lines of scripting clean-up, which can then be fed to the line-optimizer scripts.
-
-9. OpenJDK JRE Compact Profile 1 (https://openjdk.java.net/). The .jar file depends on this. It's the smallest default JRE profile that can currently be generated. IF I ditch the .jar parsing class, the included JRE will be ditched as well. Note that a JRE is not included in the No-JRE version, obviously.
-
 Just like my script utilities, these are all also fully open sourced or released under FOSS licenses (or public domain, which is now considered FOSS-compatible). Please inspect the respective websites for details about their particular licenses. Each website also provides the source code for the above programs / libraries.
