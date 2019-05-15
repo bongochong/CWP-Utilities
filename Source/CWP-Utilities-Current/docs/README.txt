@@ -14,4 +14,4 @@ All data herein is released under a FOSS Common Public Attribution License (http
 
 7. 7-Zip CLI binary by Igor Pavlov (https://www.7-zip.org/). I use this to unpack the larger block lists (like for the torrent client block list updaters) prior to parsing.
 
-Just like my script utilities, these are all also fully open sourced or released under FOSS licenses (or public domain, which is now considered FOSS-compatible). Please inspect the respective websites for details about their particular licenses. Each website also provides the source code for the above programs / libraries.
+Just like my script utilities, these are all also fully open sourced and released under FOSS licenses (or public domain, which is now considered FOSS-compatible). Please inspect the respective websites for details about their particular licenses. Each website also provides the source code for the above programs / libraries.
