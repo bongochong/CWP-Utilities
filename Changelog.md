@@ -8,9 +8,9 @@ Download it from here: [CWP-Utilities-RC5.exe](https://github.com/bongochong/CWP
 
 ---
 
-05/13/2019 - Replaced the one non-FOSS component with a FOSS one. CWP Utilities is now 100% FOSS. Updated a bunch of readme files with way more details. We are now at release candidate 4, and you can download it from here: [CWP-Utilities-Installer-RC-4.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Installer-RC-4.exe).
+05/13/2019 - Replaced the one non-FOSS component with a FOSS one. CWP Utilities is now 100% FOSS. Updated a bunch of readme files with way more details. We are now at release candidate 4, and you can download it from here: [CWP-Utilities-Installer-RC-4.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Backups/OldReleases/CWP-Utilities-Installer-RC-4.exe).
 
-Oh, and guess what. For you size-queens (or anti-size-queens), there's now a version that does not ship with a compact JRE. You still must have Java installed on your system for this release (you can check this by opening up Command Prompt and entering `java -version`). It is necessary for the hosts file updater. Anyway, here's the installer without an included JRE: [CWP-Utilities-Installer-RC-4-NoJRE.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Installer-RC-4-NoJRE.exe), you'll notice it is much smaller.
+Oh, and guess what. For you size-queens (or anti-size-queens), there's now a version that does not ship with a compact JRE. You still must have Java installed on your system for this release (you can check this by opening up Command Prompt and entering `java -version`). It is necessary for the hosts file updater. Anyway, here's the installer without an included JRE: [CWP-Utilities-Installer-RC-4-NoJRE.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Backups/OldReleases/CWP-Utilities-Installer-RC-4-NoJRE.exe), you'll notice it is much smaller.
 
 ---
 
