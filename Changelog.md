@@ -2,7 +2,7 @@
 
 05/14/2019 - The hosts updater utilities now work **without** the Java component. I rewrote the routines in that Java parsing class to use sed and pcregrep (a small GNU utility for Perl-compatible regular expressions) instead. This means, finally, **NO MORE JRE** shipped with any installers, and **NO MORE JAVA** whatsoever.
 
-I also ensured that the final files spit out by every utility are fully Unicode text, and I perfected each utility's ability to detect duplicate lines, empty lines, commented lines and so on. These were not issues before, but I wanted to do it, so I did. We are now at release candidate 5.
+I also ensured that the final files spit out by every utility are fully Unicode-compatible, and I perfected each utility's ability to detect duplicate lines, empty lines, commented lines and so on. These were not issues before, but I wanted to do it, so I did. We are now at release candidate 5.
 
 Download it from here: [CWP-Utilities-RC5.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-RC5.exe). **PLEASE uninstall the old version** before installing this one. This is necessary because of the significant changes and improvements.
 
