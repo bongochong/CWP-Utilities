@@ -1,6 +1,6 @@
 **Changelog**:
 
-05/14/2019 - The hosts updater utilities now work without the Java component. I rewrote the routines in that Java parsing class to use sed and pcregrep (a small GNU utility for Perl-compatible regular expressions) instead. This means, finally, NO MORE JRE shipped with any installers, and NO MORE JAVA whatsoever.
+05/14/2019 - The hosts updater utilities now work **without** the Java component. I rewrote the routines in that Java parsing class to use sed and pcregrep (a small GNU utility for Perl-compatible regular expressions) instead. This means, finally, **NO MORE JRE** shipped with any installers, and **NO MORE JAVA** whatsoever.
 
 I also ensured that the final files spit out by every utility are fully Unicode text, and I perfected each utility's ability to detect duplicate lines, empty lines, commented lines and so on. These were not issues before, but I wanted to do it, so I did. We are now at release candidate 5.
 
