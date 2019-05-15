@@ -1,4 +1,5 @@
-This is the most recent release:
+This directory will always contain the most recent installer:
 https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-RC5.exe
 
-Please download that one. The other installers are older versions kept for posterity.
+If you need to download an old one for some crazy reason, you may check here:
+https://github.com/bongochong/CWP-Utilities/tree/master/Backups/OldReleases
