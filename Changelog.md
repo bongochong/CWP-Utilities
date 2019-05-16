@@ -1,10 +1,16 @@
 **Changelog**:
 
+05/16/2019 - We are now at Stable Release 1.0. Along with all the changes from previous day (listed below this entry), I have added a help menu. After much testing, I believe this to be stable for any Windows machine running Win10, 8, 7, or Vista. CWP Utilities is now much leaner, more efficient, and thorough in its routines. The new release can be downloaded from here: [CWP-Utilities-Stable-1.0.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.0.exe).
+
+What is planned after this release? Options to pass flags to the main script, so each utility can be run in a standalone fashion. Along with a point 'n' click GUI including configuration options, and more. Stay tuned.
+
+---
+
 05/14/2019 - The hosts updater utilities now work **without** the Java component. I rewrote the routines in that Java parsing class to use sed and pcregrep (a small GNU utility for Perl-compatible regular expressions) instead. This means, finally, **NO MORE JRE** shipped with any installers, and **NO MORE JAVA** whatsoever.
 
 I also ensured that the final files spit out by every utility are fully Unicode-compatible, and I perfected each utility's ability to detect duplicate lines, empty lines, commented lines and so on. These were not issues before, but I wanted to do it, so I did. We are now at release candidate 5.
 
-Download it from here: [CWP-Utilities-RC5.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-RC5.exe). **PLEASE uninstall the old version** before installing this one. This is necessary because of the significant changes and improvements.
+Download it from here: [CWP-Utilities-RC5.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Backups/OldReleases/CWP-Utilities-RC5.exe). **PLEASE uninstall the old version** before installing this one. This is necessary because of the significant changes and improvements.
 
 ---
 
