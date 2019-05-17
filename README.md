@@ -1,5 +1,5 @@
 # [Combined Windows Privacy Utilities](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.0.exe)
-![Main Interface](/Screenshots/screen05.png)  
+![Main Interface](/Screenshots/screen05-new.png)  
 Are you tired of ads and trackers interrupting your web browsing? Do you want to use file sharing applications in a safer way, with less risk of being snooped on? Do you want to take preemptive measures against spyware? Or, would you simply like to have an easier way of keeping your hosts file and torrent client block lists thorough and up-to-date on Windows? Look no further. This also does more.
 
 Combined Windows Privacy Utilities (or CWP Utilities) is a suite of free and open source tools for Windows users, to help them guard their privacy and security. It does this through drastically simplifying the work of retrieving, parsing, and structuring data from a number of different trustworthy block lists, then combining them into single, usable files, and putting them in their proper places. [A simple installer is provided (just click this link to download it)](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.0.exe), and strongly encouraged to be used. The program can be installed anywhere on any device that runs Windows, along with USB drives, as all of the utilities dynamically recognize proper system paths. It creates no registry entries, cleans up after itself, and if one chooses to uninstall it, no files are left behind.
@@ -11,7 +11,7 @@ CWP Utilities currently provides a simple and interactive command line interface
 The file sharing block list updaters output [their lists](/MoreInfo/DefaultBitTorrentBlockLists.md) in a subdirectory of each tool's folder, which can simply be moved to another directory of the user's choosing thereafter, or left in place. An explorer window appears upon completion of the block list update, revealing the location of the list. The [PAC updater](/MoreInfo/DefaultPACFileSources.md) does the same, but a template script is also included that allows for greater flexibility.
 
 All the scripts which perform these routines are configurable directly in a text editor of one's choosing, or via the main interface itself, through a Windows port of the nano text editor.
-![Built-In Editor](/Screenshots/screen06.png)
+![Built-In Editor](/Screenshots/screen06-new.png)
 
 More useful features are planned for the future, as is a clean graphical interface, but I thought I would share a fully functional beta with the public, in hopes that others will find my tools as useful and beneficial as I have.
 
