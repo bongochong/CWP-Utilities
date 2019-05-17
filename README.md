@@ -29,7 +29,7 @@ Lastly, someone questioned my inclusion of external software in the program. I'd
 
 
 More Screenshots:  
-![Installer1](/Screenshots/screen01.png)
-![Installer2](/Screenshots/screen02.png)
+![Installer1](/Screenshots/screen01-new.png)
+![Installer2](/Screenshots/screen02-new.png)
 ![StartingUp](/Screenshots/screen03.png)
 ![WelcomeScreen](/Screenshots/screen04.png)
