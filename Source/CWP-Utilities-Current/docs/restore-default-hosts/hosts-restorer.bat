@@ -12,6 +12,7 @@ ECHO.
 ECHO 1 = Windows 7 or Newer
 ECHO 2 = Windows Vista
 ECHO 3 = Windows XP
+ECHO 4 = I Want to Abort this Operation
 ECHO.
 
 :choice
@@ -19,6 +20,7 @@ set /P C=[What Version of Windows are You Running]?
 if "%C%"=="1" goto seven
 if "%C%"=="2" goto vista
 if "%C%"=="3" goto xp
+if "%C%"=="4" goto abort
 goto choice
 
 :seven
@@ -46,4 +48,12 @@ cd %~dp0
 copy /Y WindowsXPHosts.txt %SystemDrive%\Windows\System32\Drivers\etc\HOSTS
 echo Operation successful. We're done here. Hit enter to exit.
 pause
+exit
+
+:abort
+Echo You may now close this window. Hit enter to exit.
+pause
+goto END
+
+:END
 exit

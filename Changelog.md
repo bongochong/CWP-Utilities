@@ -1,6 +1,12 @@
 **Changelog**:
 
-05/16/2019 - We are now at Stable Release 1.0. Along with all the changes from previous days (listed below this entry), I have added a help menu, and after much testing, I believe this to be stable for any Windows machine running Win10, 8, 7, or Vista. CWP Utilities is now much leaner, more efficient, and thorough in its routines. The new release can be downloaded from here: [CWP-Utilities-Stable-1.0.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.0.exe). **PLEASE uninstall the old version** before installing this one. This is necessary because of the significant changes and improvements.
+05/18/2019 - You can now pass flags to the main script, which means I've added some usability enhancements (like a separate start menu item for each main feature of CWP Utilities). I also decided to use different icons (I think most people using this will like them a lot). In addition, I have updated the help file which is included with the program. This means we are now at Stable Release 1.1. This is the best version yet.
+
+The new release can be downloaded from here: [CWP-Utilities-Stable-1.1.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.1.exe). **PLEASE uninstall the old version** before installing this one. This is necessary because of the significant changes and improvements.
+
+---
+
+05/16/2019 - We are now at Stable Release 1.0. Along with all the changes from previous days (listed below this entry), I have added a help menu, and after much testing, I believe this to be stable for any Windows machine running Win10, 8, 7, or Vista. CWP Utilities is now much leaner, more efficient, and thorough in its routines.
 
 What is planned after this release? Options to pass flags to the main script, so each utility can be run in a standalone fashion. Along with a point 'n' click GUI including configuration options, and more. Stay tuned.
 

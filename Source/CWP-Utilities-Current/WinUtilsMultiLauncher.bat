@@ -1,11 +1,23 @@
 title CWP Utilities >nul 2>nul
 mode con: cols=99 lines=33 >nul 2>nul
 @echo off
+:parse
+if "%~1"=="" goto endparse
+if "%~1"=="-01" goto Single
+if "%~1"=="-02" goto Dual
+if "%~1"=="-03" goto PAC
+if "%~1"=="-04" goto DAT
+if "%~1"=="-05" goto P2P
+SHIFT
+goto parse
+:endparse
+ECHO.
 ECHO **************************************************************
 ECHO *Welcome to Combined Windows Privacy Utilities Multi-Launcher*
 ECHO **************************************************************
 ECHO *Your One Stop Shop for Block List-Based Privacy and Security*
 ECHO **************************************************************
+ECHO.
 pause
 :start
 cls
