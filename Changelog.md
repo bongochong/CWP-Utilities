@@ -1,8 +1,12 @@
 **Changelog**:
 
-05/18/2019 - You can now pass flags to the main script, which means I've added some usability enhancements (like a separate start menu item for each main feature of CWP Utilities). I also decided to use different icons (I think most people using this will like them a lot). In addition, I have updated the help file which is included with the program. This means we are now at Stable Release 1.1. This is the best version yet.
+05/19/2019 - Switched the bundled text editor over to one that the average user can take advantage of for editing script configurations. It also happens to be considerably smaller than the previously used Windows port of Nano, so I've saved more space yet again. Aside from that, check the last few changelog entries for a better idea of the improvements and changes that have been taking place. This should be the last release for a good while, as I want to start working on a nice GUI. Enjoy!
 
-The new release can be downloaded from here: [CWP-Utilities-Stable-1.1.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.1.exe). **PLEASE uninstall the old version** before installing this one. This is necessary because of the significant changes and improvements.
+The new release can be downloaded from here: [CWP-Utilities-Stable-1.2.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.2.exe). **PLEASE uninstall the old version** before installing this one. This is necessary because of the significant changes and improvements.
+
+---
+
+05/18/2019 - You can now pass flags to the main script, which means I've added some usability enhancements (like a separate start menu item for each main feature of CWP Utilities). I also decided to use different icons (I think most people using this will like them a lot). In addition, I have updated the help file which is included with the program. This means we are now at Stable Release 1.1. This is the best version yet.
 
 P.S. The installer now has support for a wide array of languages.
 

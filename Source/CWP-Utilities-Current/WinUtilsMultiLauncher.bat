@@ -8,6 +8,12 @@ if "%~1"=="-02" goto Dual
 if "%~1"=="-03" goto PAC
 if "%~1"=="-04" goto DAT
 if "%~1"=="-05" goto P2P
+if "%~1"=="-06" goto edH4
+if "%~1"=="-07" goto edH6
+if "%~1"=="-08" goto edPac
+if "%~1"=="-09" goto edDat
+if "%~1"=="-10" goto edP2p
+if "%~1"=="-11" goto Help
 SHIFT
 goto parse
 :endparse
@@ -92,35 +98,35 @@ update-bt-bl-p2p.bat
 ECHO You have chosen to edit the IPv4 hosts updater configuration
 pause
 cd %~dp0\cwpumain
-nano hosts-updater-win-ipv4.bat
+metapad hosts-updater-win-ipv4.bat
 goto start
 
 :edH6
 ECHO You have chosen to edit the dual stack hosts updater configuration
 pause
 cd %~dp0\cwpumain
-nano hosts-updater-win-dual.bat
+metapad hosts-updater-win-dual.bat
 goto start
 
 :edPac
 ECHO You have chosen to edit the PAC updater configuration
 pause
 cd %~dp0\cwpumain
-nano update-pac-win-local.bat
+metapad update-pac-win-local.bat
 goto start
 
 :edDat
 ECHO You have chosen to edit the DAT block list updater configuration
 pause
 cd %~dp0\cwpumain
-nano update-bt-bl-dat.bat
+metapad update-bt-bl-dat.bat
 goto start
 
 :edP2p
 ECHO You have chosen to edit the P2P block list updater configuration
 pause
 cd %~dp0\cwpumain
-nano update-bt-bl-p2p.bat
+metapad update-bt-bl-p2p.bat
 goto start
 
 :Help
