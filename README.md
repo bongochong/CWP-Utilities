@@ -1,4 +1,4 @@
-# [Combined Windows Privacy Utilities](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.1.exe)
+# [Combined Windows Privacy Utilities](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.1.exe) | ![Main Program Icon](/Screenshots/Main-Icon.png)
 ![Main Interface](/Screenshots/screen05-new.png)  
 Are you tired of ads and trackers interrupting your web browsing? Do you want to use file sharing applications in a safer way, with less risk of being snooped on? Do you want to take preemptive measures against spyware? Or, would you simply like to have an easier way of keeping your hosts file and torrent client block lists thorough and up-to-date on Windows? Look no further. This also does more.
 
@@ -29,8 +29,7 @@ Lastly, someone questioned my inclusion of external software in the program. I'd
 
 
 More Screenshots:  
-![Start Menu Entries](/Screenshots/Start-Menu.png)  
-![Main Program Icon](/Screenshots/Main-Icon.png)  
+![Start Menu Entries](/Screenshots/Start-Menu.png)    
 ![Installer1](/Screenshots/screen01-new.png)  
 ![Installer2](/Screenshots/screen02-new.png)  
 ![StartingUp](/Screenshots/screen03-new.png)  
