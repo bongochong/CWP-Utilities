@@ -4,6 +4,8 @@
 
 The new release can be downloaded from here: [CWP-Utilities-Stable-1.1.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.1.exe). **PLEASE uninstall the old version** before installing this one. This is necessary because of the significant changes and improvements.
 
+P.S. The installer now has support for a wide array of languages.
+
 ---
 
 05/16/2019 - We are now at Stable Release 1.0. Along with all the changes from previous days (listed below this entry), I have added a help menu, and after much testing, I believe this to be stable for any Windows machine running Win10, 8, 7, or Vista. CWP Utilities is now much leaner, more efficient, and thorough in its routines.
