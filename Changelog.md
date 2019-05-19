@@ -1,6 +1,6 @@
 **Changelog**:
 
-05/19/2019 - Switched the bundled text editor over to one that the average user can take advantage of for editing script configurations. It also happens to be considerably smaller than the previously used Windows port of Nano, so I've saved more space yet again. Aside from that, check the last few changelog entries for a better idea of the improvements and changes that have been taking place. This should be the last release for a good while, as I want to start working on a nice GUI. Enjoy!
+05/19/2019 - Switched the bundled text editor over to one that the average user can take advantage of for editing script configurations. It also happens to be considerably smaller than the previously used Windows port of Nano, so I've saved more space yet again. Aside from that, check the last few changelog entries for a better idea of the improvements and changes that have been taking place. We are now at Stable Release 1.2. This should be the last release for a good while, as I want to start working on a nice GUI. Enjoy!
 
 The new release can be downloaded from here: [CWP-Utilities-Stable-1.2.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.2.exe). **PLEASE uninstall the old version** before installing this one. This is necessary because of the significant changes and improvements.
 
