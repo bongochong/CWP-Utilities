@@ -28,7 +28,6 @@ Lastly, someone questioned my inclusion of external software in the program. I'd
 
 ---
 
-
 More Screenshots:  
 ![Main Program Icon](/Screenshots/Main-Icon.png)  
 ![Installer1](/Screenshots/screen01-new.png)  
