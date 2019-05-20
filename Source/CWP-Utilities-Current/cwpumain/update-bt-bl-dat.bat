@@ -26,6 +26,7 @@ cd %~dp0bin
 mv processing/btb/ydxerpxkpcfqjaybcssw.txt processing/btb/bt_level1.dat
 mv processing/btb/gyisgnzbhppbvsphucsw.txt processing/btb/bt_level2.dat
 cat processing/btb/*.dat > processing/btb/combined-win.txt
+sed -i -e "s/amp;//g" processing/btb/combined-win.txt
 @echo off
 timeout 5 >nul 2>nul
 sort processing/btb/combined-win.txt > processing/btb/combined-win-sort.txt

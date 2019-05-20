@@ -26,6 +26,7 @@ cd %~dp0bin
 mv processing/btb/ydxerpxkpcfqjaybcssw.txt processing/btb/bt_level1.p2p
 mv processing/btb/gyisgnzbhppbvsphucsw.txt processing/btb/bt_level2.p2p
 cat processing/btb/*.p2p > processing/btb/combined.txt
+sed -i -e "s/amp;//g" processing/btb/combined.txt
 @echo off
 timeout 5 >nul 2>nul
 sort processing/btb/combined.txt > processing/btb/combined-sort.txt
