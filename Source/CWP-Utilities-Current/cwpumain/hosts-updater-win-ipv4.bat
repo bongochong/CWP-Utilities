@@ -1,9 +1,9 @@
 title CWP Utilities >nul 2>nul
 mode con: cols=99 lines=33 >nul 2>nul
+@echo off
 set PATH=%~dp0bin;%PATH%
 cd %~dp0
 cd bin\processing\hosts\processed
-@echo off
 del "hosts.bak" >nul 2>nul
 del "final-hosts.txt" >nul 2>nul
 rename HOSTS hosts.bak >nul 2>nul

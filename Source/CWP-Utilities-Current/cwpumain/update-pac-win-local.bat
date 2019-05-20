@@ -1,9 +1,9 @@
 title CWP Utilities >nul 2>nul
 mode con: cols=99 lines=33 >nul 2>nul
+@echo off
 set PATH=%~dp0bin;%PATH%
 cd %~dp0
 cd bin\processing\pac\processed
-@echo off
 del "pac-done.js" >nul 2>nul
 cd %~dp0bin
 rm processing/pac/pac-* >nul 2>nul

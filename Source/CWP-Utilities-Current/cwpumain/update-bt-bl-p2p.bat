@@ -1,9 +1,9 @@
 title CWP Utilities >nul 2>nul
 mode con: cols=99 lines=33 >nul 2>nul
+@echo off
 set PATH=%~dp0bin;%PATH%
 cd %~dp0
 cd bin\processing\btb\processed
-@echo off
 del "combined-final.p2p" >nul 2>nul
 cd %~dp0bin
 rm processing/btb/level1BT.7z >nul 2>nul
