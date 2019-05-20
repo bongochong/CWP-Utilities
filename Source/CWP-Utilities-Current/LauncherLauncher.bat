@@ -1,6 +1,7 @@
 title CWP Utilities >nul 2>nul
 mode con: cols=99 lines=33 >nul 2>nul
 @echo off
+set PATH=%~dp0cwpumain\bin;%PATH%
 echo Preparing to Launch Combined Windows Privacy Utilities...
 echo ...
 echo ___________________________________________

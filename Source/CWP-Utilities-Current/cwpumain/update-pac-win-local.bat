@@ -1,10 +1,11 @@
 title CWP Utilities >nul 2>nul
 mode con: cols=99 lines=33 >nul 2>nul
+set PATH=%~dp0bin;%PATH%
 cd %~dp0
 cd bin\processing\pac\processed
 @echo off
 del "pac-done.js" >nul 2>nul
-cd %~dp0\bin
+cd %~dp0bin
 rm processing/pac/pac-* >nul 2>nul
 rm processing/pac/*.pac >nul 2>nul
 @echo on
@@ -40,7 +41,7 @@ rename pac-done.txt pac-done.js
 echo ...
 echo Done! Now you may also move your PAC file (pac-done.js) from the folder that pops up to another directory, if you so wish. Please search the web for "ad-blocking PAC" if you would like to know more about this method.
 timeout 1 >nul 2>nul
-start "" "%~dp0\bin\processing\pac\processed"
+start "" "%~dp0bin\processing\pac\processed"
 echo ...
 echo Hit enter to return to the main menu.
 echo ...

@@ -1,12 +1,13 @@
 title CWP Utilities >nul 2>nul
 mode con: cols=99 lines=33 >nul 2>nul
+set PATH=%~dp0bin;%PATH%
 cd %~dp0
 cd bin\processing\hosts\processed
 @echo off
 del "hosts.bak" >nul 2>nul
 del "final-hosts.txt" >nul 2>nul
 rename HOSTS hosts.bak >nul 2>nul
-cd %~dp0\bin
+cd %~dp0bin
 rm processing/hosts/*.final >nul 2>nul
 rm processing/hosts/*.hosts >nul 2>nul
 rm processing/hosts/hosts.* >nul 2>nul
@@ -51,7 +52,7 @@ d2u processing/hosts/hosts.final
 cp processing/hosts/hosts.final processing/hosts/sorted-hosts.txt
 mv processing/hosts/sorted-hosts.txt processing/hosts/final-hosts.txt
 cp processing/hosts/final-hosts.txt processing/hosts/processed/
-cd %~dp0\bin\processing\hosts\processed
+cd %~dp0bin\processing\hosts\processed
 @echo off
 cscript optimizer.js
 timeout 5 >nul 2>nul

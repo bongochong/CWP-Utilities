@@ -1,6 +1,7 @@
 title CWP Utilities >nul 2>nul
 mode con: cols=99 lines=33 >nul 2>nul
 @echo off
+set PATH=%~dp0cwpumain\bin;%PATH%
 :parse
 if "%~1"=="" goto endparse
 if "%~1"=="-01" goto Single
@@ -8,12 +9,6 @@ if "%~1"=="-02" goto Dual
 if "%~1"=="-03" goto PAC
 if "%~1"=="-04" goto DAT
 if "%~1"=="-05" goto P2P
-if "%~1"=="-06" goto edH4
-if "%~1"=="-07" goto edH6
-if "%~1"=="-08" goto edPac
-if "%~1"=="-09" goto edDat
-if "%~1"=="-10" goto edP2p
-if "%~1"=="-11" goto Help
 SHIFT
 goto parse
 :endparse
@@ -67,65 +62,65 @@ goto choice
 :Single
 ECHO You have chosen to update your hosts file with IPv4 entries only.
 pause
-cd %~dp0\cwpumain
+cd %~dp0cwpumain
 hosts-updater-win-ipv4.bat
 
 :Dual
 ECHO You have chosen to update your hosts file with both IPv4 and IPv6 entries.
 pause
-cd %~dp0\cwpumain
+cd %~dp0cwpumain
 hosts-updater-win-dual.bat
 
 :PAC
 ECHO You have chosen to update your PAC file for ad-blocking over a network proxy.
 pause
-cd %~dp0\cwpumain
+cd %~dp0cwpumain
 update-pac-win-local.bat
 
 :DAT
 ECHO You have chosen to update the DAT block list for your bittorrent client.
 pause
-cd %~dp0\cwpumain
+cd %~dp0cwpumain
 update-bt-bl-dat.bat
 
 :P2P
 ECHO You have chosen to update the P2P block list for your bittorrent client.
 pause
-cd %~dp0\cwpumain
+cd %~dp0cwpumain
 update-bt-bl-p2p.bat
 
 :edH4
 ECHO You have chosen to edit the IPv4 hosts updater configuration
 pause
-cd %~dp0\cwpumain
+cd %~dp0cwpumain
 metapad hosts-updater-win-ipv4.bat
 goto start
 
 :edH6
 ECHO You have chosen to edit the dual stack hosts updater configuration
 pause
-cd %~dp0\cwpumain
+cd %~dp0cwpumain
 metapad hosts-updater-win-dual.bat
 goto start
 
 :edPac
 ECHO You have chosen to edit the PAC updater configuration
 pause
-cd %~dp0\cwpumain
+cd %~dp0cwpumain
 metapad update-pac-win-local.bat
 goto start
 
 :edDat
 ECHO You have chosen to edit the DAT block list updater configuration
 pause
-cd %~dp0\cwpumain
+cd %~dp0cwpumain
 metapad update-bt-bl-dat.bat
 goto start
 
 :edP2p
 ECHO You have chosen to edit the P2P block list updater configuration
 pause
-cd %~dp0\cwpumain
+cd %~dp0cwpumain
 metapad update-bt-bl-p2p.bat
 goto start
 

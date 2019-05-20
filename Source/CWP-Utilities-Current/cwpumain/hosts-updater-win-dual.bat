@@ -1,12 +1,13 @@
 title CWP Utilities >nul 2>nul
 mode con: cols=99 lines=33 >nul 2>nul
+set PATH=%~dp0bin;%PATH%
 cd %~dp0
 cd bin\processing\hosts\processed
 @echo off
 del "hosts.bak" >nul 2>nul
 del "final-hosts.txt" >nul 2>nul
 rename HOSTS hosts.bak >nul 2>nul
-cd %~dp0\bin
+cd %~dp0bin
 rm processing/hosts/*.final >nul 2>nul
 rm processing/hosts/*.hosts >nul 2>nul
 rm processing/hosts/hosts.* >nul 2>nul
@@ -53,16 +54,16 @@ d2u processing/hosts/hosts6.final
 cp processing/hosts/hosts.final processing/hosts/sorted-hosts.txt
 cp processing/hosts/hosts6.final processing/hosts/sorted-hosts6.txt
 @echo off
-cd %~dp0\bin\processing\hosts
+cd %~dp0bin\processing\hosts
 cscript optimizer-pre.js
 timeout 5 >nul 2>nul
 cscript optimizer6-pre.js
 timeout 5 >nul 2>nul
-cd %~dp0\bin
+cd %~dp0bin
 @echo on
 cat processing/hosts/hosts4 processing/hosts/hosts6 > processing/hosts/hosts-dual.txt
 cp processing/hosts/hosts-dual.txt processing/hosts/processed/
-cd %~dp0\bin\processing\hosts\processed
+cd %~dp0bin\processing\hosts\processed
 rename hosts-dual.txt HOSTS
 copy /Y HOSTS %SystemDrive%\Windows\System32\Drivers\etc\HOSTS
 ipconfig /flushdns
