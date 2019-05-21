@@ -1,5 +1,7 @@
 **Explanation of Advanced Options in CWP Utilities**
 ---
+If you are looking for the standard help file, please go here: https://github.com/bongochong/CWP-Utilities/blob/master/Help.md If you are not, then please continue reading.
+
 You might not realize it yet, but the editor functions in the main interface are there for a good reason. Each utility is configurable to a large degree. For instance, the hosts file updaters can be modified to utilize more lists, or less lists, or any lists you like. The PAC file updater is also modifiable in a similar fashion (though unlike the hosts updaters, it only eats plain lists of domains). Even the torrent client block list utilities can have their lists added to, subtracted from, or changed, though I won't get into that, as I don't even know of any other block-lists you can subscribe to. We'll just cover the PAC and hosts file updaters for now.
 
 1. Changing the block lists in the hosts file updaters is simple. When you choose the option to edit either one's configuration from the main interface, a text editor will pop up. Within each updater you will notice a series of lines which are prefixed with "wget". The first line is as follows:  
