@@ -27,7 +27,6 @@ wget -nv -O processing/hosts/hosts.5 "https://hosts-file.net/exp.txt"
 wget -nv -O processing/hosts/hosts.6 "https://adaway.org/hosts.txt"
 wget -nv -O processing/hosts/hosts.7 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/WindowsTelemetryBlockSupplements/SBBTYZ-IPv4.txt"
 wget -nv -O processing/hosts/hosts.8 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/Device9domains-IPv4.txt"
-wget -nv -O processing/hosts/hosts.9 "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt"
 cat processing/hosts/hosts.* > processing/hosts/hosts-cat.final
 d2u processing/hosts/hosts-cat.final
 pcregrep -v -f hostpatterns.dat processing/hosts/hosts-cat.final > processing/hosts/hosts-pre.final
