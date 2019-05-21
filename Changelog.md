@@ -1,8 +1,12 @@
 **Changelog**:
 
-05/20/2019 - I know I said that I was bidding you farewell with release 1.3, but I'm a perfectionist with terrible OCD, and while doing some work on the upcoming GUI, I noticed that the PAC file updater was incorrectly concatenating two particular domains during the merging process. I doubt anyone would have noticed, but I want you to have the best, so I fixed it. Here's Stable Release 1.4, and it will - fingers crossed - be the last one until I have a good GUI pumped out. Every other component is in perfect working order.
+05/21/2019 - Alright. I'm done with this charade. I *can* work on the core components of CWP Utilities *while* working on the GUI, and no one is going to stop me. We are now at Stable Release 1.5. I wanted to make sure the hosts file updaters could handle *any* hosts lists that are fed to it, and it only took two extra sed commands, so I added them. Now it does the thing. Enjoy 1.5!
 
-The new release can be downloaded from here: [CWP-Utilities-Stable-1.4.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.4.exe). As per usual, **PLEASE uninstall the old version** before installing this one. This is necessary because of the significant changes and improvements.
+The new release can be downloaded from here: [CWP-Utilities-Stable-1.5.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.5.exe). As per usual, **PLEASE uninstall the old version** before installing this one. This is necessary because of the significant changes and improvements.
+
+---
+
+05/20/2019 - I know I said that I was bidding you farewell with release 1.3, but I'm a perfectionist with terrible OCD, and while doing some work on the upcoming GUI, I noticed that the PAC file updater was incorrectly concatenating two particular domains during the merging process. I doubt anyone would have noticed, but I want you to have the best, so I fixed it. Here's Stable Release 1.4, and it will - fingers crossed - be the last one until I have a good GUI pumped out. Every other component is in perfect working order.
 
 ---
 
