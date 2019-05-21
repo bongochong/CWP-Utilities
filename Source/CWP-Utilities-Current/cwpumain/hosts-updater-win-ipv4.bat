@@ -40,8 +40,8 @@ sed -i -e "/[[:space:]]*#/d" processing/hosts/uniq-hosts.final
 sed -i -e "/[[:blank:]]*#/d" processing/hosts/uniq-hosts.final
 sed -i "s/\t/ /g" processing/hosts/uniq-hosts.final
 sed -i "s/^127.0.0.1/0.0.0.0/g" processing/hosts/uniq-hosts.final
-sed -i "s/^::/0.0.0.0/g" processing/hosts/uniq-hosts.final
 sed -i "s/^::1/0.0.0.0/g" processing/hosts/uniq-hosts.final
+sed -i "s/^::/0.0.0.0/g" processing/hosts/uniq-hosts.final
 sed -i -e "s/[[:space:]]\+/ /g" processing/hosts/uniq-hosts.final
 sed -i -e "s/[[:space:]]*$//" processing/hosts/uniq-hosts.final
 sed -i -e "s/[[:blank:]]*$//" processing/hosts/uniq-hosts.final
