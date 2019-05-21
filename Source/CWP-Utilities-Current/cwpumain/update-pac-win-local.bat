@@ -22,14 +22,14 @@ sed -i "/^$/d" processing/pac/pac-comb.txt
 sort processing/pac/pac-comb.txt > processing/pac/pac-sort.txt
 uniq -i processing/pac/pac-sort.txt > processing/pac/pac-uniq.txt
 d2u processing/pac/pac-uniq.txt
-head -c -1 processing/pac/pac-uniq.txt > processing/pac/pac-pre.txt
+mv processing/pac/pac-uniq.txt processing/pac/pac-pre.txt
 cp processing/pac/pac-pre.txt processing/pac/pac-pre2.txt
 cp processing/pac/pac-pre.txt processing/pac/pac-pre01.txt
 cp processing/pac/pac-pre2.txt processing/pac/pac-pre02.txt
 sed -i "s/^/*./" processing/pac/pac-pre01.txt
 d2u processing/pac/pac-pre01.txt
 cat processing/pac/pac-pre01.txt processing/pac/pac-pre02.txt > processing/pac/pac-wew.txt
-cp processing/pac/pac-wew.txt processing/pac/pac-lad.txt 
+head -c -1 processing/pac/pac-wew.txt > processing/pac/pac-lad.txt
 sed -i "s/^/shExpMatch(host, '/" processing/pac/pac-lad.txt
 sed -i "s/$/') ||/" processing/pac/pac-lad.txt
 sed "2r processing/pac/pac-lad.txt" < processing/pac/pactemplate.txt > processing/pac/pac-done.txt
