@@ -17,3 +17,5 @@
     * By default, these utilities retrieve, combine, sort, de-duplicate and merge lists from the sources [HERE](/MoreInfo/DefaultBitTorrentBlockLists.md) into a single file, and do some general clean up, so one can have a more thorough block list than simply using the data from a single list. When the utility is done generating its block list, it will open an Explorer Window for you to easily access it. All you have to do thereafter is configure your torrent client or other file-sharing application(s) to utilize the list. Along with the examples I mentioned, there are many other torrent and file-sharing applications that allow you to utilize such block lists, one simply must find the appropriate section in the application's settings, and direct it to the unified list you just produced.
 
 I will do my best to expand upon this help file as time allows, and If you have any questions, please don't hesitate to contact me. Jahbless.
+
+P.S. Help with the advanced options of CWP Utilities can be found here: https://github.com/bongochong/CWP-Utilities/blob/master/Help-Advanced.md
