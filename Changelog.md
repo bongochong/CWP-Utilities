@@ -1,8 +1,12 @@
 **Changelog**:
 
-05/20/2019 - I know I said that release 1.2 was the last one before I start working on a conventional point 'n' click GUI, but I was wrong. I was so used to scripting on LiGnux that I forgot I could improve one more thing in CWP Utilities before starting on the GUI: Setting a temporary path in each batch script, for slightly improved directory structure (and the increased usability that comes along with this). So I did it. I also improved duplicate detection in the torrent client blocklist utilities, specifically for iblocklist lists. Now *this* release is the final one before I start on implementing a nice GUI. So, I bid you farewell for a few weeks (or even a couple of months), with Stable Release 1.3.
+05/20/2019 - I know I said that I was bidding you farewell with release 1.3, but I'm a perfectionist with terrible OCD, and while doing some work on the upcoming GUI, I noticed that the PAC file updater was incorrectly concatenating two particular domains during the merging process. I doubt anyone would have noticed, but I want you to have the best, so I fixed it. Here's Stable Release 1.4, and it will - fingers crossed - be the last one until I have a good GUI pumped out. Every other component is in perfect working order.
 
-The new release can be downloaded from here: [CWP-Utilities-Stable-1.3.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.3.exe). **PLEASE uninstall the old version** before installing this one. This is necessary because of the significant changes and improvements.
+The new release can be downloaded from here: [CWP-Utilities-Stable-1.4.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.4.exe). As per usual, **PLEASE uninstall the old version** before installing this one. This is necessary because of the significant changes and improvements.
+
+---
+
+05/19/2019 - I know I said that release 1.2 was the last one before I start working on a conventional point 'n' click GUI, but I was wrong. I was so used to scripting on LiGnux that I forgot I could improve one more thing in CWP Utilities before starting on the GUI: Setting a temporary path in each batch script, for slightly improved directory structure (and the increased usability that comes along with this). So I did it. I also improved duplicate detection in the torrent client blocklist utilities, specifically for iblocklist lists. Now *this* release is the final one before I start on implementing a nice GUI. So, I bid you farewell for a few weeks (or even a couple of months), with Stable Release 1.3.
 
 ---
 
