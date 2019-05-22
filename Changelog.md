@@ -1,8 +1,14 @@
 **Changelog**:
 
-05/21/2019 - Alright. I'm done with this charade. I *can* work on the core components of CWP Utilities *while* working on the GUI, and no one is going to stop me. We are now at Stable Release 1.5. I wanted to make sure the hosts file updaters could handle *any* hosts lists that are fed to it, and it only took two extra sed commands, so I added them. Now it does the thing. Enjoy 1.5!
+Big changes in just a few hours, but guess what, there is no need to uninstall the old version before upgrading! You can just download the new release, and install it right over the old one with no issues. We are now at stable release 1.6. Why you ask? Because all functions have a standalone mode now, which can be activated via option flags in each script, *and* I built a utility with FreePascal that lets you access all the functions - including configuration editing - of CWP Utilities via the system tray!
 
-The new release can be downloaded from here: [CWP-Utilities-Stable-1.5.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.5.exe). As per usual, **PLEASE uninstall the old version** before installing this one. This is necessary because of the significant changes and improvements.
+It works great. It looks good, and it's one step closer to a real ass GUI. In-fact, one could argue that it is a point 'n' click GUI in its own right. Anyway download it below. The system tray utility and the function shortcuts activate each tool in standalone mode now too. It's all great. Usability improvements all around. Enjoy 1.6!
+
+The new release can be downloaded from here: [CWP-Utilities-Stable-1.6.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.6.exe). **Please let it install its shortcuts again**, as there's a very useful new one in the mix.
+
+---
+
+05/21/2019 - Alright. I'm done with this charade. I *can* work on the core components of CWP Utilities *while* working on the GUI, and no one is going to stop me. We are now at Stable Release 1.5. I wanted to make sure the hosts file updaters could handle *any* hosts lists that are fed to it, and it only took two extra sed commands, so I added them. Now it does the thing. Enjoy 1.5!
 
 *Note that this should be the last release which requires uninstalling the older version before upgrading. A solid directory structure has been established at this point, and file-names and locations are pretty much set-in-stone. Even when I'm finally done with a point 'n' click GUI, that will simply place a couple of additional files in the install directory, as I plan on crafting the GUI from an established and simple front-end framework.* 
 
