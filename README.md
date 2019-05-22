@@ -13,7 +13,6 @@ The file sharing block list updaters output [their lists](/MoreInfo/DefaultBitTo
 
 All the scripts which perform these routines are configurable directly in a text editor of one's choosing, or via the [simple yet capable text editor](https://liquidninja.com/metapad/sourcecode.html) bundled with CWP Utilities.  
 ![Built-In Editor](/Screenshots/screen06-newer.png)
-
 More useful features are planned for the future, as is a clean graphical interface, but I thought I would share a fully functional release with the public, in hopes that others will find my tools as useful and beneficial as I have.
 
 This set of utilities is inspired by a lot of scripting work I have done over the years to automate repetitive tasks on my personal devices, and during my stints as a SysAdmin. It was built around significantly friendlier and improved versions of the scripts from my [Combined Privacy Block Lists repository](https://github.com/bongochong/CombinedPrivacyBlockLists/), which also contains some lists I maintain, and more software. If anyone would like to pitch in - especially in regard to crafting an efficient and clean GUI - I would be more than happy to work with you as time allows.
