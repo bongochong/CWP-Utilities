@@ -4,7 +4,7 @@
 
 The new release can be downloaded from here: [CWP-Utilities-Stable-1.5.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.5.exe). As per usual, **PLEASE uninstall the old version** before installing this one. This is necessary because of the significant changes and improvements.
 
-Note that this should be the last release which requires uninstalling the older version before upgrading. A solid directory structure has been established at this point, and file-names and locations are pretty much set-in-stone. Even when I'm finally done with a point 'n' click GUI, that will simply place a couple of additional files in the install directory, as I plan on crafting the GUI from an established and simple front-end framework. 
+*Note that this should be the last release which requires uninstalling the older version before upgrading. A solid directory structure has been established at this point, and file-names and locations are pretty much set-in-stone. Even when I'm finally done with a point 'n' click GUI, that will simply place a couple of additional files in the install directory, as I plan on crafting the GUI from an established and simple front-end framework.* 
 
 ---
 
