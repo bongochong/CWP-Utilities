@@ -65,6 +65,12 @@ ipconfig /flushdns
 echo ...
 echo Done! Your hosts file has been updated. There is nothing left for you to do here.
 timeout 1 >nul 2>nul
+:parse
+if "%~1"=="" goto endparse
+if "%~1"=="-el" goto endloop
+SHIFT
+goto parse
+:endparse
 echo ...
 echo Hit enter to return to the main menu.
 echo ...
@@ -72,3 +78,10 @@ pause
 cd %~dp0
 cd ..
 WinUtilsMultiLauncher.bat
+
+:endloop
+echo ...
+echo Hit enter to exit.
+echo ...
+pause
+exit

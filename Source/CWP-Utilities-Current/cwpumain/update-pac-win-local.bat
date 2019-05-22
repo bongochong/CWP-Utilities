@@ -42,6 +42,12 @@ echo ...
 echo Done! Now you may also move your PAC file (pac-done.js) from the folder that pops up to another directory, if you so wish. Please search the web for "ad-blocking PAC" if you would like to know more about this method.
 timeout 1 >nul 2>nul
 start "" "%~dp0bin\processing\pac\processed"
+:parse
+if "%~1"=="" goto endparse
+if "%~1"=="-el" goto endloop
+SHIFT
+goto parse
+:endparse
 echo ...
 echo Hit enter to return to the main menu.
 echo ...
@@ -49,3 +55,10 @@ pause
 cd %~dp0
 cd ..
 WinUtilsMultiLauncher.bat
+
+:endloop
+echo ...
+echo Hit enter to exit.
+echo ...
+pause
+exit

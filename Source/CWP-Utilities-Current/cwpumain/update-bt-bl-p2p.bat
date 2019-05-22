@@ -44,6 +44,12 @@ echo ...
 echo Done! Now you may also move your block list (combined-final.p2p) from the folder that pops up to another directory, if you so wish. Or you can simply point your torrent and other file-sharing clients to the list.
 timeout 1 >nul 2>nul
 start "" "%~dp0bin\processing\btb\processed"
+:parse
+if "%~1"=="" goto endparse
+if "%~1"=="-el" goto endloop
+SHIFT
+goto parse
+:endparse
 echo ...
 echo Hit enter to return to the main menu.
 echo ...
@@ -51,3 +57,10 @@ pause
 cd %~dp0
 cd ..
 WinUtilsMultiLauncher.bat
+
+:endloop
+echo ...
+echo Hit enter to exit.
+echo ...
+pause
+exit
