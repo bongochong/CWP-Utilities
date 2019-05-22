@@ -9,6 +9,11 @@ if "%~1"=="-02" goto DualEL
 if "%~1"=="-03" goto PACel
 if "%~1"=="-04" goto DATel
 if "%~1"=="-05" goto P2Pel
+if "%~1"=="-06" goto endH4
+if "%~1"=="-07" goto endH6
+if "%~1"=="-08" goto endPac
+if "%~1"=="-09" goto endDat
+if "%~1"=="-10" goto endP2p
 SHIFT
 goto parse
 :endparse
@@ -126,12 +131,26 @@ cd %~dp0cwpumain
 metapad hosts-updater-win-ipv4.bat
 goto start
 
+:endH4
+ECHO You have chosen to edit the IPv4 hosts updater configuration
+pause
+cd %~dp0cwpumain
+metapad hosts-updater-win-ipv4.bat
+goto END
+
 :edH6
 ECHO You have chosen to edit the dual stack hosts updater configuration
 pause
 cd %~dp0cwpumain
 metapad hosts-updater-win-dual.bat
 goto start
+
+:endH6
+ECHO You have chosen to edit the dual stack hosts updater configuration
+pause
+cd %~dp0cwpumain
+metapad hosts-updater-win-dual.bat
+goto END
 
 :edPac
 ECHO You have chosen to edit the PAC updater configuration
@@ -140,6 +159,13 @@ cd %~dp0cwpumain
 metapad update-pac-win-local.bat
 goto start
 
+:endPac
+ECHO You have chosen to edit the PAC updater configuration
+pause
+cd %~dp0cwpumain
+metapad update-pac-win-local.bat
+goto END
+
 :edDat
 ECHO You have chosen to edit the DAT block list updater configuration
 pause
@@ -147,12 +173,26 @@ cd %~dp0cwpumain
 metapad update-bt-bl-dat.bat
 goto start
 
+:endDat
+ECHO You have chosen to edit the DAT block list updater configuration
+pause
+cd %~dp0cwpumain
+metapad update-bt-bl-dat.bat
+goto END
+
 :edP2p
 ECHO You have chosen to edit the P2P block list updater configuration
 pause
 cd %~dp0cwpumain
 metapad update-bt-bl-p2p.bat
 goto start
+
+:endP2p
+ECHO You have chosen to edit the P2P block list updater configuration
+pause
+cd %~dp0cwpumain
+metapad update-bt-bl-p2p.bat
+goto END
 
 :Help
 Echo You have chosen to read the help file for this program.
