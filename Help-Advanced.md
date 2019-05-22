@@ -19,6 +19,7 @@ You might not realize it yet, but the editor functions in the main interface are
 	It should also be noted that you can modify the hosts file updater to *not* replace your system's hosts file. This can be done by removing the following lines from each updater:  
 `copy /Y HOSTS %SystemDrive%\Windows\System32\Drivers\etc\HOSTS`  
 `ipconfig /flushdns`  
+
 If you do this, then you can simply paste the updater's list into your current hosts file. The optimized list will be called "HOSTS", and the line-by-line list will be called "final-hosts.txt", both residing in the `cwpumain\bin\processing\hosts\processed` directory of the install folder.
   
 2. Changing the block lists for the PAC file updater is similarly easy. If you choose the option to edit its configuration from the main interface, you will notice more lines prefixed with "wget". The format is almost identical, except in this case, the number precedes the file extension (".pac").
