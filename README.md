@@ -29,8 +29,10 @@ Lastly, someone questioned my inclusion of external software in the program. I'd
 ---
 
 More Screenshots:  
-![Main Program Icon](/Screenshots/Main-Icon.png)  
+![systray inactive](https://github.com/bongochong/CWP-Utilities/raw/master/Screenshots/systray-inactive.png)  
+![systray active](https://github.com/bongochong/CWP-Utilities/raw/master/Screenshots/systray-active.png)  
 ![Installer1](/Screenshots/screen01-new.png)  
 ![Installer2](/Screenshots/screen02-new.png)  
 ![StartingUp](/Screenshots/screen03-new.png)  
-![WelcomeScreen](/Screenshots/screen04-new.png)
+![WelcomeScreen](/Screenshots/screen04-new.png)  
+![Main Program Icon](/Screenshots/Main-Icon.png)
