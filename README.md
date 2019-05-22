@@ -5,7 +5,7 @@ Are you tired of ads and trackers affecting your web browsing? Do you want to us
 Combined Windows Privacy Utilities (or CWP Utilities) is a suite of free and open source tools for Windows users, to help them guard their privacy and security. It does this through drastically simplifying the work of retrieving, parsing, and structuring data from a number of different trustworthy block lists, then combining them into single, usable files, and putting them in their proper places. [A simple installer is provided (just click this link to download it)](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.6.exe), and strongly encouraged to be used. The program can be installed anywhere on any device that runs Windows, along with USB drives, as all of the utilities dynamically recognize proper system paths. It creates no registry entries, cleans up after itself, and if one chooses to uninstall it, no files are left behind.
 
 CWP Utilities automates the process of maintaining an up-to-date and comprehensive hosts file, in order to block a variety of trackers, advertisements, and malware, on a system-wide level. It also enables the average user to easily keep the block lists for their file sharing applications up-to-date and thorough, along with facilitating the easy utilization of a Proxy Auto-Configuration (or PAC) file, for ad and tracker-blocking on devices that are less configurable (e.g. non-rooted phones).  
-<p align="center"><img src="https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Screenshots/Start-Menu.png" alt="Start Menu Entries"></p>
+<p align="center"><img src="https://github.com/bongochong/CWP-Utilities/raw/master/Screenshots/systray-active.png" alt="Active SysTray"></p>
 
 CWP Utilities currently provides a simple and interactive command line interface, allowing the user to perform the aforementioned tasks hassle free. The hosts file updater automatically installs the resultant list in the proper system location and flushes the DNS cache for immediate use. Along with merging and sorting the data from [multiple block lists](/MoreInfo/DefaultHostsLists.md) out of the box, it also reduces the size of the hosts file via an optimization script, allowing for slower machines to utilize larger block lists. Obviously it de-duplicates the data as well, and has an option to create entries that will block malicious traffic over IPv6 too.
 
@@ -29,8 +29,8 @@ Lastly, someone questioned my inclusion of external software in the program. I'd
 ---
 
 More Screenshots:  
-![systray inactive](https://github.com/bongochong/CWP-Utilities/raw/master/Screenshots/systray-inactive.png)  
-![systray active](https://github.com/bongochong/CWP-Utilities/raw/master/Screenshots/systray-active.png)  
+![start menu entries](https://github.com/bongochong/CWP-Utilities/raw/master/Screenshots/Start-Menu.png)
+![systray inactive](https://github.com/bongochong/CWP-Utilities/raw/master/Screenshots/systray-inactive.png)    
 ![Installer1](/Screenshots/screen01-new.png)  
 ![Installer2](/Screenshots/screen02-new.png)  
 ![StartingUp](/Screenshots/screen03-new.png)  
