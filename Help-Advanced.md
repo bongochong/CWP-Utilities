@@ -10,7 +10,7 @@ You might not realize it yet, but the editor functions in the main interface are
 	The last line is as follows:  
 `wget -nv -O processing/hosts/hosts.8 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/Device9domains-IPv4.txt"`
 
-	There are lines in-between these, and if you're paying attention, you will notice that they are links to popular hosts file block lists, with each one followed by the file-name it will be saved as, in a numbered sequence. You can delete any of these, let's call them *subscriptions*, or add any that you like. Let's say you would like to add Dan Pollock's hosts file to the subscriptions. You would just put the following line below the last "wget" line in the updater file:  
+	There are lines in-between these, and if you're paying attention, you will notice that they are links to popular hosts file block lists, with each one preceded by the file-name it will be saved as, in a numbered sequence. You can delete any of these, let's call them *subscriptions*, or add any that you like. Let's say you would like to add Dan Pollock's hosts file to the subscriptions. You would just put the following line below the last "wget" line in the updater file:  
 `wget -nv -O processing/hosts/hosts.9 "https://someonewhocares.org/hosts/zero/hosts"`
 
 	And so on, and so on. Anything you add will be sorted, de-duplicated and merged with the rest. I'm sure you get the picture. In-case you don't, the format is this:  
