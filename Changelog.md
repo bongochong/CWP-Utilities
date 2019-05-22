@@ -4,6 +4,8 @@
 
 The new release can be downloaded from here: [CWP-Utilities-Stable-1.5.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.5.exe). As per usual, **PLEASE uninstall the old version** before installing this one. This is necessary because of the significant changes and improvements.
 
+Note that this should be the last release which requires uninstalling the older version before upgrading. A solid directory structure has been established at this point, and file-names and locations are pretty much set-in-stone. Even when I'm finally done with a point 'n' click GUI, that will simply place a couple of additional files in the install directory, as I plan on crafting the GUI from an established and simple front-end framework. 
+
 ---
 
 05/20/2019 - I know I said that I was bidding you farewell with release 1.3, but I'm a perfectionist with terrible OCD, and while doing some work on the upcoming GUI, I noticed that the PAC file updater was incorrectly concatenating two particular domains during the merging process. I doubt anyone would have noticed, but I want you to have the best, so I fixed it. Here's Stable Release 1.4, and it will - fingers crossed - be the last one until I have a good GUI pumped out. Every other component is in perfect working order.
