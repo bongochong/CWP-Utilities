@@ -1,8 +1,14 @@
 **Changelog**:
 
-05/22/2019 - Minor point release for an added feature on the systray program, which lets one edit their current Windows hosts file. Also made the menus in the systray program easier to understand. Now at version 1.7.1 Stable.
+05/23/2019 - Another minor point release to ensure feature parity between the main script menu and the systray program. Both now have options to edit the current hosts file on the system, and to view statistics about your hosts file (you must update your hosts file with CWP Utilities at-least once to view complete statistics). We are now at stable release 1.7.2.
 
-The new release can be downloaded from here: [CWP-Utilities-Stable-1.7.1.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.1.exe). **Please delete the CWP Utilities shortcut folder and let the installer install its shortcuts again**, as there's been a useful addition and slight modification to the shortcuts. Aside from that, just install this version over the old one and you're good to go.
+The new release can be downloaded from here: [CWP-Utilities-Stable-1.7.2.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.2.exe). **Please delete the CWP Utilities shortcut folder and let the installer install its shortcuts again, if you are using a version that is older than 1.7.1**, as there's been useful additions and slight modifications to the shortcuts.
+
+**If you are using a version of CWP Utilities that is older than 1.6, please uninstall completely and then reinstall this version to upgrade**. Aside from that scenario, just install this version over the old one and you're good to go.
+
+---
+
+05/22/2019 - Minor point release for an added feature on the systray program, which lets one edit their current Windows hosts file. Also made the menus in the systray program easier to understand. Now at version 1.7.1 Stable.
 
 ---
 
