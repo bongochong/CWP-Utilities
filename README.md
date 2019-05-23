@@ -11,7 +11,7 @@ CWP Utilities currently provides a system tray-based interface and a simple, int
 
 The file sharing block list updaters output [their lists](/MoreInfo/DefaultBitTorrentBlockLists.md) in a subdirectory of each tool's folder, which can simply be moved to another directory of the user's choosing thereafter, or left in place. An explorer window appears upon completion of the block list update, revealing the location of the list. The [PAC updater](/MoreInfo/DefaultPACFileSources.md) does the same, but a template script is also included that allows for greater flexibility.
 
-All the scripts which perform these routines are configurable directly in a text editor of one's choosing, or via the [simple yet capable text editor](https://liquidninja.com/metapad/sourcecode.html) bundled with CWP Utilities.  
+All the scripts which perform these routines are configurable directly in a text editor of one's choosing, or via the [simple yet capable text editor](https://liquidninja.com/metapad/sourcecode.html) shipped with CWP Utilities.  
 ![Built-In Editor](/Screenshots/screen06-newer.png)
 More useful features are planned for the future, as is a more flexible GUI, but I thought I would start sharing fully functional releases with the public, in hopes that others will find my tools as useful and beneficial as I have.
 
