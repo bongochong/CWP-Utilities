@@ -43,8 +43,11 @@ ECHO 8 = Edit the PAC updater configuration
 ECHO 9 = Edit the DAT block list updater configuration
 ECHO 10 = Edit the P2P block list updater configuration
 ECHO ............................
-ECHO 11 = Read the help file
-ECHO 12 = Stop this program
+ECHO 11 = View statistics about your hosts file
+ECHO 12 = Edit your current hosts file
+ECHO ............................
+ECHO 13 = Read the help file
+ECHO 14 = Stop this program
 ECHO ............................
 ECHO.
 
@@ -60,8 +63,10 @@ if "%C%"=="7" goto edH6
 if "%C%"=="8" goto edPac
 if "%C%"=="9" goto edDat
 if "%C%"=="10" goto edP2p
-if "%C%"=="11" goto Help
-if "%C%"=="12" goto Done
+if "%C%"=="11" goto Stats
+if "%C%"=="12" goto edSysHosts
+if "%C%"=="13" goto Help
+if "%C%"=="14" goto Done
 goto choice
 
 :Single
@@ -193,6 +198,18 @@ pause
 cd %~dp0cwpumain
 metapad update-bt-bl-p2p.bat
 goto END
+
+:Stats
+ECHO You have chosen to view statistics about your hosts file.
+pause
+cd %~dp0cwpumain
+hosts-stats.bat -cl
+
+:edSysHosts
+ECHO You have chosen to edit your current Windows hosts file directly.
+pause
+cd %~dp0
+SysHostsEd.bat -cl
 
 :Help
 Echo You have chosen to read the help file for this program.
