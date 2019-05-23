@@ -1,8 +1,12 @@
 **Changelog**:
 
-05/22/2019 - Small improvements to the big changes. Namely, the system tray program now directly can open the configuration files for editing (rather than going through the main script), and it displays the version number of CWP Utilities when clicking "About This Program" in the help sub-menu. This adds a nice amount of polish. Replaced an icon to make sure everything is visually cohesive. Added a start menu shortcut which brings the user directly to the location of the main scripts too. That's it. So, we're now at version 1.7 Stable.
+05/22/2019 - Minor point release for an added feature on the systray program, which lets one edit their current Windows hosts file. Also made the menus in the systray program easier to understand. Now at version 1.7.1 Stable.
 
-The new release can be downloaded from here: [CWP-Utilities-Stable-1.7.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.exe). **Please delete the CWP Utilities shortcut folder and let the installer install its shortcuts again**, as there's been a useful addition and slight modification to the shortcuts. Aside from that, just install this version over the old one and you're good to go. No releases for a decent while after this, unless there's an emergency.
+The new release can be downloaded from here: [CWP-Utilities-Stable-1.7.1.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.1.exe). **Please delete the CWP Utilities shortcut folder and let the installer install its shortcuts again**, as there's been a useful addition and slight modification to the shortcuts. Aside from that, just install this version over the old one and you're good to go.
+
+---
+
+05/22/2019 - Small improvements to the big changes. Namely, the system tray program now directly can open the configuration files for editing (rather than going through the main script), and it displays the version number of CWP Utilities when clicking "About This Program" in the help sub-menu. This adds a nice amount of polish. Replaced an icon to make sure everything is visually cohesive. Added a start menu shortcut which brings the user directly to the location of the main scripts too. That's it. So, we're now at version 1.7 Stable.
 
 ---
 

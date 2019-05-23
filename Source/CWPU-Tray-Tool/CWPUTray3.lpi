@@ -23,9 +23,10 @@
       <UseVersionInfo Value="True"/>
       <MajorVersionNr Value="1"/>
       <MinorVersionNr Value="7"/>
+      <RevisionNr Value="1"/>
       <CharSet Value="04B0"/>
       <Attributes pvaSpecialBuild="True"/>
-      <StringTable CompanyName="Bongo Chong Inc." FileDescription="CWPU Tray Launcher" InternalName="CWPUTL" LegalCopyright="Bongo Chong (C)" LegalTrademarks="CWP Utilities (TM)" ProductName="CWPU Tray Launcher" ProductVersion="1.7"/>
+      <StringTable CompanyName="Bongo Chong Inc." FileDescription="CWPU Tray Launcher" InternalName="CWPUTL" LegalCopyright="Bongo Chong (C)" LegalTrademarks="CWP Utilities (TM)" ProductName="CWPU Tray Launcher" ProductVersion="1.7.1"/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
@@ -47,7 +48,6 @@
       <Unit0>
         <Filename Value="CWPUTray3.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="CWPU"/>
       </Unit0>
       <Unit1>
         <Filename Value="unit1.pas"/>
@@ -70,6 +70,7 @@
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
       <TargetCPU Value="i386"/>
       <TargetOS Value="win32"/>
       <Optimizations>
@@ -80,7 +81,9 @@
     <Linking>
       <Debugging>
         <GenerateDebugInfo Value="False"/>
+        <StripSymbols Value="True"/>
       </Debugging>
+      <LinkSmart Value="True"/>
       <Options>
         <Win32>
           <GraphicApplication Value="True"/>

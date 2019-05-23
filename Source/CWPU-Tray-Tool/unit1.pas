@@ -27,6 +27,8 @@ type
     MenuItem21: TMenuItem;
     MenuItem22: TMenuItem;
     MenuItem23: TMenuItem;
+    MenuItem24: TMenuItem;
+    MenuItem25: TMenuItem;
     MenuItem3: TMenuItem;
     MenuItem4: TMenuItem;
     MenuItem5: TMenuItem;
@@ -47,6 +49,7 @@ type
     procedure MenuItem21Click(Sender: TObject);
     procedure MenuItem22Click(Sender: TObject);
     procedure MenuItem23Click(Sender: TObject);
+    procedure MenuItem24Click(Sender: TObject);
     procedure MenuItem2Click(Sender: TObject);
     procedure MenuItem3Click(Sender: TObject);
     procedure MenuItem4Click(Sender: TObject);
@@ -121,7 +124,12 @@ end;
 
 procedure TForm1.MenuItem23Click(Sender: TObject);
 begin
-  ShowMessage('Version 1.7 of CWP Utilities' + sLineBreak + 'Thanks for using my software!' + sLineBreak + 'Be sure to check out my other projects at:' + sLineBreak + 'https://github.com/bongochong');
+  ShowMessage('Version 1.7.1 of CWP Utilities' + sLineBreak + 'Thanks for using my software!' + sLineBreak + 'Be sure to check out my other projects at:' + sLineBreak + 'https://github.com/bongochong');
+end;
+
+procedure TForm1.MenuItem24Click(Sender: TObject);
+begin
+ if ShellExecute(0,nil, PChar('cmd'),PChar('/c "start /min SysHostsEd.bat"'),nil,1) =0 then;
 end;
 
 procedure TForm1.MenuItem2Click(Sender: TObject);
