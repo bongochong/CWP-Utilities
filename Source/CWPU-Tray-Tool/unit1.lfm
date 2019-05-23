@@ -6,6 +6,7 @@ object Form1: TForm1
   Caption = 'Form1'
   DesignTimePPI = 120
   LCLVersion = '2.0.2.0'
+  WindowState = wsMinimized
   object TrayIcon1: TTrayIcon
     BalloonFlags = bfInfo
     BalloonHint = 'CWPU Tray Launcher'

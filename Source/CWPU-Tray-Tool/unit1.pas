@@ -81,17 +81,17 @@ end;
 
 procedure TForm1.MenuItem10Click(Sender: TObject);
 begin
-  if ShellExecute(0,nil, PChar('cmd'),PChar('/c "WinUtilsMultiLauncher.bat -08"'),nil,1) =0 then;
+  if ShellExecute(0,nil, PChar('"cwpumain\bin\metapad.exe"'),PChar('"cwpumain\update-pac-win-local.bat"'),nil,1) =0 then;
 end;
 
 procedure TForm1.MenuItem11Click(Sender: TObject);
 begin
-  if ShellExecute(0,nil, PChar('cmd'),PChar('/c "WinUtilsMultiLauncher.bat -09"'),nil,1) =0 then;
+  if ShellExecute(0,nil, PChar('"cwpumain\bin\metapad.exe"'),PChar('"cwpumain\update-bt-bl-dat.bat"'),nil,1) =0 then;
 end;
 
 procedure TForm1.MenuItem12Click(Sender: TObject);
 begin
-  if ShellExecute(0,nil, PChar('cmd'),PChar('/c "WinUtilsMultiLauncher.bat -10"'),nil,1) =0 then;
+  if ShellExecute(0,nil, PChar('"cwpumain\bin\metapad.exe"'),PChar('"cwpumain\update-bt-bl-p2p.bat"'),nil,1) =0 then;
 end;
 
 procedure TForm1.MenuItem14Click(Sender: TObject);
@@ -121,7 +121,7 @@ end;
 
 procedure TForm1.MenuItem23Click(Sender: TObject);
 begin
-  ShowMessage('Thanks for using my software!' + sLineBreak + 'Be sure to check out my other projects at:' + sLineBreak + 'https://github.com/bongochong');
+  ShowMessage('Version 1.7 of CWP Utilities' + sLineBreak + 'Thanks for using my software!' + sLineBreak + 'Be sure to check out my other projects at:' + sLineBreak + 'https://github.com/bongochong');
 end;
 
 procedure TForm1.MenuItem2Click(Sender: TObject);
@@ -151,12 +151,12 @@ end;
 
 procedure TForm1.MenuItem8Click(Sender: TObject);
 begin
- if ShellExecute(0,nil, PChar('cmd'),PChar('/c "WinUtilsMultiLauncher.bat -06"'),nil,1) =0 then;
+ if ShellExecute(0,nil, PChar('"cwpumain\bin\metapad.exe"'),PChar('"cwpumain\hosts-updater-win-ipv4.bat"'),nil,1) =0 then;
 end;
 
 procedure TForm1.MenuItem9Click(Sender: TObject);
 begin
-  if ShellExecute(0,nil, PChar('cmd'),PChar('/c "WinUtilsMultiLauncher.bat -07"'),nil,1) =0 then;
+  if ShellExecute(0,nil, PChar('"cwpumain\bin\metapad.exe"'),PChar('"cwpumain\hosts-updater-win-dual.bat"'),nil,1) =0 then;
 end;
 
 initialization

@@ -1,10 +1,14 @@
 **Changelog**:
 
+05/22/2019 - Small improvements to the big changes. Namely, the system tray program now directly can open the configuration files for editing (rather than going through the main script), and it displays the version number of CWP Utilities when clicking "About This Program" in the help sub-menu. This adds a nice amount of polish. Replaced an icon to make sure everything is visually cohesive. Added a start menu shortcut which brings the user directly to the location of the main scripts too. That's it. So, we're now at version 1.7 Stable.
+
+The new release can be downloaded from here: [CWP-Utilities-Stable-1.7.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.exe). **Please delete the CWP Utilities shortcut folder and let the installer install its shortcuts again**, as there's been a useful addition and slight modification to the shortcuts. Aside from that, just install this version over the old one and you're good to go. No releases for a decent while after this, unless there's an emergency.
+
+---
+
 05/22/2019 - Big changes in just a few hours, but guess what, there is no need to uninstall the old version before upgrading! You can just download the new release, and install it right over the old one with no issues. We are now at stable release 1.6. Why you ask? Because all functions have a standalone mode now, which can be activated via option flags in each script, *and* I built a utility with Free Pascal that lets you access all the functions - including configuration editing - of CWP Utilities via the system tray!
 
 It works great. It looks good, and it's one step closer to a real ass GUI. In-fact, one could argue that it is a point 'n' click GUI in its own right. Anyway download it below. The system tray utility and the function shortcuts activate each tool in standalone mode now too. It's all great. Usability improvements all around. Enjoy 1.6!
-
-The new release can be downloaded from here: [CWP-Utilities-Stable-1.6.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.6.exe). **Please let it install its shortcuts again**, as there's a very useful new one in the mix.
 
 ---
 
