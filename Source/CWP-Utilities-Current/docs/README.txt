@@ -1,6 +1,6 @@
 All data herein is released under a FOSS Common Public Attribution License (https://github.com/bongochong/CWP-Utilities/blob/master/LICENSE.md), with the following exceptions for the included external dependencies:
 
-1. Several Windows ports of LiGnux tools by the GnuWin32 project (http://gnuwin32.sourceforge.net/). I use them for a good portion of the parsing commands.
+1. Several Windows ports of LiGnux tools by the GnuWin32 project (http://gnuwin32.sourceforge.net/). Specifically: Cat; cp; d2u; head; mv; pcregrep; rm; sort; uniq. I use them for a good portion of the parsing commands.
 
 2. Curl for Windows by Daniel Stenberg (https://curl.haxx.se/). I use this to provide an optional FTP upload function to the PAC file updater (see the 'update-pac-win-template.bat' file in the install directory under cwpumain).
 
