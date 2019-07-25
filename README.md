@@ -25,6 +25,8 @@ Though one can also simply use pre-made block lists like the ones I provide in m
 
 <sub><sup>Lastly, someone questioned my inclusion of external software in the program. I'd like to address that with the following: 1. That is the nature of this type of shell scripting on Windows. There's no way around it, except by using a completely different language and style of development, which would unfortunately defeat the purposes of this being human readable and readily configurable. 2. Further, to ensure that my software works on every Windows machine, I include the dependencies, because it is easier for the user than hunting them down and installing them one-by-one themselves. 3. The external components that my tools rely on all have their source code accessible online in full, and are from widely respected FOSS projects detailed in the [readme file](https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/README.txt) of the [source directory](https://github.com/bongochong/CWP-Utilities/tree/master/Source) in this repo. That's all there is to it. I'm not going to re-write like 8 of the GNU core utilities for Windows when other people have done a great job of it already.</sup></sub>
 
+**TLDR:** This is a bunch of batch scripts I wrote, which I hacked together into an integrated utility. The scripts use Windows ports of GNU utilities and some other FOSS software, in order to aid in automating the process of updating and editing various files for blocking undesirable traffic on your computers and phones. It sports both a command line interface, and a simple system tray GUI.
+
 ---
 
 More Screenshots:  
