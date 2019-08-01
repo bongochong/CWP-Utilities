@@ -1,5 +1,13 @@
 **Changelog**:
 
+08/01/2019 - Another minor point release for the removal of some redundant operations in the scripts, and the addition of a new default source in the hosts file updaters. We are now at stable release 1.7.3.
+
+The new release can be downloaded from here: [CWP-Utilities-Stable-1.7.3.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.3.exe). **Please delete the CWP Utilities shortcut folder and let the installer install its shortcuts again, if you are using a version that is older than 1.7.1**, as there's been useful additions and slight modifications to the shortcuts.
+
+**If you are using a version of CWP Utilities that is older than 1.6, please uninstall completely and then reinstall this version to upgrade**. Aside from that scenario, just install this version over the old one and you're good to go.
+
+---
+
 05/23/2019 - Another minor point release to ensure feature parity between the main script menu and the systray program. Both now have options to edit the current hosts file on the system, and to view statistics about your hosts file (you must update your hosts file with CWP Utilities at-least once to view complete statistics). We are now at stable release 1.7.2.
 
 The new release can be downloaded from here: [CWP-Utilities-Stable-1.7.2.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.2.exe). **Please delete the CWP Utilities shortcut folder and let the installer install its shortcuts again, if you are using a version that is older than 1.7.1**, as there's been useful additions and slight modifications to the shortcuts.
