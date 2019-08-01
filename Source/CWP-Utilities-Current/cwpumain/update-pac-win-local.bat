@@ -34,7 +34,7 @@ sed -i "s/^/shExpMatch(host, '/" processing/pac/pac-lad.txt
 sed -i "s/$/') ||/" processing/pac/pac-lad.txt
 sed "2r processing/pac/pac-lad.txt" < processing/pac/pactemplate.txt > processing/pac/pac-done.txt
 d2u processing/pac/pac-done.txt
-cp processing/pac/pac-done.txt processing/pac/processed/
+mv processing/pac/pac-done.txt processing/pac/processed/pac-done.txt
 cd processing\pac\processed
 rename pac-done.txt pac-done.js
 @echo off

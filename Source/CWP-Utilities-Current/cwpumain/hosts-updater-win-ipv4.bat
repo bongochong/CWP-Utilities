@@ -31,8 +31,7 @@ wget -nv -O processing/hosts/hosts.9 "https://1hos.cf/mini/"
 cat processing/hosts/hosts.* > processing/hosts/hosts-cat.final
 d2u processing/hosts/hosts-cat.final
 pcregrep -v -f hostpatterns.dat processing/hosts/hosts-cat.final > processing/hosts/hosts-pre.final
-sort processing/hosts/hosts-pre.final > processing/hosts/sorted-hosts.final
-uniq processing/hosts/sorted-hosts.final > processing/hosts/uniq-hosts.final
+sort -u processing/hosts/hosts-pre.final > processing/hosts/uniq-hosts.final
 cp processing/hosts/uniq-hosts.final processing/hosts/uniq-hosts-final.pre
 d2u processing/hosts/uniq-hosts.final
 sed -i -e "s/#.*$//" processing/hosts/uniq-hosts.final
