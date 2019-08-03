@@ -17,12 +17,12 @@ This set of utilities is inspired by a lot of scripting work I have done over th
 
 All of the scripts and underlying binaries have been tested on 32 and 64 bit versions of both Windows 7, and Windows 10, though it's pretty much guaranteed to work on 8 and Vista as well.
 
+**TLDR:** This is a bunch of batch scripts I wrote, which I hacked together into an integrated utility. The scripts use Windows ports of GNU utilities and some other FOSS software, in order to aid in automating the process of updating and editing various files for blocking undesirable traffic on your computers and phones. It sports both a command line interface, and a simple system tray GUI.
+
 ***Notes***: It is strongly encouraged to use the installer, as it provides useful shortcuts which bring you directly to the main interface and each individual utility. If you prefer to run the program manually, you can run the `LauncherLauncher.bat` or `CWPU-Tray.exe` files, both of which are housed in the root folder of the install directory. Alternatively, you may run `WinUtilsMultiLauncher.bat` from the same location, as long as you do so with administrative privileges. Do not attempt to run CWP Utilities outside of using the the aforementioned methods, as it will not work as intended if you do.
 
 Though one can also simply use pre-made block lists like the ones I provide in my other repo and many others, CWP Utilities cuts out the middle man, allowing you to generate and use your own lists, directly from the sources. I believe that the default configurations are far better than adequate for the vast majority of users, though if you have *any* experience with shell scripting, then modifying the scripts in CWP Utilities should be a relatively simple process (which is why options for doing so are included).
 
-
-**TLDR:** This is a bunch of batch scripts I wrote, which I hacked together into an integrated utility. The scripts use Windows ports of GNU utilities and some other FOSS software, in order to aid in automating the process of updating and editing various files for blocking undesirable traffic on your computers and phones. It sports both a command line interface, and a simple system tray GUI.
 
 ---
 
