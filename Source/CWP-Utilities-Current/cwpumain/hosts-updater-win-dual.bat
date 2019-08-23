@@ -41,9 +41,9 @@ sed -i "s/\t/ /g" processing/hosts/uniq-hosts.final
 sed -i "s/^127.0.0.1/0.0.0.0/g" processing/hosts/uniq-hosts.final
 sed -i "s/^::1/0.0.0.0/g" processing/hosts/uniq-hosts.final
 sed -i "s/^::/0.0.0.0/g" processing/hosts/uniq-hosts.final
-sed -i -e "s/[[:space:]]\+/ /g" processing/hosts/uniq-hosts.final
 sed -i -e "s/[[:space:]]*$//" processing/hosts/uniq-hosts.final
 sed -i -e "s/[[:blank:]]*$//" processing/hosts/uniq-hosts.final
+sed -i -e "s/[[:space:]]\+/ /g" processing/hosts/uniq-hosts.final
 d2u processing/hosts/uniq-hosts.final
 sort processing/hosts/uniq-hosts.final > processing/hosts/final-sort.hosts
 d2u processing/hosts/final-sort.hosts
