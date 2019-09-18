@@ -8,9 +8,8 @@
       <Unit0>
         <Filename Value="CWPUTray3.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="18"/>
+        <CursorPos X="22" Y="23"/>
         <UsageCount Value="27"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -21,6 +20,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="150"/>
         <CursorPos X="29" Y="131"/>
         <ComponentState Value="1"/>
         <UsageCount Value="27"/>
