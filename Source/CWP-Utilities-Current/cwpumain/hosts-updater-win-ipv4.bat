@@ -28,6 +28,8 @@ wget -nv -O processing/hosts/hosts.6 "https://raw.githubusercontent.com/r-a-y/mo
 wget -nv -O processing/hosts/hosts.7 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/WindowsTelemetryBlockSupplements/SBBTYZ-IPv4.txt"
 wget -nv -O processing/hosts/hosts.8 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/Device9domains-IPv4.txt"
 wget -nv -O processing/hosts/hosts.9 "https://v.firebog.net/hosts/Easylist.txt"
+wget -nv -O processing/hosts/hosts.10 "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/EasyPrivacy3rdParty.txt"
+wget -nv -O processing/hosts/hosts.11 "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt"
 cat processing/hosts/hosts.* > processing/hosts/hosts-cat.final
 d2u processing/hosts/hosts-cat.final
 pcregrep -v -f hostpatterns.dat processing/hosts/hosts-cat.final > processing/hosts/hosts-pre.final
