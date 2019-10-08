@@ -30,6 +30,10 @@ wget -nv -O processing/hosts/hosts.8 "https://raw.githubusercontent.com/bongocho
 wget -nv -O processing/hosts/hosts.9 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/easylist_adservers-hosts.txt"
 wget -nv -O processing/hosts/hosts.10 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/easyprivacy_3rdParty-hosts.txt"
 wget -nv -O processing/hosts/hosts.11 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/adguard_mobile_spyware-hosts.txt"
+wget -nv -O processing/hosts/hosts.12 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/adguard_adservers-hosts.txt"
+wget -nv -O processing/hosts/hosts.13 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/adguard_1stParty-hosts.txt"
+wget -nv -O processing/hosts/hosts.14 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/adguard_spyware_tracking-hosts.txt"
+wget -nv -O processing/hosts/hosts.15 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/adguard_cryptominers-hosts.txt"
 cat processing/hosts/hosts.* > processing/hosts/hosts-cat.final
 d2u processing/hosts/hosts-cat.final
 pcregrep -v -f hostpatterns.dat processing/hosts/hosts-cat.final > processing/hosts/hosts-pre.final
