@@ -14,7 +14,7 @@ uses
 
 begin
   RequireDerivedFormResource:=True;
-  Application.Title:='CWPU Tray Launcher';
+	Application.Title:='CWPU Tray Launcher';
   Application.Scaled:=True;
   Application.Initialize;
   Application.CreateForm(TForm1, Form1);
