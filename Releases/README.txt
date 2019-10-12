@@ -1,5 +1,5 @@
 This directory will always contain the most recent installer:
-https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.4.exe
+https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.5.exe
 
 It will also contain a zip file of the program for those who prefer not to use an installer:
 https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities.zip
