@@ -27,6 +27,7 @@ Though one can also simply use pre-made block lists like the ones I provide in m
 ---
 
 **More Screenshots**:  
+
 ![start menu entries](https://github.com/bongochong/CWP-Utilities/raw/master/Screenshots/Start-Menu.png)
 ![Main Program Icon](/Screenshots/Main-Icon.png)
 ![systray inactive](https://github.com/bongochong/CWP-Utilities/raw/master/Screenshots/systray-inactive.png)  
