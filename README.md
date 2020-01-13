@@ -15,7 +15,7 @@ All the scripts which perform these routines are configurable directly in a text
 
 This set of utilities is inspired by a lot of scripting work I have done over the years to automate repetitive tasks on my personal devices, and during my stints as a SysAdmin. It is built around significantly friendlier Windows versions of the scripts from my [Combined Privacy Block Lists repository](https://github.com/bongochong/CombinedPrivacyBlockLists/), which also contains some lists I maintain, and more software. If anyone would like to pitch in - especially in regard to crafting a more comprehensive GUI - I would be more than happy to work with you as time allows.
 
-All of the scripts and underlying binaries have been tested on 32 and 64 bit versions of both Windows 7, and Windows 10, though it's pretty much guaranteed to work on 8 and Vista as well.
+All of the scripts and underlying binaries have been tested on 32 and 64 bit versions of Windows 7, Windows 8.1, and Windows 10, though it should all work in Vista as well.
 
 **TLDR:** This is a bunch of batch scripts I wrote, which I hacked together into an integrated utility. The scripts use Windows ports of GNU utilities and some other FOSS software, in order to aid in automating the process of updating and editing various files for blocking undesirable traffic on your computers and phones. It sports both a command line interface, and a simple system tray GUI.
 
