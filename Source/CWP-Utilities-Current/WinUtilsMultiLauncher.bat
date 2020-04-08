@@ -49,6 +49,8 @@ ECHO ............................
 ECHO 13 = Read the help file
 ECHO 14 = Stop this program
 ECHO ............................
+ECHO 15 = Update scripts from repository
+ECHO ............................
 ECHO.
 
 :choice
@@ -67,6 +69,7 @@ if "%C%"=="11" goto Stats
 if "%C%"=="12" goto edSysHosts
 if "%C%"=="13" goto Help
 if "%C%"=="14" goto Done
+if "%C%"=="15" goto RepSync
 goto choice
 
 :Single
@@ -215,6 +218,12 @@ SysHostsEd.bat -cl
 Echo You have chosen to read the help file for this program.
 start "" "https://github.com/bongochong/CWP-Utilities/blob/master/Help.md"
 goto start
+
+:RepSync
+Echo You have chosen to update the scripts from the repository.
+pause
+cd %~dp0cwpumain
+update-scripts.bat
 
 :Done
 Echo You may now close this window. Hit enter to exit.
