@@ -1,12 +1,16 @@
 **Changelog**:
 
-10/12/2019 - A considerable update. Hosts file defaults have been changed to use more rigorous parsing routines and better default subscriptions (IMHO). PAC file parsing routines have been improved as well. We are now at stable release 1.7.5. Please upgrade to this version.
+04/08/2020 - Overall improvements to scripts along with a new feature that allows the user to sync their CWP Utilities update scripts with the ones hosted on my github repository, thereby reducing the need for complete release updates. This feature is accessible via the last option of the console interface. We are now at stable release 1.7.6. Please upgrade to this version.
 
-The new release can be downloaded from here: [CWP-Utilities-Stable-1.7.5.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.5.exe).
+The new release can be downloaded from here: [CWP-Utilities-Stable-1.7.6.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.6.exe).
 
 **Please delete the CWP Utilities shortcut folder and let the installer install its shortcuts again, if you are using a version that is older than 1.7.1**, as there's been useful additions and slight modifications to the shortcuts since.
 
 **If you are using a version of CWP Utilities that is older than 1.6, please uninstall completely and then reinstall this version to upgrade**. Aside from these two scenarios, just install this version over the old one and you're good to go.
+
+---
+
+10/12/2019 - A considerable update. Hosts file defaults have been changed to use more rigorous parsing routines and better default subscriptions (IMHO). PAC file parsing routines have been improved as well. We are now at stable release 1.7.5. Please upgrade to this version.
 
 ---
 
