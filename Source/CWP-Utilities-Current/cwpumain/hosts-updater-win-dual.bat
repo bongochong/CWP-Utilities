@@ -45,6 +45,7 @@ sed -i -e "s/[[:space:]]*$//" processing/hosts/uniq-hosts.final
 sed -i -e "s/[[:blank:]]*$//" processing/hosts/uniq-hosts.final
 sed -i -e "s/[[:space:]]\+/ /g" processing/hosts/uniq-hosts.final
 sed -i -e "/^0.0.0.0 /! s/^/0.0.0.0 /" processing/hosts/uniq-hosts.final
+sed -i "/\^\document/d" processing/hosts/uniq-hosts.final
 pcregrep -v -f hostpatterns.dat processing/hosts/uniq-hosts.final > processing/hosts/uniq-hosts-temp.final
 mv -f processing/hosts/uniq-hosts-temp.final processing/hosts/uniq-hosts.final
 d2u processing/hosts/uniq-hosts.final
