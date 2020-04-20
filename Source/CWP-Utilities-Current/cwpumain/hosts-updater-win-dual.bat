@@ -34,17 +34,17 @@ pcregrep -v -f hostpatterns.dat processing/hosts/hosts-cat.final > processing/ho
 sort -u processing/hosts/hosts-pre.final > processing/hosts/uniq-hosts.final
 cp processing/hosts/uniq-hosts.final processing/hosts/uniq-hosts-final.pre
 d2u processing/hosts/uniq-hosts.final
-sed -i -e "s/#.*$//" processing/hosts/uniq-hosts.final
-sed -i -e "/[[:space:]]*#/d" processing/hosts/uniq-hosts.final
-sed -i -e "/[[:blank:]]*#/d" processing/hosts/uniq-hosts.final
+sed -i "s/#.*$//" processing/hosts/uniq-hosts.final
+sed -i "/[[:space:]]*#/d" processing/hosts/uniq-hosts.final
+sed -i "/[[:blank:]]*#/d" processing/hosts/uniq-hosts.final
 sed -i "s/\t/ /g" processing/hosts/uniq-hosts.final
 sed -i "s/^127.0.0.1/0.0.0.0/g" processing/hosts/uniq-hosts.final
 sed -i "s/^::1/0.0.0.0/g" processing/hosts/uniq-hosts.final
 sed -i "s/^::/0.0.0.0/g" processing/hosts/uniq-hosts.final
-sed -i -e "s/[[:space:]]*$//" processing/hosts/uniq-hosts.final
-sed -i -e "s/[[:blank:]]*$//" processing/hosts/uniq-hosts.final
-sed -i -e "s/[[:space:]]\+/ /g" processing/hosts/uniq-hosts.final
-sed -i -e "/^0.0.0.0 /! s/^/0.0.0.0 /" processing/hosts/uniq-hosts.final
+sed -i "s/[[:space:]]*$//" processing/hosts/uniq-hosts.final
+sed -i "s/[[:blank:]]*$//" processing/hosts/uniq-hosts.final
+sed -i "s/[[:space:]]\+/ /g" processing/hosts/uniq-hosts.final
+sed -i "/^0.0.0.0 /! s/^/0.0.0.0 /" processing/hosts/uniq-hosts.final
 sed -i "/\^\document/d" processing/hosts/uniq-hosts.final
 sed -i "/\^/d" processing/hosts/uniq-hosts.final
 sed -i "/\*/d" processing/hosts/uniq-hosts.final
