@@ -46,17 +46,88 @@ sed -i "s/[[:blank:]]*$//" processing/hosts/uniq-hosts.final
 sed -i "s/[[:space:]]\+/ /g" processing/hosts/uniq-hosts.final
 sed -i "/^0.0.0.0 /! s/^/0.0.0.0 /" processing/hosts/uniq-hosts.final
 sed -i "/\^\document/d" processing/hosts/uniq-hosts.final
-sed -i "/\^/d" processing/hosts/uniq-hosts.final
-sed -i "/\*/d" processing/hosts/uniq-hosts.final
-sed -i "/\?/d" processing/hosts/uniq-hosts.final
-sed -i "/\//d" processing/hosts/uniq-hosts.final
-sed -i "/@/d" processing/hosts/uniq-hosts.final
-sed -i "/!/d" processing/hosts/uniq-hosts.final
-sed -i "/|/d" processing/hosts/uniq-hosts.final
-sed -i "/:/d" processing/hosts/uniq-hosts.final
-sed -i "/~/d" processing/hosts/uniq-hosts.final
-sed -i "/,/d" processing/hosts/uniq-hosts.final
-sed -i "/=/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 www.staradvertiser.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 adaway.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 albert.apple.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 amazon.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 ap.spotify.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 api-staging.backup.signal.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 api-staging.directory.signal.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 api.twitter.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 app.link/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 appldnld.apple.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 apple.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 apresolve.spotify.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 bit.ly/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 bitbucket.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 cdn-staging.signal.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 cdn2-staging.signal.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 community.signalusers.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 configuration.apple.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 db.tt/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 dev.twitter.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 dropbox.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 dropbox.zendesk.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 dropboxapi.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 dropboxbusiness.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 dropboxcaptcha.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 dropboxforum.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 dropboxforums.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 dropboxinsiders.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 dropboxmail.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 dropboxpartners.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 dropboxstatic.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 ea.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 easylist.to/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 embed.spotify.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 get.adobe.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 get3.adobe.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 getdropbox.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 github.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 goo.gl/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 gs.apple.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 hostsfile.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 icloud.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 instructorledlearning.dropboxbusiness.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 itunes.apple.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 itunes.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 malwaredomains.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 medium.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 movies.netflix.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 neocities.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 netflix.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 office.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 onedrive.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 openphish.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 paper.dropbox.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 phobos.apple.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 pic.twitter.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 platform.twitter.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 play.spotify.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 plex.tv/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 search.twitter.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 secure.netflix.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 shorl.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 signal.art/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 signal.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 signalcaptchas.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 someonewhocares.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 ssl-images-amazon.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 ssl.reddit.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 storage-staging.signal.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 support.signal.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 swscan.apple.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 sysctl.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 textsecure-service-staging.whispersystems.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 thepiratebay.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 tinyurl.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 tomshardware.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 twimg.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 udemy.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 upload.twitter.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 userstream.twitter.com/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 whispersystems.org/d" processing/hosts/uniq-hosts.final
+sed -i "/0.0.0.0 wix.com/d" processing/hosts/uniq-hosts.final
 pcregrep -v -f hostpatterns.dat processing/hosts/uniq-hosts.final > processing/hosts/uniq-hosts-temp.final
 mv -f processing/hosts/uniq-hosts-temp.final processing/hosts/uniq-hosts.final
 d2u processing/hosts/uniq-hosts.final
