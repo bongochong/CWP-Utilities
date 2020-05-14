@@ -45,7 +45,6 @@ sed -i "s/[[:space:]]*$//" processing/hosts/uniq-hosts.final
 sed -i "s/[[:blank:]]*$//" processing/hosts/uniq-hosts.final
 sed -i "s/[[:space:]]\+/ /g" processing/hosts/uniq-hosts.final
 sed -i "/^0.0.0.0 /! s/^/0.0.0.0 /" processing/hosts/uniq-hosts.final
-sed -i "/\^\document/d" processing/hosts/uniq-hosts.final
 sed -i "/0.0.0.0 www.staradvertiser.com/d" processing/hosts/uniq-hosts.final
 sed -i "/0.0.0.0 adaway.org/d" processing/hosts/uniq-hosts.final
 sed -i "/0.0.0.0 albert.apple.com/d" processing/hosts/uniq-hosts.final
@@ -128,6 +127,18 @@ sed -i "/0.0.0.0 upload.twitter.com/d" processing/hosts/uniq-hosts.final
 sed -i "/0.0.0.0 userstream.twitter.com/d" processing/hosts/uniq-hosts.final
 sed -i "/0.0.0.0 whispersystems.org/d" processing/hosts/uniq-hosts.final
 sed -i "/0.0.0.0 wix.com/d" processing/hosts/uniq-hosts.final
+sed -i "/\^\document/d" processing/hosts/uniq-hosts.final
+sed -i "/\^/d" processing/hosts/uniq-hosts.final
+sed -i "/\*/d" processing/hosts/uniq-hosts.final
+sed -i "/\?/d" processing/hosts/uniq-hosts.final
+sed -i "/\//d" processing/hosts/uniq-hosts.final
+sed -i "/@/d" processing/hosts/uniq-hosts.final
+sed -i "/!/d" processing/hosts/uniq-hosts.final
+sed -i "/|/d" processing/hosts/uniq-hosts.final
+sed -i "/:/d" processing/hosts/uniq-hosts.final
+sed -i "/~/d" processing/hosts/uniq-hosts.final
+sed -i "/,/d" processing/hosts/uniq-hosts.final
+sed -i "/=/d" processing/hosts/uniq-hosts.final
 pcregrep -v -f hostpatterns.dat processing/hosts/uniq-hosts.final > processing/hosts/uniq-hosts-temp.final
 mv -f processing/hosts/uniq-hosts-temp.final processing/hosts/uniq-hosts.final
 d2u processing/hosts/uniq-hosts.final
