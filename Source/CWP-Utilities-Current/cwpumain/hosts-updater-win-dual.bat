@@ -45,6 +45,7 @@ sed -i "s/[[:space:]]*$//" processing/hosts/uniq-hosts.final
 sed -i "s/[[:blank:]]*$//" processing/hosts/uniq-hosts.final
 sed -i "s/[[:space:]]\+/ /g" processing/hosts/uniq-hosts.final
 sed -i "/^0.0.0.0 /! s/^/0.0.0.0 /" processing/hosts/uniq-hosts.final
+sed -i "/[\d128-\d255]/d" processing/hosts/uniq-hosts.final
 sed -i "/0.0.0.0 www.staradvertiser.com/d" processing/hosts/uniq-hosts.final
 sed -i "/0.0.0.0 adaway.org/d" processing/hosts/uniq-hosts.final
 sed -i "/0.0.0.0 albert.apple.com/d" processing/hosts/uniq-hosts.final
