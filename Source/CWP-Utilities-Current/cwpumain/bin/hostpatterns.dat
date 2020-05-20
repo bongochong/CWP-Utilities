@@ -38,3 +38,5 @@ localhost.localdomain$
 ^ff00::
 ^ff02::
 ^fe80::
+www.staradvertiser.com$
+^0.0.0.0 local$
