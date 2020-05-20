@@ -60,6 +60,7 @@ sed -i "/:/d" processing/hosts/uniq-hosts.final
 sed -i "/~/d" processing/hosts/uniq-hosts.final
 sed -i "/,/d" processing/hosts/uniq-hosts.final
 sed -i "/=/d" processing/hosts/uniq-hosts.final
+sed -i -e "s/\(.*\)/\L\1/" processing/hosts/uniq-hosts.final
 pcregrep -v -f hostpatterns.dat processing/hosts/uniq-hosts.final > processing/hosts/uniq-hosts-temp.final
 mv -f processing/hosts/uniq-hosts-temp.final processing/hosts/uniq-hosts.final
 d2u processing/hosts/uniq-hosts.final
