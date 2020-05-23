@@ -76,7 +76,7 @@ cp processing/hosts/final-hosts.txt processing/hosts/processed/
 cd %~dp0bin\processing\hosts\processed
 @echo off
 cscript optimizer.js
-timeout 5 >nul 2>nul
+timeout 3 >nul 2>nul
 @echo on
 copy /Y HOSTS %SystemDrive%\Windows\System32\Drivers\etc\HOSTS
 ipconfig /flushdns

@@ -77,9 +77,9 @@ cp processing/hosts/hosts6.final processing/hosts/sorted-hosts6.txt
 @echo off
 cd %~dp0bin\processing\hosts
 cscript optimizer-pre.js
-timeout 5 >nul 2>nul
+timeout 3 >nul 2>nul
 cscript optimizer6-pre.js
-timeout 5 >nul 2>nul
+timeout 3 >nul 2>nul
 cd %~dp0bin
 @echo on
 cat processing/hosts/hosts4 processing/hosts/hosts6 > processing/hosts/hosts-dual.txt
