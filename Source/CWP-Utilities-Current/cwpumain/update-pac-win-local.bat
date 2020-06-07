@@ -13,9 +13,8 @@ wget -nv -O processing/pac/1.pac "https://ssl.bblck.me/blacklists/domain-list.tx
 wget -nv -O processing/pac/2.pac "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt"
 wget -nv -O processing/pac/3.pac "https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt"
 wget -nv -O processing/pac/4.pac "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt"
-wget -nv -O processing/pac/5.pac "https://dshield.org/feeds/suspiciousdomains_Medium.txt"
-wget -nv -O processing/pac/6.pac "https://dshield.org/feeds/suspiciousdomains_High.txt"
-wget -nv -O processing/pac/7.pac "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=nohtml&showintro=0&mimetype=plaintext"
+wget -nv -O processing/pac/5.pac "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
+wget -nv -O processing/pac/6.pac "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=nohtml&showintro=0&mimetype=plaintext"
 cat processing/pac/*.pac > processing/pac/pac-comb.txt
 sed -i "s/#.*$//" processing/pac/pac-comb.txt
 sed -i "/^$/d" processing/pac/pac-comb.txt
