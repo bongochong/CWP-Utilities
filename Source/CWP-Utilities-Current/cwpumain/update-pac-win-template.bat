@@ -24,6 +24,7 @@ pcregrep -v -f hostpatterns.dat processing/pac/pac-comb.txt > processing/pac/pac
 rm processing/pac/pac-comb.txt >nul 2>nul
 mv processing/pac/pac-combi.txt processing/pac/pac-comb.txt
 @echo on
+sed -i "/ /d" processing/pac/pac-comb.txt
 sort processing/pac/pac-comb.txt > processing/pac/pac-sort.txt
 uniq -i processing/pac/pac-sort.txt > processing/pac/pac-uniq.txt
 d2u processing/pac/pac-uniq.txt
