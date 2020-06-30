@@ -19,7 +19,7 @@ cat processing/pac/*.pac > processing/pac/pac-comb.txt
 sed -i "s/#.*$//" processing/pac/pac-comb.txt
 sed -i "/^$/d" processing/pac/pac-comb.txt
 sed -i "/^Site$/d" processing/pac/pac-comb.txt
-pcregrep -f tld-filter.dat processing/pac/pac-comb.txt > processing/pac/pac-combi.txt
+pcregrep -v -f hostpatterns.dat processing/pac/pac-comb.txt > processing/pac/pac-combi.txt
 @echo off
 rm processing/pac/pac-comb.txt >nul 2>nul
 mv processing/pac/pac-combi.txt processing/pac/pac-comb.txt

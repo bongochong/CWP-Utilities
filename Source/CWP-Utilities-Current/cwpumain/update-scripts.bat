@@ -12,7 +12,6 @@ wget -nv -O update-bt-bl-p2p.bat "https://raw.githubusercontent.com/bongochong/C
 wget -nv -O update-pac-win-local.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-Current/cwpumain/update-pac-win-local.bat"
 wget -nv -O update-pac-win-template.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-Current/cwpumain/update-pac-win-template.bat"
 wget -nv -O bin/hostpatterns.dat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-Current/cwpumain/bin/hostpatterns.dat"
-wget -nv -O bin/tld-filter.dat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-Current/cwpumain/bin/tld-filter.dat"
 echo Finished fetching scripts.
 :parse
 if "%~1"=="" goto endparse
