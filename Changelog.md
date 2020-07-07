@@ -1,5 +1,11 @@
 **Changelog**:
 
+07/07/2020 - Significant improvements to CWP Utilities. The Windows port of PCREGREP has been updated in order to support a much wider array of patterns. This streamlined several of the scripts, allowing for greater efficiency in terms of pattern identification and overall parsing speed. **Please uninstall your existing installation of CWP Utilities before installing this one**. The feature which updates the core scripts of this program (option #15 in the console interface) is still present, and will allow you to keep your scripts in sync with this repo for future updates, but this full release was necessary because of replacing the PCREGREP binary and libraries with a new and improved version. We are now at stable release 1.7.7. Please upgrade to this version, and enjoy!
+
+The new release can be downloaded from here: [CWP-Utilities-Stable-1.7.7.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.7.exe).
+
+---
+
 04/08/2020 - Overall improvements to scripts along with a new feature that allows the user to sync their CWP Utilities update scripts with the ones hosted on my github repository, thereby reducing the need for complete release updates. This feature is accessible via the last option of the console interface. We are now at stable release 1.7.6. Please upgrade to this version.
 
 The new release can be downloaded from here: [CWP-Utilities-Stable-1.7.6.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.6.exe).
