@@ -14,9 +14,9 @@ rm processing/btb/combined-win.txt >nul 2>nul
 rm processing/btb/combined-win-sort.txt >nul 2>nul
 @echo on
 wget -nv -O processing/btb/level1BTdat.7z "http://list.iblocklist.com/?list=ydxerpxkpcfqjaybcssw&fileformat=dat&archiveformat=7z"
-timeout 3
+timeout 2
 wget -nv -O processing/btb/level2BTdat.7z "http://list.iblocklist.com/?list=gyisgnzbhppbvsphucsw&fileformat=dat&archiveformat=7z"
-timeout 3
+timeout 2
 cd processing\btb
 7za e level1BTdat.7z
 timeout 2
@@ -28,7 +28,7 @@ mv processing/btb/gyisgnzbhppbvsphucsw.txt processing/btb/bt_level2.dat
 cat processing/btb/*.dat > processing/btb/combined-win.txt
 sed -i "s/amp;//g" processing/btb/combined-win.txt
 @echo off
-timeout 3 >nul 2>nul
+timeout 2 >nul 2>nul
 sort processing/btb/combined-win.txt > processing/btb/combined-win-sort.txt
 uniq -i processing/btb/combined-win-sort.txt > processing/btb/combined-final-win.dat
 timeout 2 >nul 2>nul

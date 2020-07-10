@@ -16,9 +16,7 @@ wget -nv -O processing/pac/4.pac "https://s3.amazonaws.com/lists.disconnect.me/s
 wget -nv -O processing/pac/5.pac "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
 wget -nv -O processing/pac/6.pac "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=nohtml&showintro=0&mimetype=plaintext"
 cat processing/pac/*.pac > processing/pac/pac-comb.txt
-sed -i "s/#.*$//" processing/pac/pac-comb.txt
-sed -i "/^$/d" processing/pac/pac-comb.txt
-sed -i "/^Site$/d" processing/pac/pac-comb.txt
+sed -i -e "s/#.*$//" -e "/^$/d" -e "/^Site$/d" processing/pac/pac-comb.txt
 pcregrep -f tld-filter.dat processing/pac/pac-comb.txt > processing/pac/pac-combi.txt
 @echo off
 rm processing/pac/pac-comb.txt >nul 2>nul
@@ -36,8 +34,7 @@ sed -i "s/^/*./" processing/pac/pac-pre01.txt
 d2u processing/pac/pac-pre01.txt
 cat processing/pac/pac-pre01.txt processing/pac/pac-pre02.txt > processing/pac/pac-wew.txt
 head -c -1 processing/pac/pac-wew.txt > processing/pac/pac-lad.txt
-sed -i "s/^/shExpMatch(host, '/" processing/pac/pac-lad.txt
-sed -i "s/$/') ||/" processing/pac/pac-lad.txt
+sed -i -e "s/^/shExpMatch(host, '/" -e "s/$/') ||/" processing/pac/pac-lad.txt
 sed "2r processing/pac/pac-lad.txt" < processing/pac/pactemplate.txt > processing/pac/pac-done.txt
 d2u processing/pac/pac-done.txt
 mv processing/pac/pac-done.txt processing/pac/processed/pac-done.txt

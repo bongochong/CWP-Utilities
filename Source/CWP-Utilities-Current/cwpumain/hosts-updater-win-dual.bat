@@ -35,31 +35,7 @@ pcregrep -v -f hostpatterns.dat processing/hosts/hosts-cat.final > processing/ho
 sort -u processing/hosts/hosts-pre.final > processing/hosts/uniq-hosts.final
 cp processing/hosts/uniq-hosts.final processing/hosts/uniq-hosts-final.pre
 d2u processing/hosts/uniq-hosts.final
-sed -i "s/#.*$//" processing/hosts/uniq-hosts.final
-sed -i "/[[:space:]]*#/d" processing/hosts/uniq-hosts.final
-sed -i "/[[:blank:]]*#/d" processing/hosts/uniq-hosts.final
-sed -i "s/\t/ /g" processing/hosts/uniq-hosts.final
-sed -i "s/^127.0.0.1/0.0.0.0/g" processing/hosts/uniq-hosts.final
-sed -i "s/^::1/0.0.0.0/g" processing/hosts/uniq-hosts.final
-sed -i "s/^::/0.0.0.0/g" processing/hosts/uniq-hosts.final
-sed -i "s/[[:space:]]*$//" processing/hosts/uniq-hosts.final
-sed -i "s/[[:blank:]]*$//" processing/hosts/uniq-hosts.final
-sed -i "s/[[:space:]]\+/ /g" processing/hosts/uniq-hosts.final
-sed -i "/^0.0.0.0 /! s/^/0.0.0.0 /" processing/hosts/uniq-hosts.final
-sed -i "/[\d128-\d255]/d" processing/hosts/uniq-hosts.final
-sed -i "/\^\document/d" processing/hosts/uniq-hosts.final
-sed -i "/\^/d" processing/hosts/uniq-hosts.final
-sed -i "/\*/d" processing/hosts/uniq-hosts.final
-sed -i "/\?/d" processing/hosts/uniq-hosts.final
-sed -i "/\//d" processing/hosts/uniq-hosts.final
-sed -i "/@/d" processing/hosts/uniq-hosts.final
-sed -i "/!/d" processing/hosts/uniq-hosts.final
-sed -i "/|/d" processing/hosts/uniq-hosts.final
-sed -i "/:/d" processing/hosts/uniq-hosts.final
-sed -i "/~/d" processing/hosts/uniq-hosts.final
-sed -i "/,/d" processing/hosts/uniq-hosts.final
-sed -i "/=/d" processing/hosts/uniq-hosts.final
-sed -i -e "s/\(.*\)/\L\1/" processing/hosts/uniq-hosts.final
+sed -i -e "s/#.*$//" -e "/[[:space:]]*#/d" -e "/[[:blank:]]*#/d" -e "s/\t/ /g" -e "s/^127.0.0.1/0.0.0.0/g" -e "s/^::1/0.0.0.0/g" -e "s/^::/0.0.0.0/g" -e "s/[[:space:]]*$//" -e "s/[[:blank:]]*$//" -e "s/[[:space:]]\+/ /g" -e "/^0.0.0.0 /! s/^/0.0.0.0 /" -e "/[\d128-\d255]/d" -e "/\^\document/d" -e "/\^/d" -e "/\*/d" -e "/\?/d" -e "/\//d" -e "/@/d" -e "/!/d" -e "/|/d" -e "/:/d" -e "/~/d" -e "/,/d" -e "/=/d" -e "s/\(.*\)/\L\1/" processing/hosts/uniq-hosts.final
 pcregrep -f tld-filter.dat processing/hosts/uniq-hosts.final > processing/hosts/uniq-hosts-temp.final
 mv -f processing/hosts/uniq-hosts-temp.final processing/hosts/uniq-hosts.final
 d2u processing/hosts/uniq-hosts.final

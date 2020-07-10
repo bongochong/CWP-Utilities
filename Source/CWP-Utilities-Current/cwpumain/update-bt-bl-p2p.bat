@@ -14,9 +14,9 @@ rm processing/btb/combined.txt >nul 2>nul
 rm processing/btb/combined-sort.txt >nul 2>nul
 @echo on
 wget -nv -O processing/btb/level1BT.7z "http://list.iblocklist.com/?list=ydxerpxkpcfqjaybcssw&fileformat=p2p&archiveformat=7z"
-timeout 3
+timeout 2
 wget -nv -O processing/btb/level2BT.7z "http://list.iblocklist.com/?list=gyisgnzbhppbvsphucsw&fileformat=p2p&archiveformat=7z"
-timeout 3
+timeout 2
 cd processing\btb
 7za e level1BT.7z
 timeout 2
@@ -28,7 +28,7 @@ mv processing/btb/gyisgnzbhppbvsphucsw.txt processing/btb/bt_level2.p2p
 cat processing/btb/*.p2p > processing/btb/combined.txt
 sed -i "s/amp;//g" processing/btb/combined.txt
 @echo off
-timeout 3 >nul 2>nul
+timeout 2 >nul 2>nul
 sort processing/btb/combined.txt > processing/btb/combined-sort.txt
 uniq -i processing/btb/combined-sort.txt > processing/btb/combined-final.p2p
 timeout 2 >nul 2>nul
