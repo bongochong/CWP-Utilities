@@ -23,7 +23,8 @@ All of the scripts and underlying binaries have been tested on 32 and 64 bit ver
 
 Though one can also simply use pre-made block lists like the ones I provide in my other repo and many others, CWP Utilities cuts out the middle man, allowing you to generate and use your own lists, directly from the sources. I believe that the default configurations are far better than adequate for the vast majority of users, though if you have *any* experience with shell scripting, then modifying the scripts in CWP Utilities should be a relatively simple process (which is why options for doing so are included).
 
-***Disclaimer***: It should also be noted that a small number of AV scanners report false-positive results for this suite of utilities. This is solely due to the administrative privileges necessary for CWP Utilities to function properly (specifically the hosts file tools). ClamAV and the vast majority of widely used AV engines report that CWP Utilities is clean software (which it undoubtedly is), and this has been [confirmed by the fine folks at Softpedia as well](https://www.softpedia.com/get/Internet/Secure-Browsing-VPN/Combined-Windows-Privacy-Utilities.shtml#status).
+***Disclaimer***: It should also be noted that a small number of AV scanners report false-positive results for this suite of utilities. This is solely due to the administrative privileges necessary for CWP Utilities to function properly (specifically the hosts file tools). ClamAV and the vast majority of widely used AV engines report that CWP Utilities is clean software (which it undoubtedly is), and this has been [confirmed by the fine folks at Softpedia as well](https://www.softpedia.com/get/Internet/Secure-Browsing-VPN/Combined-Windows-Privacy-Utilities.shtml#status).  
+<p align="center"><img src="https://github.com/bongochong/CWP-Utilities/raw/master/Screenshots/sp100clean.jpg" alt="Softpedia 100% Clean"></p>
 
 
 ---
