@@ -1,12 +1,12 @@
 All data herein is released under a FOSS Common Public Attribution License (https://github.com/bongochong/CWP-Utilities/blob/master/LICENSE.md), with the following exceptions for the included external dependencies:
 
-1. Several Windows ports of LiGnux tools by the GnuWin32 project (http://gnuwin32.sourceforge.net/). Specifically: Cat; cp; d2u; head; mv; pcregrep; rm; sort; uniq. I use them for a good portion of the parsing commands.
+1. BusyBox Win32 (https://frippery.org/busybox/). I use this for a lot of basic file retrieval and manipulation.
 
-2. Curl for Windows by Daniel Stenberg (https://curl.haxx.se/). I use this to provide an optional FTP upload function to the PAC file updater (see the 'update-pac-win-template.bat' file in the install directory under cwpumain).
+2. Curl for Windows by Daniel Stenberg (https://curl.haxx.se/). I use this for some file retrieval and to provide an optional FTP upload function to the PAC file updater (see the 'update-pac-win-template.bat' file in the install directory under cwpumain).
 
-3. Sed for Windows by Michael Builov (https://github.com/mbuilov). I also use this for a good portion of the parsing commands.
+3. Sed for Windows by Michael Builov (https://github.com/mbuilov). I use this for a good portion of the parsing commands.
 
-4. Wget for Windows by Jernej Simončič (https://eternallybored.org/). I use this to retrieve lists.
+4. PCRE2 from Rex Egg (http://www.rexegg.com/pcregrep-pcretest.html). I also use this for a considerable amount of parsing routines.
 
 5. Elevate by Kai Liu (http://code.kliu.org/). I use this to ensure that the scripts run with the proper permissions for the user.
 
