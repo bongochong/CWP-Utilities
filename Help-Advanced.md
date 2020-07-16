@@ -31,4 +31,5 @@ You might not realize it yet, but the editor functions in CWP Utilities are ther
 
 That's all for now. Jahbless!
 
-P.S. You can simply replace the URLs in the updater scripts as well.
+P.S. You can simply replace the URLs in the updater scripts as well.  
+P.P.S. In the BusyBox version of CWP Utilities, many of the commands are prefixed with - you guessed it - `busybox`, but of-course the syntax is otherwise the same.
