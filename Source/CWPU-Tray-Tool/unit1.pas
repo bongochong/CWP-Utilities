@@ -32,6 +32,7 @@ type
 	MenuItem26: TMenuItem;
 	MenuItem27: TMenuItem;
 	MenuItem28: TMenuItem;
+	MenuItem29: TMenuItem;
 	MenuItem3: TMenuItem;
 	MenuItem4: TMenuItem;
 	MenuItem5: TMenuItem;
@@ -54,6 +55,7 @@ type
 	procedure MenuItem23Click(Sender: TObject);
 	procedure MenuItem24Click(Sender: TObject);
 	procedure MenuItem26Click(Sender: TObject);
+	procedure MenuItem29Click(Sender: TObject);
 	procedure MenuItem2Click(Sender: TObject);
 	procedure MenuItem3Click(Sender: TObject);
 	procedure MenuItem4Click(Sender: TObject);
@@ -128,7 +130,7 @@ end;
 
 procedure TForm1.MenuItem23Click(Sender: TObject);
 begin
-  ShowMessage('Version 1.7.7 of CWP Utilities' + sLineBreak + 'Thanks for using my software!' + sLineBreak + 'Be sure to check out my other projects at:' + sLineBreak + 'https://github.com/bongochong');
+  ShowMessage('Version 1.7.8 of CWP Utilities' + sLineBreak + 'Thanks for using my software!' + sLineBreak + 'Be sure to check out my other projects at:' + sLineBreak + 'https://github.com/bongochong');
 end;
 
 procedure TForm1.MenuItem24Click(Sender: TObject);
@@ -139,6 +141,11 @@ end;
 procedure TForm1.MenuItem26Click(Sender: TObject);
 begin
   if ShellExecute(0,nil, PChar('cmd'),PChar('/c "cwpumain\hosts-stats.bat"'),nil,1) =0 then;
+end;
+
+procedure TForm1.MenuItem29Click(Sender: TObject);
+begin
+  if ShellExecute(0,nil, PChar('cmd'),PChar('/c "cwpumain\update-scripts.bat -el"'),nil,1) =0 then;
 end;
 
 procedure TForm1.MenuItem2Click(Sender: TObject);

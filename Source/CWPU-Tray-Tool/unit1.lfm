@@ -4199,6 +4199,10 @@ object Form1: TForm1
         Caption = 'Change Log'
         OnClick = MenuItem21Click
       end
+      object MenuItem29: TMenuItem
+        Caption = 'Update Scripts'
+        OnClick = MenuItem29Click
+      end
       object MenuItem22: TMenuItem
         Caption = 'Check for New Release'
         OnClick = MenuItem22Click
