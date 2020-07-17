@@ -1,8 +1,18 @@
 **Changelog**:
 
-07/07/2020 - Significant improvements to CWP Utilities. The Windows port of PCREGREP has been updated in order to support a much wider array of patterns. This streamlined several of the scripts, allowing for greater efficiency in terms of pattern identification and overall parsing speed. **Please uninstall your existing installation of CWP Utilities before installing this one**. The feature which updates the core scripts of this program (option #15 in the console interface) is still present, and will allow you to keep your scripts in sync with this repo for future updates, but this full release was necessary because of replacing the PCREGREP binary and libraries with a new and improved version. We are now at stable release 1.7.7. Please upgrade to this version, and enjoy!
+07/16/2020 - Big changes, and a new edition as well. First off, the scripts have been improved (as per usual with a new release), and the system tray utility now has an Update Scripts function too (just like the console interface does). This means that the tray utility and console interface have reached feature parity again. Next, the most crucial Windows ports of the GNU/Linux utilities which enable this program to function, were all updated.
+  
+Finally, the most significant element of this release, is the introduction of a BusyBox-based edition of CWP Utilities (entitled *SlimBB*). Due to replacing many of the individual GNUWin32 utilities with BusyBox, this edition is smaller, and as a result, a bit quicker than the Main / Stable edition. Unfortunately, BusyBox's implementation of `sed` is not great, so I am still utilizing Michael Builov's fantastic port in both editions; Otherwise, BusyBox's integration with CWP Utilities is a no-brainer, and should allow for more rapid development of this utility suite. Both editions will continue to see development and remain in sync until further notice, but for the adventurous among you, please try out the new *SlimBB* edition. Cheers!
 
-The new release can be downloaded from here: [CWP-Utilities-Stable-1.7.7.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.7.exe).
+The new main release can be downloaded from here: [CWP-Utilities-Stable-1.7.8.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.8.exe).
+
+The new busybox-based release can be downloaded from here: [CWP-Utilities-Stable-1.7.8.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-SlimBB-1.7.8.exe).
+
+**Please uninstall completely, then install the new version to upgrade**. This is necessary due to the substantial changes and improvements of the update.
+
+---
+
+07/07/2020 - Significant improvements to CWP Utilities. The Windows port of PCREGREP has been updated in order to support a much wider array of patterns. This streamlined several of the scripts, allowing for greater efficiency in terms of pattern identification and overall parsing speed. **Please uninstall your existing installation of CWP Utilities before installing this one**. The feature which updates the core scripts of this program (option #15 in the console interface) is still present, and will allow you to keep your scripts in sync with this repo for future updates, but this full release was necessary because of replacing the PCREGREP binary and libraries with a new and improved version. We are now at stable release 1.7.7. Please upgrade to this version, and enjoy!
 
 ---
 
@@ -80,9 +90,9 @@ I also ensured that the final files spit out by every utility are fully Unicode-
 
 ---
 
-05/13/2019 - Replaced the one non-FOSS component with a FOSS one. CWP Utilities is now 100% FOSS. Updated a bunch of readme files with way more details. We are now at release candidate 4, and you can download it from here: [CWP-Utilities-Installer-RC-4.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Backups/OldReleases/CWP-Utilities-Installer-RC-4.exe).
+05/13/2019 - Replaced the one non-FOSS component with a FOSS one. CWP Utilities is now 100% FOSS. Updated a bunch of readme files with way more details. We are now at release candidate 4.
 
-Oh, and guess what. For you size-queens (or anti-size-queens), there's now a version that does not ship with a compact JRE. You still must have Java installed on your system for this release (you can check this by opening up Command Prompt and entering `java -version`). It is necessary for the hosts file updater. Anyway, here's the installer without an included JRE: [CWP-Utilities-Installer-RC-4-NoJRE.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Backups/OldReleases/CWP-Utilities-Installer-RC-4-NoJRE.exe), you'll notice it is much smaller.
+Oh, and guess what. For you size-queens (or anti-size-queens), there's now a version that does not ship with a compact JRE. You still must have Java installed on your system for this release (you can check this by opening up Command Prompt and entering `java -version`). It is necessary for the hosts file updater. You'll notice this installer is much smaller.
 
 ---
 
