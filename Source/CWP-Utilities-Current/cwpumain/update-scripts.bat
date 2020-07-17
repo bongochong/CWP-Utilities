@@ -2,7 +2,9 @@ title CWP Utilities >nul 2>nul
 mode con: cols=99 lines=33 >nul 2>nul
 @echo off
 set PATH=%~dp0bin;%PATH%
+echo.
 echo Fetching scripts from repository...
+echo.
 cd %~dp0
 wget -nv -O hosts-stats.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-Current/cwpumain/hosts-stats.bat"
 wget -nv -O hosts-updater-win-dual.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-Current/cwpumain/hosts-updater-win-dual.bat"
@@ -13,7 +15,9 @@ wget -nv -O update-pac-win-local.bat "https://raw.githubusercontent.com/bongocho
 wget -nv -O update-pac-win-template.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-Current/cwpumain/update-pac-win-template.bat"
 wget -nv -O bin/hostpatterns.dat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-Current/cwpumain/bin/hostpatterns.dat"
 wget -nv -O bin/tld-filter.dat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-Current/cwpumain/bin/tld-filter.dat"
-echo Finished fetching scripts.
+echo.
+echo Finished fetching scripts. You are now up-to-date!
+echo.
 :parse
 if "%~1"=="" goto endparse
 if "%~1"=="-el" goto endloop

@@ -2,7 +2,9 @@ title CWP Utilities (SlimBB Edition) >nul 2>nul
 mode con: cols=99 lines=33 >nul 2>nul
 @echo off
 set PATH=%~dp0bin;%PATH%
+echo.
 echo Fetching scripts from repository...
+echo.
 cd %~dp0
 busybox wget -nv -O hosts-stats.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/hosts-stats.bat"
 busybox wget -nv -O hosts-updater-win-dual.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/hosts-updater-win-dual.bat"
@@ -13,7 +15,9 @@ busybox wget -nv -O update-pac-win-local.bat "https://raw.githubusercontent.com/
 busybox wget -nv -O update-pac-win-template.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/update-pac-win-template.bat"
 busybox wget -nv -O bin/hostpatterns.dat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/bin/hostpatterns.dat"
 busybox wget -nv -O bin/tld-filter.dat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/bin/tld-filter.dat"
-echo Finished fetching scripts.
+echo.
+echo Finished fetching scripts. You are now up-to-date!
+echo.
 :parse
 if "%~1"=="" goto endparse
 if "%~1"=="-el" goto endloop
