@@ -6,7 +6,7 @@ Finally, the most significant element of this release, is the introduction of a 
 
 The new main release can be downloaded from here: [CWP-Utilities-Stable-1.7.8.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.8.exe).
 
-The new busybox-based release can be downloaded from here: [CWP-Utilities-Stable-1.7.8.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-SlimBB-1.7.8.exe).
+The new busybox-based release can be downloaded from here: [CWP-Utilities-SlimBB-1.7.8.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-SlimBB-1.7.8.exe).
 
 **Please uninstall completely, then install the new version to upgrade**. This is necessary due to the substantial changes and improvements of the update.
 
