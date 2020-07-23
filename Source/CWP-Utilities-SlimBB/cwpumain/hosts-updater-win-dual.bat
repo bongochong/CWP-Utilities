@@ -32,11 +32,11 @@ curl -s -o processing/hosts/hosts.10 "https://raw.githubusercontent.com/bongocho
 curl -s -o processing/hosts/hosts.11 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/piperun-hosts.txt"
 busybox cat processing/hosts/hosts.* > processing/hosts/hosts-cat.final
 d2u processing/hosts/hosts-cat.final
+sed -i -e "s/#.*$//" -e "/[[:space:]]*#/d" -e "/[[:blank:]]*#/d" -e "s/\t/ /g" -e "s/^127.0.0.1/0.0.0.0/g" -e "s/^::1/0.0.0.0/g" -e "s/^::/0.0.0.0/g" -e "s/[[:space:]]*$//" -e "s/[[:blank:]]*$//" -e "s/[[:space:]]\+/ /g" -e "/^0.0.0.0 /! s/^/0.0.0.0 /" -e "/[\d128-\d255]/d" -e "/\^\document/d" -e "/\^/d" -e "/\*/d" -e "/\?/d" -e "/\//d" -e "/@/d" -e "/!/d" -e "/|/d" -e "/:/d" -e "/~/d" -e "/,/d" -e "/=/d" -e "s/\(.*\)/\L\1/" processing/hosts/hosts-cat.final
 pcregrep -v -f hostpatterns.dat processing/hosts/hosts-cat.final > processing/hosts/hosts-pre.final
 busybox sort -u processing/hosts/hosts-pre.final > processing/hosts/uniq-hosts.final
 busybox cp processing/hosts/uniq-hosts.final processing/hosts/uniq-hosts-final.pre
 d2u processing/hosts/uniq-hosts.final
-sed -i -e "s/#.*$//" -e "/[[:space:]]*#/d" -e "/[[:blank:]]*#/d" -e "s/\t/ /g" -e "s/^127.0.0.1/0.0.0.0/g" -e "s/^::1/0.0.0.0/g" -e "s/^::/0.0.0.0/g" -e "s/[[:space:]]*$//" -e "s/[[:blank:]]*$//" -e "s/[[:space:]]\+/ /g" -e "/^0.0.0.0 /! s/^/0.0.0.0 /" -e "/[\d128-\d255]/d" -e "/\^\document/d" -e "/\^/d" -e "/\*/d" -e "/\?/d" -e "/\//d" -e "/@/d" -e "/!/d" -e "/|/d" -e "/:/d" -e "/~/d" -e "/,/d" -e "/=/d" -e "s/\(.*\)/\L\1/" processing/hosts/uniq-hosts.final
 pcregrep -f tld-filter.dat processing/hosts/uniq-hosts.final > processing/hosts/uniq-hosts-temp.final
 busybox mv -f processing/hosts/uniq-hosts-temp.final processing/hosts/uniq-hosts.final
 d2u processing/hosts/uniq-hosts.final
