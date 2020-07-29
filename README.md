@@ -25,8 +25,9 @@ Though one can also simply use pre-made block lists like the ones I provide in m
 
 ***Disclaimer***: It should also be noted that a small number of AV scanners report false-positive results for this suite of utilities. This is solely due to the administrative privileges necessary for CWP Utilities to function properly (specifically the hosts file tools). ClamAV and the vast majority of widely used AV engines report that CWP Utilities is clean software (which it undoubtedly is), and this has been [confirmed by the fine folks at Softpedia as well](https://www.softpedia.com/get/Internet/Secure-Browsing-VPN/Combined-Windows-Privacy-Utilities.shtml#status).  
 <p align="center"><img src="https://github.com/bongochong/CWP-Utilities/raw/master/Screenshots/sp100clean.png" alt="Softpedia 100% Clean"></p>
-
-
+  
+***Addendum***: As of 7/28/2020, Windows Defender is reported to now block changes to the hosts file on some installations of Windows 8.1 and 10. This is a profoundly ridiculous move on the part of Microsoft. If you are affected by this issue, please simply add an exclusion rule for the reported activities to Defender. This affects users of HostsMan and other block list utilities too. See here: [for more info](https://old.reddit.com/r/windows/comments/i03dhg/windows_defender_started_quarantining_hosts_file/).
+  
 ---
 
 **More Screenshots**:  
