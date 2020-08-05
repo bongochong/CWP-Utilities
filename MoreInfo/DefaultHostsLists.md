@@ -12,3 +12,4 @@
 10. [AdGuard DNS Hosts](https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/adguard_dns-hosts.txt)
 11. [Piperun's IP-Logger Hosts](https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/piperun-hosts.txt)
 12. [Disconnect Consolidated Hosts](https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/disconnect_consolidated.txt)
+13. [Energized Spark](https://block.energized.pro/spark/formats/hosts.txt)

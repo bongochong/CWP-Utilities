@@ -31,6 +31,7 @@ wget -nv -O processing/hosts/hosts.9 "https://raw.githubusercontent.com/bongocho
 wget -nv -O processing/hosts/hosts.10 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/adguard_dns-hosts.txt"
 wget -nv -O processing/hosts/hosts.11 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/piperun-hosts.txt"
 wget -nv -O processing/hosts/hosts.12 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/disconnect_consolidated.txt"
+wget -nv -O processing/hosts/hosts.13 "https://block.energized.pro/spark/formats/hosts.txt"
 cat processing/hosts/hosts.* > processing/hosts/hosts-cat.final
 d2u processing/hosts/hosts-cat.final
 sed -i -e "s/#.*$//" -e "/[[:space:]]*#/d" -e "/[[:blank:]]*#/d" -e "s/\t/ /g" -e "s/^127.0.0.1/0.0.0.0/g" -e "s/^::1/0.0.0.0/g" -e "s/^::/0.0.0.0/g" -e "s/[[:space:]]*$//" -e "s/[[:blank:]]*$//" -e "s/[[:space:]]\+/ /g" -e "/^0.0.0.0 /! s/^/0.0.0.0 /" -e "/[\d128-\d255]/d" -e "/\^\document/d" -e "/\^/d" -e "/\*/d" -e "/\?/d" -e "/\//d" -e "/@/d" -e "/!/d" -e "/|/d" -e "/:/d" -e "/~/d" -e "/,/d" -e "/=/d" -e "s/\(.*\)/\L\1/" processing/hosts/hosts-cat.final
