@@ -13,3 +13,4 @@
 11. [Piperun's IP-Logger Hosts](https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/piperun-hosts.txt)
 12. [Disconnect Consolidated Hosts](https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/disconnect_consolidated.txt)
 13. [URL Haus](https://gitlab.com/curben/urlhaus-filter/raw/master/urlhaus-filter-hosts-online.txt)
+14. [My Additional Supplements](https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/AdditionalSupplementaryHosts.txt)
