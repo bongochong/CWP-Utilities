@@ -9,7 +9,7 @@ cd %~dp0bin
 rm processing/pac/pac-* >nul 2>nul
 rm processing/pac/*.pac >nul 2>nul
 @echo on
-wget -nv -O processing/pac/1.pac "https://ssl.bblck.me/blacklists/domain-list.txt"
+wget -nv -O processing/pac/1.pac "https://raw.githubusercontent.com/paulgb/BarbBlock/master/blacklists/domain-list.txt"
 wget -nv -O processing/pac/2.pac "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt"
 wget -nv -O processing/pac/3.pac "https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt"
 wget -nv -O processing/pac/4.pac "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt"
