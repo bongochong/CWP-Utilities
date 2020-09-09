@@ -9,6 +9,7 @@ cd %~dp0
 busybox wget -nv -O hosts-stats.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/hosts-stats.bat"
 busybox wget -nv -O hosts-updater-win-dual.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/hosts-updater-win-dual.bat"
 busybox wget -nv -O hosts-updater-win-ipv4.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/hosts-updater-win-ipv4.bat"
+busybox wget -nv -O hosts-updater-win-ipv6.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/hosts-updater-win-ipv6.bat"
 busybox wget -nv -O update-bt-bl-dat.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/update-bt-bl-dat.bat"
 busybox wget -nv -O update-bt-bl-p2p.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/update-bt-bl-p2p.bat"
 busybox wget -nv -O update-pac-win-local.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/update-pac-win-local.bat"
