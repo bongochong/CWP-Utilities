@@ -19,7 +19,7 @@ rm processing/hosts/hosts6 >nul 2>nul
 rm processing/hosts/uniq-hosts-final.pre >nul 2>nul
 rm processing/hosts/final-hosts.txt >nul 2>nul
 @echo on
-wget -nv -O processing/hosts/hosts.1 "http://winhelp2002.mvps.org/hosts.txt"
+wget -nv -O processing/hosts/hosts.1 "https://winhelp2002.mvps.org/hosts.txt"
 wget -nv -O processing/hosts/hosts.2 "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext"
 wget -nv -O processing/hosts/hosts.3 "https://www.malwaredomainlist.com/hostslist/hosts.txt"
 wget -nv -O processing/hosts/hosts.4 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/adguard_desktop-hosts.txt"
