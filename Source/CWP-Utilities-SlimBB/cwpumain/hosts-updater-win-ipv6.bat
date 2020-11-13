@@ -21,7 +21,7 @@ busybox rm processing/hosts/final-hosts.txt >nul 2>nul
 @echo on
 curl -s -o processing/hosts/hosts.1 "https://winhelp2002.mvps.org/hosts.txt"
 curl -s -o processing/hosts/hosts.2 "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext"
-curl -s -o processing/hosts/hosts.3 "https://www.malwaredomainlist.com/hostslist/hosts.txt"
+curl -s -o processing/hosts/hosts.3 "https://mirror1.malwaredomains.com/files/immortal_domains.txt"
 curl -s -o processing/hosts/hosts.4 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/adguard_desktop-hosts.txt"
 curl -s -o processing/hosts/hosts.5 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/spam_404-hosts.txt"
 curl -s -o processing/hosts/hosts.6 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/adguard_mobile-hosts.txt"
