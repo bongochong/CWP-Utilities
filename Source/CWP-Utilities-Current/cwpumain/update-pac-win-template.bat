@@ -18,7 +18,7 @@ wget -nv -O processing/pac/6.pac "https://pgl.yoyo.org/adservers/serverlist.php?
 wget -nv -O processing/pac/7.pac "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/piperun-hosts.txt"
 cat processing/pac/*.pac > processing/pac/pac-comb.txt
 sed -i -e "s/#.*$//" -e "/^$/d" -e "/^Site$/d" processing/pac/pac-comb.txt
-sed -i -e "s/ //g" -e "s/\(.*\)/\L\1/" processing/pac/pac-comb.txt
+sed -i -e "s/^127.0.0.1 //g" -e "s/^0.0.0.0 //g" -e "s/^::1 //g" -e sed "s/^:: //g" -e "/ /d" -e "s/\(.*\)/\L\1/" processing/pac/pac-comb.txt
 pcregrep -f tld-filter.dat processing/pac/pac-comb.txt > processing/pac/pac-combi.txt
 @echo off
 rm processing/pac/pac-comb.txt >nul 2>nul
