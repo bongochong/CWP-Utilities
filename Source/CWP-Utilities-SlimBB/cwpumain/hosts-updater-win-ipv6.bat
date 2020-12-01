@@ -47,7 +47,7 @@ busybox sort processing/hosts/uniq-hosts.final > processing/hosts/final-sort.hos
 d2u processing/hosts/final-sort.hosts
 busybox uniq -i processing/hosts/final-sort.hosts > processing/hosts/final-uniq.hosts
 d2u processing/hosts/final-uniq.hosts
-sed -i -e "s/^127.0.0.1/::/g" -e "s/^::1/::/g" -e "s/^0.0.0.0/::/g" -e "/^:: /! s/^/:: /" processing/hosts/final-uniq.hosts
+sed -i -e "s/^127.0.0.1/::/g" -e "s/^::1/::/g" -e "s/^0.0.0.0/::/g" processing/hosts/final-uniq.hosts
 busybox head -c -1 processing/hosts/final-uniq.hosts > processing/hosts/hosts.final
 d2u processing/hosts/hosts.final
 busybox cp processing/hosts/hosts.final processing/hosts/sorted-hosts.txt
