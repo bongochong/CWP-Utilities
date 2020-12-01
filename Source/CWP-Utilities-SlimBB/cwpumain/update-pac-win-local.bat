@@ -18,12 +18,12 @@ curl -s -o processing/pac/6.pac "https://pgl.yoyo.org/adservers/serverlist.php?h
 curl -s -o processing/pac/7.pac "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/piperun-hosts.txt"
 busybox cat processing/pac/*.pac > processing/pac/pac-comb.txt
 sed -i -e "s/#.*$//" -e "/^$/d" -e "/^Site$/d" processing/pac/pac-comb.txt
+sed -i -e "s/ //g" -e "s/\(.*\)/\L\1/" processing/pac/pac-comb.txt
 pcregrep -f tld-filter.dat processing/pac/pac-comb.txt > processing/pac/pac-combi.txt
 @echo off
 busybox rm processing/pac/pac-comb.txt >nul 2>nul
 busybox mv processing/pac/pac-combi.txt processing/pac/pac-comb.txt
 @echo on
-sed -i -e "/ /d" -e "s/\(.*\)/\L\1/" processing/pac/pac-comb.txt
 busybox sort processing/pac/pac-comb.txt > processing/pac/pac-sort.txt
 busybox uniq -i processing/pac/pac-sort.txt > processing/pac/pac-uniq.txt
 d2u processing/pac/pac-uniq.txt
