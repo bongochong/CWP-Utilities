@@ -21,7 +21,7 @@ rm processing/hosts/final-hosts.txt >nul 2>nul
 @echo on
 wget -nv -O processing/hosts/hosts.1 "https://winhelp2002.mvps.org/hosts.txt"
 wget -nv -O processing/hosts/hosts.2 "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext"
-wget -nv -O processing/hosts/hosts.3 "https://mirror1.malwaredomains.com/files/immortal_domains.txt"
+wget -nv -O processing/hosts/hosts.3 "https://gist.githubusercontent.com/bongochong/5246b4c02dddc47cc2cdd2d62a7a3c85/raw/995f65b01fb57d4357526701755be7da35cb0910/MD-Immortal_Domains-Backup.txt"
 wget -nv -O processing/hosts/hosts.4 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/adguard_desktop-hosts.txt"
 wget -nv -O processing/hosts/hosts.5 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/spam_404-hosts.txt"
 wget -nv -O processing/hosts/hosts.6 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/adguard_mobile-hosts.txt"
