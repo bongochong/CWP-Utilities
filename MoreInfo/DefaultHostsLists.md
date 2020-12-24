@@ -2,7 +2,7 @@
 
 01. [MVPS](http://winhelp2002.mvps.org/hosts.txt)  
 02. [PGL Yoyo](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext)  
-03. [Malware Domain List](https://www.malwaredomainlist.com/hostslist/hosts.txt)  
+03. [Immortal Domains](https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/MD-Immortal_Domains-Backup-HOSTS.txt)  
 04. [AdGuard Desktop Hosts](https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/adguard_desktop-hosts.txt)  
 05. [Spam 404 List](https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/spam_404-hosts.txt)  
 06. [AdGuard Mobile Hosts List](https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/adguard_mobile-hosts.txt)  
