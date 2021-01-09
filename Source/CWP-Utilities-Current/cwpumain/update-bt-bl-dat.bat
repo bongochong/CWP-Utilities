@@ -29,7 +29,7 @@ cat processing/btb/*.dat > processing/btb/combined-win.txt
 sed -i "s/amp;//g" processing/btb/combined-win.txt
 @echo off
 timeout 2 >nul 2>nul
-sort processing/btb/combined-win.txt > processing/btb/combined-win-sort.txt
+sort -f processing/btb/combined-win.txt > processing/btb/combined-win-sort.txt
 uniq -i processing/btb/combined-win-sort.txt > processing/btb/combined-final-win.dat
 timeout 2 >nul 2>nul
 sed -i "/^#/d" processing/btb/combined-final-win.dat

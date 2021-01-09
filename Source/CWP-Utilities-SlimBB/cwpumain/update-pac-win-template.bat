@@ -24,7 +24,7 @@ pcregrep -f tld-filter.dat processing/pac/pac-comb.txt > processing/pac/pac-comb
 busybox rm processing/pac/pac-comb.txt >nul 2>nul
 busybox mv processing/pac/pac-combi.txt processing/pac/pac-comb.txt
 @echo on
-busybox sort processing/pac/pac-comb.txt > processing/pac/pac-sort.txt
+busybox sort -f processing/pac/pac-comb.txt > processing/pac/pac-sort.txt
 busybox uniq -i processing/pac/pac-sort.txt > processing/pac/pac-uniq.txt
 d2u processing/pac/pac-uniq.txt
 busybox mv processing/pac/pac-uniq.txt processing/pac/pac-pre.txt

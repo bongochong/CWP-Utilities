@@ -29,7 +29,7 @@ busybox cat processing/btb/*.p2p > processing/btb/combined.txt
 sed -i "s/amp;//g" processing/btb/combined.txt
 @echo off
 timeout 2 >nul 2>nul
-busybox sort processing/btb/combined.txt > processing/btb/combined-sort.txt
+busybox sort -f processing/btb/combined.txt > processing/btb/combined-sort.txt
 busybox uniq -i processing/btb/combined-sort.txt > processing/btb/combined-final.p2p
 timeout 2 >nul 2>nul
 sed -i "/^#/d" processing/btb/combined-final.p2p

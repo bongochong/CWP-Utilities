@@ -29,7 +29,7 @@ busybox cat processing/btb/*.dat > processing/btb/combined-win.txt
 sed -i "s/amp;//g" processing/btb/combined-win.txt
 @echo off
 timeout 2 >nul 2>nul
-busybox sort processing/btb/combined-win.txt > processing/btb/combined-win-sort.txt
+busybox sort -f processing/btb/combined-win.txt > processing/btb/combined-win-sort.txt
 busybox uniq -i processing/btb/combined-win-sort.txt > processing/btb/combined-final-win.dat
 timeout 2 >nul 2>nul
 sed -i "/^#/d" processing/btb/combined-final-win.dat

@@ -24,7 +24,7 @@ pcregrep -f tld-filter.dat processing/pac/pac-comb.txt > processing/pac/pac-comb
 rm processing/pac/pac-comb.txt >nul 2>nul
 mv processing/pac/pac-combi.txt processing/pac/pac-comb.txt
 @echo on
-sort processing/pac/pac-comb.txt > processing/pac/pac-sort.txt
+sort -f processing/pac/pac-comb.txt > processing/pac/pac-sort.txt
 uniq -i processing/pac/pac-sort.txt > processing/pac/pac-uniq.txt
 d2u processing/pac/pac-uniq.txt
 mv processing/pac/pac-uniq.txt processing/pac/pac-pre.txt

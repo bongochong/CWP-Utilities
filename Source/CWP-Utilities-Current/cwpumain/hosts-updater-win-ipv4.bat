@@ -42,7 +42,7 @@ d2u processing/hosts/uniq-hosts.final
 pcregrep -f tld-filter.dat processing/hosts/uniq-hosts.final > processing/hosts/uniq-hosts-temp.final
 mv -f processing/hosts/uniq-hosts-temp.final processing/hosts/uniq-hosts.final
 d2u processing/hosts/uniq-hosts.final
-sort processing/hosts/uniq-hosts.final > processing/hosts/final-sort.hosts
+sort -f processing/hosts/uniq-hosts.final > processing/hosts/final-sort.hosts
 d2u processing/hosts/final-sort.hosts
 uniq -i processing/hosts/final-sort.hosts > processing/hosts/final-uniq.hosts
 d2u processing/hosts/final-uniq.hosts
