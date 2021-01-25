@@ -1,12 +1,20 @@
 **Changelog**:
 
+01/25/2021 - We are now at release 1.7.9. All of the work over the past several months was incorporated into this release. This includes numerous improvements in the parsing routines for all the utilities, a more comprehensive whitelist for the Hosts and PAC updaters, up-to-date versions of the underlying GNU and BusyBox Windows ports, and more. As per usual, you may check [the commit logs](https://github.com/bongochong/CWP-Utilities/commits/master) for more detailed info.
+  
+The new Main release can be downloaded from here: [CWP-Utilities-Stable-1.7.9.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.9.exe)
+  
+The new BusyBox-based release can be downloaded from here: [CWP-Utilities-SlimBB-1.7.9.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-SlimBB-1.7.9.exe)
+  
+Enjoy!
+  
+**There is no need to uninstall if you are currently using a recent version**. Simply install the new release and it will upgrade everything.
+  
+---
+
 07/16/2020 - Big changes, and a new edition as well. First off, the scripts have been improved (as per usual with a new release), and the system tray utility now has an Update Scripts function too (just like the console interface does), right in the Help menu. This means that the tray utility and console interface have reached feature parity again. Next, the most crucial Windows ports of the GNU/Linux utilities which enable this program to function, were all updated.
   
 Finally, the most significant element of this release, is the introduction of a BusyBox-based edition of CWP Utilities (entitled *SlimBB*). Due to replacing many of the individual GNUWin32 utilities with BusyBox, this edition is smaller, and as a result, a bit quicker than the Main / Stable edition. Unfortunately, BusyBox's implementation of `sed` is not great, so I am still utilizing Michael Builov's fantastic port in both editions; Otherwise, BusyBox's integration with CWP Utilities is a no-brainer, and should allow for more rapid development of this utility suite. Both editions will continue to see development and remain in sync until further notice, but for the adventurous among you, please try out the new *SlimBB* edition. Cheers!
-
-The new main release can be downloaded from here: [CWP-Utilities-Stable-1.7.8.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.8.exe).
-
-The new busybox-based release can be downloaded from here: [CWP-Utilities-SlimBB-1.7.8.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-SlimBB-1.7.8.exe).
 
 **Please uninstall completely, then install the new version to upgrade**. This is necessary due to the substantial changes and improvements of the update.
 

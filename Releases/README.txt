@@ -1,6 +1,6 @@
 This directory will always contain the most recent installers:
-1. Stable / Main Edition: https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.8.exe
-2. SlimBB / BusyBox Edition: https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-SlimBB-1.7.8.exe
+1. Stable / Main Edition: https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.9.exe
+2. SlimBB / BusyBox Edition: https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-SlimBB-1.7.9.exe
 
 *You should also ALWAYS execute option number 15 in the console interface (or the Update Scripts function of the tray icon) after installing, to ensure that the CWPU scripts are synced with the latest versions in this repository. For good measure, this function should be executed once every week or two as well.*
 
