@@ -34,6 +34,7 @@ type
 	MenuItem28: TMenuItem;
 	MenuItem29: TMenuItem;
 	MenuItem3: TMenuItem;
+	MenuItem30: TMenuItem;
 	MenuItem4: TMenuItem;
 	MenuItem5: TMenuItem;
 	MenuItem6: TMenuItem;
@@ -57,6 +58,7 @@ type
 	procedure MenuItem26Click(Sender: TObject);
 	procedure MenuItem29Click(Sender: TObject);
 	procedure MenuItem2Click(Sender: TObject);
+	procedure MenuItem30Click(Sender: TObject);
 	procedure MenuItem3Click(Sender: TObject);
 	procedure MenuItem4Click(Sender: TObject);
 	procedure MenuItem5Click(Sender: TObject);
@@ -130,7 +132,7 @@ end;
 
 procedure TForm1.MenuItem23Click(Sender: TObject);
 begin
-  ShowMessage('Version 1.7.8 of CWP Utilities' + sLineBreak + 'Thanks for using my software!' + sLineBreak + 'Be sure to check out my other projects at:' + sLineBreak + 'https://github.com/bongochong');
+  ShowMessage('Version 1.7.9 of CWP Utilities' + sLineBreak + 'Thanks for using my software!' + sLineBreak + 'Be sure to check out my other projects at:' + sLineBreak + 'https://github.com/bongochong');
 end;
 
 procedure TForm1.MenuItem24Click(Sender: TObject);
@@ -151,6 +153,11 @@ end;
 procedure TForm1.MenuItem2Click(Sender: TObject);
 begin
   if ShellExecute(0,nil, PChar('cmd'),PChar('/c "WinUtilsMultiLauncher.bat -01"'),nil,1) =0 then;
+end;
+
+procedure TForm1.MenuItem30Click(Sender: TObject);
+begin
+ OpenURL('https://github.com/bongochong/CWP-Utilities/blob/master/DONATE.md');
 end;
 
 procedure TForm1.MenuItem3Click(Sender: TObject);
