@@ -51,6 +51,8 @@ ECHO 14 = Stop this program
 ECHO ............................
 ECHO 15 = Update scripts from repository
 ECHO ............................
+ECHO 16 = Donate to Support My Work
+ECHO ............................
 ECHO.
 
 :choice
@@ -70,6 +72,7 @@ if "%C%"=="12" goto edSysHosts
 if "%C%"=="13" goto Help
 if "%C%"=="14" goto Done
 if "%C%"=="15" goto RepSync
+if "%C%"=="16" goto Support
 goto choice
 
 :Single
@@ -224,6 +227,11 @@ Echo You have chosen to update the scripts from the repository.
 pause
 cd %~dp0cwpumain
 update-scripts.bat
+
+:Support
+Echo You have chosen to view the donation instructions for this program.
+start "" "https://github.com/bongochong/CWP-Utilities/blob/master/DONATE.md"
+goto start
 
 :Done
 Echo You may now close this window. Hit enter to exit.
