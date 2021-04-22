@@ -9,7 +9,7 @@ cd %~dp0bin
 busybox rm processing/pac/pac-* >nul 2>nul
 busybox rm processing/pac/*.pac >nul 2>nul
 @echo on
-curl -s -o processing/pac/1.pac "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/MD-Immortal_Domains-Backup.txt"
+curl -s -o processing/pac/1.pac "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/MD-ID-Fork.txt"
 curl -s -o processing/pac/2.pac "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt"
 curl -s -o processing/pac/3.pac "https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt"
 curl -s -o processing/pac/4.pac "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt"
