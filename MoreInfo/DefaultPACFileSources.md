@@ -1,6 +1,6 @@
 **Default PAC File Sources**
 
-01. [Immortal Domains](https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/MD-Immortal_Domains-Backup.txt)
+01. [Immortal Malware Domains](https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/MD-ID-Fork.txt)
 02. [Disconnect Ad's List](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt)
 03. [Disconnect Tracking List](https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt)
 04. [Disconnect Malvertising List](https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt)
