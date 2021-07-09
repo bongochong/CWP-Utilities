@@ -29,8 +29,8 @@ pause
 cls
 ECHO What would you like to do?
 ECHO.
-ECHO 1 = Update Your Hosts File with Security-Minded IPv4 Entries
-ECHO 2 = Update Your Hosts File with Security-Minded IPv4 and IPv6 Entries
+ECHO 1 = Update Your Hosts File with Ad-Blocking IPv4 Entries
+ECHO 2 = Update Your Hosts File with Ad-Blocking IPv4 and IPv6 Entries
 ECHO 3 = Update Your PAC File for Ad-Blocking over a Network Configuration
 ECHO 4 = Update the DAT Block List for Your BitTorrent Client (e.g. Halite)
 ECHO 5 = Update the P2P Block List for Your BitTorrent Client (e.g. Transmission)
