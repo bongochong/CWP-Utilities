@@ -34,7 +34,7 @@ bc1qk6gz7pwf2p57u5u88uc9298x4fhzmaecff5zgg
 
 ---
 
-**Ethereum** (*ETH*):  
+**Ethereum** (*ETH* and any ERC-20 tokens):  
 0x3A8fE00E78E1a823C7C691d1AE029Bd8eC8Bc207
 
 ---
