@@ -4,7 +4,7 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="3">
+    <Units Count="5">
       <Unit0>
         <Filename Value="CWPUTray3.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -21,7 +21,7 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="164"/>
+        <TopLine Value="4"/>
         <CursorPos X="29" Y="135"/>
         <ComponentState Value="1"/>
         <UsageCount Value="29"/>
@@ -34,8 +34,22 @@
         <CursorPos Y="3"/>
         <UsageCount Value="10"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="CWPUTray3.lpi"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="234" Y="29"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="XML"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="unit1.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit4>
     </Units>
-    <JumpHistory Count="10" HistoryIndex="9">
+    <JumpHistory Count="9" HistoryIndex="8">
       <Position1>
         <Filename Value="unit1.pas"/>
         <Caret Line="94" Column="3"/>
@@ -70,12 +84,8 @@
       </Position8>
       <Position9>
         <Filename Value="unit1.pas"/>
-        <Caret Line="96" Column="106" TopLine="157"/>
-      </Position9>
-      <Position10>
-        <Filename Value="unit1.pas"/>
         <Caret Line="98" Column="106" TopLine="98"/>
-      </Position10>
+      </Position9>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

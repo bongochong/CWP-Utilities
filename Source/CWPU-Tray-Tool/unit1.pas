@@ -132,7 +132,7 @@ end;
 
 procedure TForm1.MenuItem23Click(Sender: TObject);
 begin
-  ShowMessage('Version 1.7.9 of CWP Utilities' + sLineBreak + 'Thanks for using my software!' + sLineBreak + 'Be sure to check out my other projects at:' + sLineBreak + 'https://github.com/bongochong');
+  ShowMessage('Version 1.8.0 of CWP Utilities' + sLineBreak + 'Thanks for using my software!' + sLineBreak + 'Be sure to check out my other projects at:' + sLineBreak + 'https://github.com/bongochong');
 end;
 
 procedure TForm1.MenuItem24Click(Sender: TObject);

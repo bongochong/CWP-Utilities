@@ -22,11 +22,10 @@
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <MajorVersionNr Value="1"/>
-      <MinorVersionNr Value="7"/>
-      <RevisionNr Value="9"/>
+      <MinorVersionNr Value="8"/>
       <CharSet Value="04B0"/>
       <Attributes pvaSpecialBuild="True"/>
-      <StringTable CompanyName="Bongo Chong Inc." FileDescription="CWPU Tray Launcher" InternalName="CWPUTL" LegalCopyright="Bongo Chong (C)" LegalTrademarks="CWP Utilities (TM)" ProductName="CWPU Tray Launcher" ProductVersion="1.7.9"/>
+      <StringTable CompanyName="Bongo Chong Inc." FileDescription="CWPU Tray Launcher" InternalName="CWPUTL" LegalCopyright="Bongo Chong (C)" LegalTrademarks="CWP Utilities (TM)" ProductName="CWPU Tray Launcher" ProductVersion="1.8.0"/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
