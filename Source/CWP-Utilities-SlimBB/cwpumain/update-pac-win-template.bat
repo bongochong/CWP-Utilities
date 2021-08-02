@@ -26,18 +26,15 @@ busybox mv processing/pac/pac-combi.txt processing/pac/pac-comb.txt
 @echo on
 busybox sort -f processing/pac/pac-comb.txt > processing/pac/pac-sort.txt
 busybox uniq -i processing/pac/pac-sort.txt > processing/pac/pac-uniq.txt
-d2u processing/pac/pac-uniq.txt
 busybox mv processing/pac/pac-uniq.txt processing/pac/pac-pre.txt
 busybox cp processing/pac/pac-pre.txt processing/pac/pac-pre2.txt
 busybox cp processing/pac/pac-pre.txt processing/pac/pac-pre01.txt
 busybox cp processing/pac/pac-pre2.txt processing/pac/pac-pre02.txt
 sed -i "s/^/*./" processing/pac/pac-pre01.txt
-d2u processing/pac/pac-pre01.txt
 busybox cat processing/pac/pac-pre01.txt processing/pac/pac-pre02.txt > processing/pac/pac-wew.txt
 busybox head -c -1 processing/pac/pac-wew.txt > processing/pac/pac-lad.txt
 sed -i -e "s/^/shExpMatch(host, '/" -e "s/$/') ||/" processing/pac/pac-lad.txt
 sed "2r processing/pac/pac-lad.txt" < processing/pac/pactemplate.txt > processing/pac/pac-done.txt
-d2u processing/pac/pac-done.txt
 busybox mv processing/pac/pac-done.txt processing/pac/processed/pac-done.txt
 cd processing\pac\processed
 rename pac-done.txt pac-done.js

@@ -35,7 +35,6 @@ timeout 2 >nul 2>nul
 sed -i "/^#/d" processing/btb/combined-final-win.dat
 timeout 2 >nul 2>nul
 sed -i "/^[[:space:]]*$/d" processing/btb/combined-final-win.dat
-d2u processing/btb/combined-final-win.dat
 timeout 2 >nul 2>nul
 @echo on
 busybox mv processing/btb/combined-final-win.dat processing/btb/processed/

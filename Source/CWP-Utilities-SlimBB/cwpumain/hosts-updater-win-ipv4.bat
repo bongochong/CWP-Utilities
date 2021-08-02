@@ -31,21 +31,15 @@ curl -s -o processing/hosts/hosts.9 "https://raw.githubusercontent.com/bongochon
 curl -s -o processing/hosts/hosts.10 "https://gitlab.com/curben/urlhaus-filter/raw/master/urlhaus-filter-hosts-online.txt"
 curl -s -o processing/hosts/hosts.11 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/AdditionalSupplementaryHosts.txt"
 busybox cat processing/hosts/hosts.* > processing/hosts/hosts-cat.final
-d2u processing/hosts/hosts-cat.final
 sed -i -e "s/#.*$//" -e "/[[:space:]]*#/d" -e "/[[:blank:]]*#/d" -e "s/\t/ /g" -e "s/^127.0.0.1/0.0.0.0/g" -e "s/^::1/0.0.0.0/g" -e "s/^::/0.0.0.0/g" -e "s/[[:space:]]*$//" -e "s/[[:blank:]]*$//" -e "s/[[:space:]]\+/ /g" -e "/^0.0.0.0 /! s/^/0.0.0.0 /" -e "/[\d128-\d255]/d" -e "/\^\document/d" -e "/\^/d" -e "/\*/d" -e "/\?/d" -e "/\//d" -e "/@/d" -e "/!/d" -e "/|/d" -e "/:/d" -e "/~/d" -e "/,/d" -e "/=/d" -e "/\[/d" -e "/\]/d" -e "/\//d" -e "s/\(.*\)/\L\1/" processing/hosts/hosts-cat.final
 pcregrep -v -f hostpatterns.dat processing/hosts/hosts-cat.final > processing/hosts/hosts-pre.final
 busybox sort -u processing/hosts/hosts-pre.final > processing/hosts/uniq-hosts.final
 busybox cp processing/hosts/uniq-hosts.final processing/hosts/uniq-hosts-final.pre
-d2u processing/hosts/uniq-hosts.final
 pcregrep -f tld-filter.dat processing/hosts/uniq-hosts.final > processing/hosts/uniq-hosts-temp.final
 busybox mv -f processing/hosts/uniq-hosts-temp.final processing/hosts/uniq-hosts.final
-d2u processing/hosts/uniq-hosts.final
 busybox sort -f processing/hosts/uniq-hosts.final > processing/hosts/final-sort.hosts
-d2u processing/hosts/final-sort.hosts
 busybox uniq -i processing/hosts/final-sort.hosts > processing/hosts/final-uniq.hosts
-d2u processing/hosts/final-uniq.hosts
 busybox head -c -1 processing/hosts/final-uniq.hosts > processing/hosts/hosts.final
-d2u processing/hosts/hosts.final
 busybox cp processing/hosts/hosts.final processing/hosts/sorted-hosts.txt
 busybox mv processing/hosts/sorted-hosts.txt processing/hosts/final-hosts.txt
 busybox cp processing/hosts/final-hosts.txt processing/hosts/processed/
