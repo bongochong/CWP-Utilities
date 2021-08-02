@@ -1,5 +1,16 @@
 **Changelog**:
 
+08/02/2021 - Welcome to release 1.8.0. The slim, busybox-based version is now the focus of this project, as it is smaller, faster, and behaves more consistently than the previous "Main" version. Many improvements have been made regarding efficiency of the scripts, along with updates to the Windows ports of GNU/Linux utilities. As per usual, you may check [the commit logs](https://github.com/bongochong/CWP-Utilities/commits/master) for more detailed info. The previous "Main" version will eventually disappear from this repository, though I will likely leave its directory in place for a couple of months, and perform maintenance updates to its scripts and binaries, for those who have not yet moved over to this release.
+
+The new release can be downloaded from here:
+[CWP-Utilities-Stable-1.8.0.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.8.0.exe)
+
+Enjoy!
+
+**I suggest doing a clean install of CWP Utilities when upgrading to this release**, due to the busybox-based version having become the main focus of this project. This should be the last upgrade where uninstalling the previous version is recommended, as the project has become much more consolidated.
+
+---
+
 01/25/2021 - We are now at release 1.7.9. All of the work over the past several months was incorporated into this release. This includes numerous improvements in the parsing routines for all the utilities, a more comprehensive whitelist for the Hosts and PAC updaters, up-to-date versions of the underlying GNU and BusyBox Windows ports, and more. As per usual, you may check [the commit logs](https://github.com/bongochong/CWP-Utilities/commits/master) for more detailed info.
   
 The new Main release can be downloaded from here: [CWP-Utilities-Stable-1.7.9.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.9.exe)

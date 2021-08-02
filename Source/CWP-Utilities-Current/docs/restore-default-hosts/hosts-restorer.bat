@@ -1,4 +1,4 @@
-title CWP Utilities Hosts Restorer >nul 2>nul
+title CWP Utilities Hosts Restorer (please upgrade to the latest release) >nul 2>nul
 mode con: cols=99 lines=33 >nul 2>nul
 @echo off
 ECHO ***************************************
