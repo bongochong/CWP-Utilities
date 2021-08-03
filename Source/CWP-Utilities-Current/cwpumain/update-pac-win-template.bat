@@ -6,6 +6,11 @@ cd %~dp0
 cd bin\processing\pac\processed
 del "pac-done.js" >nul 2>nul
 cd %~dp0bin
+rm pacpatterns.dat >nul 2>nul
+cp hostpatterns.dat pacpatterns.dat >nul 2>nul
+sed -i "1,15d" pacpatterns.dat >nul 2>nul
+sed -i "3,7d" pacpatterns.dat >nul 2>nul
+sed -i "s/0.0.0.0 //g" pacpatterns.dat >nul 2>nul
 rm processing/pac/pac-* >nul 2>nul
 rm processing/pac/*.pac >nul 2>nul
 @echo on
@@ -24,8 +29,8 @@ pcregrep -f tld-filter.dat processing/pac/pac-comb.txt > processing/pac/pac-comb
 rm processing/pac/pac-comb.txt >nul 2>nul
 mv processing/pac/pac-combi.txt processing/pac/pac-comb.txt
 @echo on
-sort -f processing/pac/pac-comb.txt > processing/pac/pac-sort.txt
-uniq -i processing/pac/pac-sort.txt > processing/pac/pac-uniq.txt
+sort -f -u processing/pac/pac-comb.txt > processing/pac/pac-sort.txt
+pcregrep -v -f pacpatterns.dat processing/pac/pac-sort.txt > processing/pac/pac-uniq.txt
 d2u processing/pac/pac-uniq.txt
 mv processing/pac/pac-uniq.txt processing/pac/pac-pre.txt
 cp processing/pac/pac-pre.txt processing/pac/pac-pre2.txt
