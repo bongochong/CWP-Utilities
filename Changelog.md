@@ -15,10 +15,6 @@ Enjoy!
 
 01/25/2021 - We are now at release 1.7.9. All of the work over the past several months was incorporated into this release. This includes numerous improvements in the parsing routines for all the utilities, a more comprehensive whitelist for the Hosts and PAC updaters, up-to-date versions of the underlying GNU and BusyBox Windows ports, and more. As per usual, you may check [the commit logs](https://github.com/bongochong/CWP-Utilities/commits/master) for more detailed info.
   
-The new Main release can be downloaded from here: [CWP-Utilities-Stable-1.7.9.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.7.9.exe)
-  
-The new BusyBox-based release can be downloaded from here: [CWP-Utilities-SlimBB-1.7.9.exe](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-SlimBB-1.7.9.exe)
-  
 Enjoy!
   
 **There is no need to uninstall if you are currently using a recent version**. Simply install the new release and it will upgrade everything.
