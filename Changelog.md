@@ -8,6 +8,8 @@ The new release can be downloaded from here:
 Enjoy!
 
 **I suggest doing a clean install of CWP Utilities when upgrading to this release**, due to the busybox-based version having become the main focus of this project. This should be the last upgrade where uninstalling the previous version is recommended, as the project has become much more consolidated.
+  
+**To-do before next release**: Significantly streamline all scripts, and bring them up to par - in terms of simplicity - with their GNU/Linux counterparts at my CPBL repo.
 
 ---
 
