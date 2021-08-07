@@ -2,7 +2,6 @@
 <p align="left">
   <img src="https://i.imgur.com/YaMNcVc.png">
   <img src="https://i.imgur.com/qROhmY0.png">
-  <img src="https://i.imgur.com/Zgo2UnG.png">
 </p>
 
 Are you tired of ads and trackers affecting your web browsing and eating up bandwidth? Do you want to use file sharing applications in a safer way, with less risk of being snooped on? Do you want to take preemptive measures against spyware? Or, would you simply like to have an easier way of keeping your hosts file and torrent client block lists thorough and up-to-date on Windows? You've come to the right place if you answered yes to any of those questions.  
@@ -33,6 +32,9 @@ Though one can also simply use pre-made block lists like the ones I provide in m
 <p align="center"><img src="https://github.com/bongochong/CWP-Utilities/raw/master/Screenshots/sp100clean.png" alt="Softpedia 100% Clean"></p>
   
 ***Addendum***: As of 7/28/2020, Windows Defender is reported to now block changes to the hosts file on some installations of Windows 8.1 and 10. This is a profoundly ridiculous move on the part of Microsoft. If you are affected by this issue, please simply add an exclusion rule for your hosts file (`%systemroot%\system32\drivers\etc\hosts`) to Defender. This affects users of HostsMan and other block list utilities too. See here: [for more info](https://old.reddit.com/r/windows/comments/i03dhg/windows_defender_started_quarantining_hosts_file/).
+<p align="right">
+  <img src="https://i.imgur.com/Zgo2UnG.png">
+</p>
   
 ---
 
