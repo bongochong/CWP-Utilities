@@ -1,4 +1,10 @@
 # [Combined Windows Privacy Utilities](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.8.0.exe) 
+<p align="left">
+  <img src="https://i.imgur.com/YaMNcVc.png">
+  <img src="https://i.imgur.com/qROhmY0.png">
+  <img src="https://i.imgur.com/Zgo2UnG.png">
+</p>
+
 Are you tired of ads and trackers affecting your web browsing and eating up bandwidth? Do you want to use file sharing applications in a safer way, with less risk of being snooped on? Do you want to take preemptive measures against spyware? Or, would you simply like to have an easier way of keeping your hosts file and torrent client block lists thorough and up-to-date on Windows? You've come to the right place if you answered yes to any of those questions.  
 <p align="center"><img src="https://github.com/bongochong/CWP-Utilities/raw/master/Screenshots/systray-active.png" alt="Active SysTray"></p>
 
