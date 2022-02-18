@@ -13,9 +13,9 @@ rm processing/btb/bt_level2.p2p >nul 2>nul
 rm processing/btb/combined.txt >nul 2>nul
 rm processing/btb/combined-sort.txt >nul 2>nul
 @echo on
-wget -nv -O processing/btb/level1BT.7z "http://list.iblocklist.com/?list=ydxerpxkpcfqjaybcssw&fileformat=p2p&archiveformat=7z"
+wget -nv -O processing/btb/level1BT.7z -U "Lynx/2.8.9dev.9 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.4.11" "http://list.iblocklist.com/?list=ydxerpxkpcfqjaybcssw&fileformat=p2p&archiveformat=7z"
 timeout 2
-wget -nv -O processing/btb/level2BT.7z "http://list.iblocklist.com/?list=gyisgnzbhppbvsphucsw&fileformat=p2p&archiveformat=7z"
+wget -nv -O processing/btb/level2BT.7z -U "Lynx/2.8.9dev.9 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.4.11" "http://list.iblocklist.com/?list=gyisgnzbhppbvsphucsw&fileformat=p2p&archiveformat=7z"
 timeout 2
 cd processing\btb
 7za e level1BT.7z
