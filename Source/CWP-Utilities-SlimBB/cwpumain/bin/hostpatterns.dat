@@ -376,6 +376,7 @@ localhost$
 ^0\.0\.0\.0\slastfm-img2\.akamaized\.net$
 ^0\.0\.0\.0\sletsencrypt\.org$
 ^0\.0\.0\.0\slicensing\.xboxlive\.com$
+^0\.0\.0\.0\slightboxcdn\.com$
 ^0\.0\.0\.0\slinkedin-learning\.pxf\.io$
 ^0\.0\.0\.0\slive-nhl\.stream$
 ^0\.0\.0\.0\slive\.com$
@@ -631,6 +632,7 @@ localhost$
 ^0\.0\.0\.0\swww\.jdownloader\.org$
 ^0\.0\.0\.0\swww\.jwplayer\.com$
 ^0\.0\.0\.0\swww\.letsencrypt\.org$
+^0\.0\.0\.0\swww\.lightboxcdn\.com$
 ^0\.0\.0\.0\swww\.live-nhl\.stream$
 ^0\.0\.0\.0\swww\.liveinternet\.ru$
 ^0\.0\.0\.0\swww\.lotustalk\.com$
