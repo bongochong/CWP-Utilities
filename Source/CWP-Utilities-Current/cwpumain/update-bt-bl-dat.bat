@@ -6,25 +6,25 @@ cd %~dp0
 cd bin\processing\btb\processed
 del "combined-final-win.dat" >nul 2>nul
 cd %~dp0bin
-rm processing/btb/level1BTdat.7z >nul 2>nul
-rm processing/btb/bt_level1.dat >nul 2>nul
-rm processing/btb/level2BTdat.7z >nul 2>nul
-rm processing/btb/bt_level2.dat >nul 2>nul
+rm processing/btb/webattackBTdat.7z >nul 2>nul
+rm processing/btb/bt_webattack.dat >nul 2>nul
+rm processing/btb/bpeersBTdat.7z >nul 2>nul
+rm processing/btb/bt_bpeers.dat >nul 2>nul
 rm processing/btb/combined-win.txt >nul 2>nul
 rm processing/btb/combined-win-sort.txt >nul 2>nul
 @echo on
-wget -nv -O processing/btb/level1BTdat.7z -U "Lynx/2.8.9dev.9 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.4.11" "http://list.iblocklist.com/?list=ydxerpxkpcfqjaybcssw&fileformat=dat&archiveformat=7z"
+wget -nv -O processing/btb/webattackBTdat.7z -U "Lynx/2.8.9dev.9 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.4.11" "http://list.iblocklist.com/?list=czvaehmjpsnwwttrdoyl&fileformat=dat&archiveformat=7z"
 timeout 2
-wget -nv -O processing/btb/level2BTdat.7z -U "Lynx/2.8.9dev.9 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.4.11" "http://list.iblocklist.com/?list=gyisgnzbhppbvsphucsw&fileformat=dat&archiveformat=7z"
+wget -nv -O processing/btb/bpeersBTdat.7z -U "Lynx/2.8.9dev.9 libwww-FM/2.14 SSL-MM/1.4.1 GNUTLS/3.4.11" "http://list.iblocklist.com/?list=cwworuawihqvocglcoss&fileformat=dat&archiveformat=7z"
 timeout 2
 cd processing\btb
-7za e level1BTdat.7z
+7za e webattackBTdat.7z
 timeout 2
-7za e level2BTdat.7z
+7za e bpeersBTdat.7z
 timeout 2
 cd %~dp0bin
-mv processing/btb/ydxerpxkpcfqjaybcssw.txt processing/btb/bt_level1.dat
-mv processing/btb/gyisgnzbhppbvsphucsw.txt processing/btb/bt_level2.dat
+mv processing/btb/czvaehmjpsnwwttrdoyl.txt processing/btb/bt_webattack.dat
+mv processing/btb/cwworuawihqvocglcoss.txt processing/btb/bt_bpeers.dat
 cat processing/btb/*.dat > processing/btb/combined-win.txt
 sed -i "s/amp;//g" processing/btb/combined-win.txt
 @echo off
