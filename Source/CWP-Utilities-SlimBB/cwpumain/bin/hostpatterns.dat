@@ -316,6 +316,9 @@ localhost$
 ^0\.0\.0\.0\sge\.tt$
 ^0\.0\.0\.0\sgearbest\.com$
 ^0\.0\.0\.0\sgeo\.ngtv\.io$
+^0\.0\.0\.0\sgeoip-db\.com$
+^0\.0\.0\.0\sgeolocation-db\.com$
+^0\.0\.0\.0\sgeolocation\.garmin\.com$
 ^0\.0\.0\.0\sgesangsunterricht-hh\.de$
 ^0\.0\.0\.0\sget\.adobe\.com$
 ^0\.0\.0\.0\sget3\.adobe\.com$
