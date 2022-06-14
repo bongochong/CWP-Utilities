@@ -232,6 +232,7 @@ localhost$
 ^0\.0\.0\.0\scwtv-mrss-akamai\.cwtv\.com$
 ^0\.0\.0\.0\scwtv-prod-elb\.digitalsmiths\.net$
 ^0\.0\.0\.0\sd\.getpocket\.com$
+^0\.0\.0\.0\sd\.la1-c1-ord\.salesforceliveagent\.com$
 ^0\.0\.0\.0\sd2c8v52ll5s99u\.cloudfront\.net$
 ^0\.0\.0\.0\sd2gatte9o95jao\.cloudfront\.net$
 ^0\.0\.0\.0\sdailymotion\.com$
@@ -375,6 +376,7 @@ localhost$
 ^0\.0\.0\.0\sjwplatform\.com$
 ^0\.0\.0\.0\sjwplayer\.com$
 ^0\.0\.0\.0\sjwpltx\.com$
+^0\.0\.0\.0\sla1-c1-ord\.ord\.r\.salesforceliveagent\.com$
 ^0\.0\.0\.0\slads\.myspace\.com$
 ^0\.0\.0\.0\slastfm-img2\.akamaized\.net$
 ^0\.0\.0\.0\sletsencrypt\.org$
