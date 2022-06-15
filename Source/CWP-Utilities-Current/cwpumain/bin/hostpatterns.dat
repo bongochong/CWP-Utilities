@@ -583,6 +583,7 @@ localhost$
 ^0\.0\.0\.0\sulink\.adjust\.com$
 ^0\.0\.0\.0\sunagi-na\.amazon\.com$
 ^0\.0\.0\.0\sunity3d\.com$
+^0\.0\.0\.0\sunpkg\.com$
 ^0\.0\.0\.0\supload\.twitter\.com$
 ^0\.0\.0\.0\surbanairship\.com$
 ^0\.0\.0\.0\sus-east-1\.amazonaws\.com$
@@ -660,6 +661,7 @@ localhost$
 ^0\.0\.0\.0\swww\.theguardian\.com$
 ^0\.0\.0\.0\swww\.travelzoo\.com$
 ^0\.0\.0\.0\swww\.tvaddons\.ag$
+^0\.0\.0\.0\swww\.unpkg\.com$
 ^0\.0\.0\.0\swww\.urbanairship\.com$
 ^0\.0\.0\.0\swww\.vidible\.tv$
 ^0\.0\.0\.0\swww\.void\.gr$
