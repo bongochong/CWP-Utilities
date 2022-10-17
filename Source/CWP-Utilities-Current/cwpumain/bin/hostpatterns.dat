@@ -507,6 +507,7 @@ localhost$
 ^0\.0\.0\.0\ssecure\.surveymonkey\.com$
 ^0\.0\.0\.0\ssegment\.com$
 ^0\.0\.0\.0\ssegment\.io$
+^0\.0\.0\.0\sself\.events\.data\.microsoft\.com$
 ^0\.0\.0\.0\ssentry\.io$
 ^0\.0\.0\.0\sserials\.ws$
 ^0\.0\.0\.0\sserverfault\.com$
