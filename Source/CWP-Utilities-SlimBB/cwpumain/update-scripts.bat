@@ -15,6 +15,7 @@ busybox wget -nv -O update-pac-win-local.bat "https://raw.githubusercontent.com/
 busybox wget -nv -O update-pac-win-template.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/update-pac-win-template.bat"
 busybox wget -nv -O bin/hostpatterns.dat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/bin/hostpatterns.dat"
 busybox wget -nv -O bin/tld-filter.dat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/bin/tld-filter.dat"
+busybox wget -nv -O bin/processing/pac/pactemplate.txt "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/bin/processing/pac/pactemplate.txt"
 echo.
 echo Finished fetching scripts. You are now up-to-date!
 echo.
