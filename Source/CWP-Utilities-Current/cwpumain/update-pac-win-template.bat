@@ -40,7 +40,7 @@ sed -i "s/^/*./" processing/pac/pac-pre01.txt
 d2u processing/pac/pac-pre01.txt
 cat processing/pac/pac-pre01.txt processing/pac/pac-pre02.txt > processing/pac/pac-wew.txt
 head -c -1 processing/pac/pac-wew.txt > processing/pac/pac-lad.txt
-sed -i -e "s/^/shExpMatch(host, '/" -e "s/$/') ||/" processing/pac/pac-lad.txt
+sed -i -e 's/^/shExpMatch(host, "/' -e 's/$/") ||/' processing/pac/pac-lad.txt
 sed "2r processing/pac/pac-lad.txt" < processing/pac/pactemplate.txt > processing/pac/pac-done.txt
 d2u processing/pac/pac-done.txt
 mv processing/pac/pac-done.txt processing/pac/processed/pac-done.txt
