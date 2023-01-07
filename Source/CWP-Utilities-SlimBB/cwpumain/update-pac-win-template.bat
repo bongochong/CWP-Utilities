@@ -22,6 +22,7 @@ curl -s -o processing/pac/5.pac "https://raw.githubusercontent.com/bongochong/Co
 busybox cat processing/pac/*.pac > processing/pac/pac-comb.txt
 sed -i -e "s/#.*$//" -e "/^$/d" -e "/^Site$/d" -e "s/\t\+/ /g" processing/pac/pac-comb.txt
 sed -i -e "s/^127.0.0.1 //g" -e "s/^0.0.0.0 //g" -e "s/^::1 //g" -e "s/^:: //g" -e "/ /d" -e "/\[/d" -e "/\]/d" -e "/\//d" -e "/@/d" -e "s/\(.*\)/\L\1/" processing/pac/pac-comb.txt
+sed -i -e "/^adserver\./d" processing/pac/pac-comb.txt
 pcregrep -f tld-filter.dat processing/pac/pac-comb.txt > processing/pac/pac-combi.txt
 @echo off
 busybox rm processing/pac/pac-comb.txt >nul 2>nul
@@ -36,7 +37,7 @@ busybox cp processing/pac/pac-pre2.txt processing/pac/pac-pre02.txt
 sed -i "s/^/*./" processing/pac/pac-pre01.txt
 busybox cat processing/pac/pac-pre01.txt processing/pac/pac-pre02.txt > processing/pac/pac-wew.txt
 busybox head -c -1 processing/pac/pac-wew.txt > processing/pac/pac-lad.txt
-sed -i -e 's/^/shExpMatch(host, "/' -e 's/$/") ||/' processing/pac/pac-lad.txt
+sed -i -e "s/^/shExpMatch(host, '/" -e "s/$/') ||/" processing/pac/pac-lad.txt
 sed "2r processing/pac/pac-lad.txt" < processing/pac/pactemplate.txt > processing/pac/pac-done.txt
 busybox mv processing/pac/pac-done.txt processing/pac/processed/pac-done.txt
 cd processing\pac\processed
