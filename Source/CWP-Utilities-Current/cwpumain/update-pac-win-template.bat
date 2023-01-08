@@ -10,7 +10,7 @@ rm pacpatterns.dat >nul 2>nul
 cp hostpatterns.dat pacpatterns.dat >nul 2>nul
 sed -i "1,15d" pacpatterns.dat >nul 2>nul
 sed -i "3,7d" pacpatterns.dat >nul 2>nul
-sed -i "s/0\\\\.0\\\\.0\\\\.0\\\s//g" pacpatterns.dat >nul 2>nul
+sed -i "s/0\\.0\\.0\\.0\\s//g" pacpatterns.dat >nul 2>nul
 rm processing/pac/pac-* >nul 2>nul
 rm processing/pac/*.pac >nul 2>nul
 @echo on
