@@ -30,6 +30,8 @@ busybox mv processing/pac/pac-combi.txt processing/pac/pac-comb.txt
 @echo on
 busybox sort -f -u processing/pac/pac-comb.txt > processing/pac/pac-sort.txt
 pcregrep -v -f pacpatterns.dat processing/pac/pac-sort.txt > processing/pac/pac-uniq.txt
+::pcregrep -v -f pacpatterns.dat processing/pac/pac-sort.txt > processing/pac/pac-suniq.txt
+::pcregrep -i -v -f wildcardwhitelist.dat processing/pac/pac-suniq.txt > processing/pac/pac-uniq.txt
 busybox mv processing/pac/pac-uniq.txt processing/pac/pac-pre.txt
 busybox cp processing/pac/pac-pre.txt processing/pac/pac-pre2.txt
 busybox cp processing/pac/pac-pre.txt processing/pac/pac-pre01.txt

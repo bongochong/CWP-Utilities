@@ -15,6 +15,7 @@ wget -nv -O update-pac-win-local.bat "https://raw.githubusercontent.com/bongocho
 wget -nv -O update-pac-win-template.bat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-Current/cwpumain/update-pac-win-template.bat"
 wget -nv -O bin/hostpatterns.dat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-Current/cwpumain/bin/hostpatterns.dat"
 wget -nv -O bin/tld-filter.dat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-Current/cwpumain/bin/tld-filter.dat"
+wget -nv -O bin/wildcardwhitelist.dat "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-Current/cwpumain/bin/wildcardwhitelist.dat"
 wget -nv -O bin/processing/pac/pactemplate.txt "https://raw.githubusercontent.com/bongochong/CWP-Utilities/master/Source/CWP-Utilities-SlimBB/cwpumain/bin/processing/pac/pactemplate.txt"
 echo.
 echo Finished fetching scripts. You are now up-to-date!
