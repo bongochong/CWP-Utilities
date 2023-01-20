@@ -1,3 +1,4 @@
+\.888$
 \.aaa$
 \.aarp$
 \.abarth$
@@ -141,11 +142,14 @@
 \.bing$
 \.bingo$
 \.bio$
+\.bit$
+\.bitcoin$
 \.biz$
 \.bj$
 \.black$
 \.blackfriday$
 \.blockbuster$
+\.blockchain$
 \.blog$
 \.bloomberg$
 \.blue$
@@ -306,6 +310,7 @@
 \.crs$
 \.cruise$
 \.cruises$
+\.crypto$
 \.csc$
 \.cu$
 \.cuisinella$
@@ -320,6 +325,7 @@
 \.dabur$
 \.dad$
 \.dance$
+\.dao$
 \.data$
 \.date$
 \.dating$
@@ -400,6 +406,7 @@
 \.esq$
 \.estate$
 \.et$
+\.eth$
 \.etisalat$
 \.eu$
 \.eurovision$
@@ -880,6 +887,7 @@
 \.nexus$
 \.nf$
 \.nfl$
+\.nft$
 \.ng$
 \.ngo$
 \.nhk$
@@ -1329,6 +1337,7 @@
 \.vu$
 \.vuelos$
 \.wales$
+\.wallet$
 \.walmart$
 \.walter$
 \.wang$
@@ -1363,6 +1372,7 @@
 \.ws$
 \.wtc$
 \.wtf$
+\.x$
 \.xbox$
 \.xerox$
 \.xfinity$
@@ -1541,6 +1551,7 @@
 \.zappos$
 \.zara$
 \.zero$
+\.zil$
 \.zip$
 \.zm$
 \.zone$
