@@ -1,7 +1,9 @@
 function FindProxyForURL(url, host) {
    if (
 
+shExpMatch(host, "admob.*") ||
 shExpMatch(host, "adserv.*") ||
+shExpMatch(host, "adserve.*") ||
 shExpMatch(host, "adserver.*") ||
 shExpMatch(host, "adserving.*")
        ) {
