@@ -2,8 +2,7 @@ function FindProxyForURL(url, host) {
    if (
 
 shExpMatch(host, 'adserver.*') ||
-shExpMatch(host, 'adserving.*') ||
-shExpMatch(host, 'tracking.*')
+shExpMatch(host, 'adserving.*')
        ) {
        return "PROXY 127.0.0.1";
        }
