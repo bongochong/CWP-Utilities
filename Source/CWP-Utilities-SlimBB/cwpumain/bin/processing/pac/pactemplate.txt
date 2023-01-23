@@ -5,7 +5,9 @@ shExpMatch(host, "admob.*") ||
 shExpMatch(host, "adserv.*") ||
 shExpMatch(host, "adserve.*") ||
 shExpMatch(host, "adserver.*") ||
-shExpMatch(host, "adserving.*")
+shExpMatch(host, "adserving.*") ||
+shExpMatch(host, "banner.*") ||
+shExpMatch(host, "banners.*")
        ) {
        return "PROXY 127.0.0.1";
        }
