@@ -271,6 +271,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?whispersystems\.org$
 ^0\.0\.0\.0\s(www\.)?wix\.com$
 ^0\.0\.0\.0\s(www\.)?xda-developers\.com$
+^0\.0\.0\.0\s(www\.)?yahoo\.com$
 ^0\.0\.0\.0\s(www\.)?yimg\.com$
 ^0\.0\.0\.0\s(www\.)?yimg\.jp$
 ^0\.0\.0\.0\s(www\.)?youtube-nocookie\.com$
@@ -516,6 +517,7 @@ localhost$
 ^0\.0\.0\.0\sm1\.nsimg\.net$
 ^0\.0\.0\.0\sm2\.nsimg\.net$
 ^0\.0\.0\.0\sm\.hotmail\.com$
+^0\.0\.0\.0\sm\.yap\.yahoo\.com$
 ^0\.0\.0\.0\smanagemymove\.usps\.com$
 ^0\.0\.0\.0\smovies\.netflix\.com$
 ^0\.0\.0\.0\smp\.twitch\.tv$
@@ -553,6 +555,7 @@ localhost$
 ^0\.0\.0\.0\splayers\.brightcove\.net$
 ^0\.0\.0\.0\splayers\.pluto\.tv$
 ^0\.0\.0\.0\spmd\.cdn\.turner\.com$
+^0\.0\.0\.0\spr\.comet\.yahoo\.com$
 ^0\.0\.0\.0\sprisacom\.112\.207\.net$
 ^0\.0\.0\.0\sprisacom\.112\.2o7\.net$
 ^0\.0\.0\.0\spro\.fontawesome\.com$
