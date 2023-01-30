@@ -405,6 +405,7 @@ localhost$
 ^0\.0\.0\.0\scognito-identity\.us-east-1\.amazonaws\.com$
 ^0\.0\.0\.0\scollecting-consent\.g5e\.com$
 ^0\.0\.0\.0\scollector\.lightstep\.com$
+^0\.0\.0\.0\scomet\.yahoo\.com$
 ^0\.0\.0\.0\scommunity\.signalusers\.org$
 ^0\.0\.0\.0\sconfiguration\.apple\.com$
 ^0\.0\.0\.0\sconnectivitycheck\.android\.com$
@@ -555,7 +556,6 @@ localhost$
 ^0\.0\.0\.0\splayers\.brightcove\.net$
 ^0\.0\.0\.0\splayers\.pluto\.tv$
 ^0\.0\.0\.0\spmd\.cdn\.turner\.com$
-^0\.0\.0\.0\spr\.comet\.yahoo\.com$
 ^0\.0\.0\.0\sprisacom\.112\.207\.net$
 ^0\.0\.0\.0\sprisacom\.112\.2o7\.net$
 ^0\.0\.0\.0\spro\.fontawesome\.com$
