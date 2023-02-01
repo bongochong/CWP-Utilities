@@ -518,7 +518,6 @@ localhost$
 ^0\.0\.0\.0\sm1\.nsimg\.net$
 ^0\.0\.0\.0\sm2\.nsimg\.net$
 ^0\.0\.0\.0\sm\.hotmail\.com$
-^0\.0\.0\.0\sm\.yap\.yahoo\.com$
 ^0\.0\.0\.0\smanagemymove\.usps\.com$
 ^0\.0\.0\.0\smovies\.netflix\.com$
 ^0\.0\.0\.0\smp\.twitch\.tv$
@@ -659,6 +658,7 @@ localhost$
 ^0\.0\.0\.0\swidget-cdn\.rpxnow\.com$
 ^0\.0\.0\.0\swinhelp2002\.mvps\.org$
 ^0\.0\.0\.0\sws\.audioscrobbler\.com$
+^0\.0\.0\.0\syap\.yahoo\.com$
 ^0\.0\.0\.0\syql\.yahoo\.com$
 ^0\.0\.0\.0\syui\.yahooapis\.com$
 ^0\.0\.0\.0\szee\.cws\.conviva\.com$
