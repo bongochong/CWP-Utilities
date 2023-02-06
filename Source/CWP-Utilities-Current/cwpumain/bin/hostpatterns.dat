@@ -260,6 +260,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?typography\.com$
 ^0\.0\.0\.0\s(www\.)?udemy\.com$
 ^0\.0\.0\.0\s(www\.)?unity3d\.com$
+^0\.0\.0\.0\s(www\.)?unmineable\.com$
 ^0\.0\.0\.0\s(www\.)?unpkg\.com$
 ^0\.0\.0\.0\s(www\.)?urbanairship\.com$
 ^0\.0\.0\.0\s(www\.)?usps\.com$
@@ -571,6 +572,7 @@ localhost$
 ^0\.0\.0\.0\sres\.cloudinary\.com$
 ^0\.0\.0\.0\srichmedia\.channeladvisor\.com$
 ^0\.0\.0\.0\srolo\.nocdnrlly\.xyz$
+^0\.0\.0\.0\srx\.unmineable\.com$
 ^0\.0\.0\.0\ss0\.2mdn\.net$
 ^0\.0\.0\.0\ss3-eu-west-1\.amazonaws\.com$
 ^0\.0\.0\.0\ss3-iad-ww\.cf\.videorolls\.row\.aiv-cdn\.net$
