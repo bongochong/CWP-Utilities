@@ -80,6 +80,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?bleacherreport\.com$
 ^0\.0\.0\.0\s(www\.)?blokada\.org$
 ^0\.0\.0\.0\s(www\.)?bluebillywig\.com$
+^0\.0\.0\.0\s(www\.)?bravedns\.com$
 ^0\.0\.0\.0\s(www\.)?brightcove\.net$
 ^0\.0\.0\.0\s(www\.)?campaign-archive\.com$
 ^0\.0\.0\.0\s(www\.)?clamav\.net$
@@ -96,6 +97,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?db\.tt$
 ^0\.0\.0\.0\s(www\.)?directvnow\.com$
 ^0\.0\.0\.0\s(www\.)?discovery\.com$
+^0\.0\.0\.0\s(www\.)?dnswarden\.com$
 ^0\.0\.0\.0\s(www\.)?dropbox\.com$
 ^0\.0\.0\.0\s(www\.)?dropboxapi\.com$
 ^0\.0\.0\.0\s(www\.)?dropboxbusiness\.com$
@@ -123,6 +125,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?fide\.com$
 ^0\.0\.0\.0\s(www\.)?fiverr\.com$
 ^0\.0\.0\.0\s(www\.)?flipboard\.com$
+^0\.0\.0\.0\s(www\.)?footlocker\.com$
 ^0\.0\.0\.0\s(www\.)?forbes\.com$
 ^0\.0\.0\.0\s(www\.)?gameanalytics\.com$
 ^0\.0\.0\.0\s(www\.)?ge\.tt$
@@ -163,6 +166,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?jwplatform\.com$
 ^0\.0\.0\.0\s(www\.)?jwplayer\.com$
 ^0\.0\.0\.0\s(www\.)?jwpltx\.com$
+^0\.0\.0\.0\s(www\.)?kingdomofloathing\.com$
 ^0\.0\.0\.0\s(www\.)?kumascans\.com$
 ^0\.0\.0\.0\s(www\.)?letsencrypt\.org$
 ^0\.0\.0\.0\s(www\.)?lightboxcdn\.com$
@@ -180,6 +184,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?neocities\.org$
 ^0\.0\.0\.0\s(www\.)?neostrada\.nl$
 ^0\.0\.0\.0\s(www\.)?netflix\.com$
+^0\.0\.0\.0\s(www\.)?newworldencyclopedia\.org$
 ^0\.0\.0\.0\s(www\.)?nextdns\.io$
 ^0\.0\.0\.0\s(www\.)?nitroflare\.com$
 ^0\.0\.0\.0\s(www\.)?nj\.com$
@@ -228,12 +233,14 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?smartasset\.com$
 ^0\.0\.0\.0\s(www\.)?someonewhocares\.org$
 ^0\.0\.0\.0\s(www\.)?soundcloud\.com$
+^0\.0\.0\.0\s(www\.)?sourceforge\.net$
 ^0\.0\.0\.0\s(www\.)?spankbang\.com$
 ^0\.0\.0\.0\s(www\.)?sports-streams-online\.best$
 ^0\.0\.0\.0\s(www\.)?sports-streams-online\.com$
 ^0\.0\.0\.0\s(www\.)?ssl-images-amazon\.com$
 ^0\.0\.0\.0\s(www\.)?staradvertiser\.com$
 ^0\.0\.0\.0\s(www\.)?steamcommunity\.com$
+^0\.0\.0\.0\s(www\.)?steampowered\.com$
 ^0\.0\.0\.0\s(www\.)?sysctl\.org$
 ^0\.0\.0\.0\s(www\.)?t\.co$
 ^0\.0\.0\.0\s(www\.)?target\.com$
@@ -271,7 +278,9 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?webmd\.com$
 ^0\.0\.0\.0\s(www\.)?weworkremotely\.com$
 ^0\.0\.0\.0\s(www\.)?whispersystems\.org$
+^0\.0\.0\.0\s(www\.)?wikipedia\.org$
 ^0\.0\.0\.0\s(www\.)?wix\.com$
+^0\.0\.0\.0\s(www\.)?wolframalpha\.com$
 ^0\.0\.0\.0\s(www\.)?xda-developers\.com$
 ^0\.0\.0\.0\s(www\.)?yahoo\.com$
 ^0\.0\.0\.0\s(www\.)?yandex\.st$
@@ -620,6 +629,7 @@ localhost$
 ^0\.0\.0\.0\sstocks-analytics-events\.apple\.com$
 ^0\.0\.0\.0\sstorage-staging\.signal\.org$
 ^0\.0\.0\.0\sstorage\.pardot\.com$
+^0\.0\.0\.0\sstore\.steampowered\.com$
 ^0\.0\.0\.0\ssuche\.t-online\.de$
 ^0\.0\.0\.0\ssupport\.microsoft\.com$
 ^0\.0\.0\.0\ssupport\.signal\.org$
@@ -660,6 +670,7 @@ localhost$
 ^0\.0\.0\.0\swellsfargobankna\.demdex\.net$
 ^0\.0\.0\.0\swidget-cdn\.rpxnow\.com$
 ^0\.0\.0\.0\swinhelp2002\.mvps\.org$
+^0\.0\.0\.0\swordnet\.princeton\.edu$
 ^0\.0\.0\.0\sws\.audioscrobbler\.com$
 ^0\.0\.0\.0\syap\.yahoo\.com$
 ^0\.0\.0\.0\syql\.yahoo\.com$

@@ -62,6 +62,7 @@
 ^branch\.io$
 ^brave\.com$
 ^brave\.software$
+^bravedns\.com$
 ^bravesoftware\.com$
 ^braze\.com$
 ^brightcove\.com$
@@ -100,6 +101,7 @@
 ^directvnow\.com$
 ^discordapp\.com$
 ^discovery\.com$
+^dnswarden\.com$
 ^drizly\.com$
 ^dropbox\.com$
 ^dropboxapi\.com$
@@ -141,6 +143,7 @@
 ^flipboard\.com$
 ^fontawesome\.com$
 ^fonts\.net$
+^footlocker\.com$
 ^forbes\.com$
 ^fsdn\.com$
 ^futurecdn\.net$
@@ -210,6 +213,7 @@
 ^jwplatform\.com$
 ^jwplayer\.com$
 ^jwpltx\.com$
+^kingdomofloathing\.com$
 ^kumascans\.com$
 ^letsencrypt\.org$
 ^lightboxcdn\.com$
@@ -246,6 +250,7 @@
 ^neostrada\.nl$
 ^netflix\.com$
 ^newrelic\.com$
+^newworldencyclopedia\.org$
 ^nextdns\.io$
 ^ngtv\.io$
 ^nike\.com$
@@ -283,6 +288,7 @@
 ^phonearena\.com$
 ^plex\.tv$
 ^pluto\.tv$
+^princeton\.edu$
 ^privacy-center\.org$
 ^progressive\.com$
 ^publish0x\.com$
@@ -333,6 +339,7 @@
 ^sonos\.com$
 ^soundcloud\.com$
 ^soundhound\.com$
+^sourceforge\.net$
 ^spankbang\.com$
 ^sports-streams-online\.best$
 ^sports-streams-online\.club$
@@ -342,6 +349,7 @@
 ^ssl-images-amazon\.com$
 ^staradvertiser\.com$
 ^steamcommunity\.com$
+^steampowered\.com$
 ^surveymonkey\.com$
 ^swiftypecdn\.com$
 ^symantec\.com$
@@ -396,10 +404,12 @@
 ^webmd\.com$
 ^weworkremotely\.com$
 ^whispersystems\.org$
+^wikipedia\.org$
 ^windows\.com$
 ^windowsupdate\.com$
 ^winzip\.com$
 ^wix\.com$
+^wolframalpha\.com$
 ^worldnow\.com$
 ^xbox\.com$
 ^xboxlive\.com$
@@ -407,8 +417,8 @@
 ^xfinity\.com$
 ^xkcd\.com$
 ^yahoo\.com$
-^yandex\.st$
 ^yahooapis\.com$
+^yandex\.st$
 ^yap\.yahoo\.com$
 ^yimg\.com$
 ^yimg\.jp$
