@@ -236,6 +236,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?steamcommunity\.com$
 ^0\.0\.0\.0\s(www\.)?sysctl\.org$
 ^0\.0\.0\.0\s(www\.)?t\.co$
+^0\.0\.0\.0\s(www\.)?target\.com$
 ^0\.0\.0\.0\s(www\.)?telegraaf\.nl$
 ^0\.0\.0\.0\s(www\.)?tenforums\.com$
 ^0\.0\.0\.0\s(www\.)?termux\.net$
@@ -273,6 +274,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?wix\.com$
 ^0\.0\.0\.0\s(www\.)?xda-developers\.com$
 ^0\.0\.0\.0\s(www\.)?yahoo\.com$
+^0\.0\.0\.0\s(www\.)?yandex\.st$
 ^0\.0\.0\.0\s(www\.)?yimg\.com$
 ^0\.0\.0\.0\s(www\.)?yimg\.jp$
 ^0\.0\.0\.0\s(www\.)?youtube-nocookie\.com$
