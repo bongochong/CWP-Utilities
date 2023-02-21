@@ -108,6 +108,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?dropboxmail\.com$
 ^0\.0\.0\.0\s(www\.)?dropboxpartners\.com$
 ^0\.0\.0\.0\s(www\.)?dropboxstatic\.com$
+^0\.0\.0\.0\s(www\.)?drumcorpsplanet\.com$
 ^0\.0\.0\.0\s(www\.)?dshield\.org$
 ^0\.0\.0\.0\s(www\.)?duckdns\.org$
 ^0\.0\.0\.0\s(www\.)?duo\.nl$
@@ -152,6 +153,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?html5zombo\.com$
 ^0\.0\.0\.0\s(www\.)?icloud\.com$
 ^0\.0\.0\.0\s(www\.)?icscards\.nl$
+^0\.0\.0\.0\s(www\.)?idol-dvd\.com$
 ^0\.0\.0\.0\s(www\.)?imgtaxi\.com$
 ^0\.0\.0\.0\s(www\.)?imgtown\.pw$
 ^0\.0\.0\.0\s(www\.)?imgview\.pw$
@@ -177,13 +179,17 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?mail\.ru$
 ^0\.0\.0\.0\s(www\.)?malwaredomainlist\.com$
 ^0\.0\.0\.0\s(www\.)?malwaredomains\.com$
+^0\.0\.0\.0\s(www\.)?manga-news\.com$
 ^0\.0\.0\.0\s(www\.)?mcssl\.com$
 ^0\.0\.0\.0\s(www\.)?medium\.com$
+^0\.0\.0\.0\s(www\.)?miciudadreal\.es$
+^0\.0\.0\.0\s(www\.)?mladtehnik\.com$
 ^0\.0\.0\.0\s(www\.)?mradx\.net$
 ^0\.0\.0\.0\s(www\.)?msftncsi\.com$
 ^0\.0\.0\.0\s(www\.)?neocities\.org$
 ^0\.0\.0\.0\s(www\.)?neostrada\.nl$
 ^0\.0\.0\.0\s(www\.)?netflix\.com$
+^0\.0\.0\.0\s(www\.)?newbie\.com$
 ^0\.0\.0\.0\s(www\.)?newworldencyclopedia\.org$
 ^0\.0\.0\.0\s(www\.)?nextdns\.io$
 ^0\.0\.0\.0\s(www\.)?nitroflare\.com$
@@ -249,6 +255,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?termux\.net$
 ^0\.0\.0\.0\s(www\.)?teslathemes\.com$
 ^0\.0\.0\.0\s(www\.)?theguardian\.com$
+^0\.0\.0\.0\s(www\.)?theleader\.info$
 ^0\.0\.0\.0\s(www\.)?themoviedb\.com$
 ^0\.0\.0\.0\s(www\.)?thepiratebay\.org$
 ^0\.0\.0\.0\s(www\.)?thetvdb\.com$
