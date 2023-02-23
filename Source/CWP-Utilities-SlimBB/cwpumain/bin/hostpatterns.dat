@@ -128,6 +128,8 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?flipboard\.com$
 ^0\.0\.0\.0\s(www\.)?footlocker\.com$
 ^0\.0\.0\.0\s(www\.)?forbes\.com$
+^0\.0\.0\.0\s(www\.)?foxyhold\.io$
+^0\.0\.0\.0\s(www\.)?gab\.com$
 ^0\.0\.0\.0\s(www\.)?gameanalytics\.com$
 ^0\.0\.0\.0\s(www\.)?ge\.tt$
 ^0\.0\.0\.0\s(www\.)?gearbest\.com$
@@ -180,12 +182,18 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?malwaredomainlist\.com$
 ^0\.0\.0\.0\s(www\.)?malwaredomains\.com$
 ^0\.0\.0\.0\s(www\.)?manga-news\.com$
+^0\.0\.0\.0\s(www\.)?mas\.to$
+^0\.0\.0\.0\s(www\.)?mastodon\.cloud$
+^0\.0\.0\.0\s(www\.)?mastodon\.online$
+^0\.0\.0\.0\s(www\.)?mastodon\.social$
+^0\.0\.0\.0\s(www\.)?mastodon\.world$
 ^0\.0\.0\.0\s(www\.)?mcssl\.com$
 ^0\.0\.0\.0\s(www\.)?medium\.com$
 ^0\.0\.0\.0\s(www\.)?miciudadreal\.es$
 ^0\.0\.0\.0\s(www\.)?mladtehnik\.com$
 ^0\.0\.0\.0\s(www\.)?mradx\.net$
 ^0\.0\.0\.0\s(www\.)?msftncsi\.com$
+^0\.0\.0\.0\s(www\.)?mstdn\.social$
 ^0\.0\.0\.0\s(www\.)?neocities\.org$
 ^0\.0\.0\.0\s(www\.)?neostrada\.nl$
 ^0\.0\.0\.0\s(www\.)?netflix\.com$
@@ -208,6 +216,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?ow\.ly$
 ^0\.0\.0\.0\s(www\.)?paste\.ee$
 ^0\.0\.0\.0\s(www\.)?pastebin\.com$
+^0\.0\.0\.0\s(www\.)?pawoo\.net$
 ^0\.0\.0\.0\s(www\.)?pcmweb\.nl$
 ^0\.0\.0\.0\s(www\.)?phonearena\.com$
 ^0\.0\.0\.0\s(www\.)?plex\.tv$
@@ -236,6 +245,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?signal\.art$
 ^0\.0\.0\.0\s(www\.)?signal\.org$
 ^0\.0\.0\.0\s(www\.)?signalcaptchas\.org$
+^0\.0\.0\.0\s(www\.)?skyrisecities\.com$
 ^0\.0\.0\.0\s(www\.)?smartasset\.com$
 ^0\.0\.0\.0\s(www\.)?someonewhocares\.org$
 ^0\.0\.0\.0\s(www\.)?soundcloud\.com$
@@ -278,6 +288,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?unmineable\.com$
 ^0\.0\.0\.0\s(www\.)?unpkg\.com$
 ^0\.0\.0\.0\s(www\.)?urbanairship\.com$
+^0\.0\.0\.0\s(www\.)?urbantoronto\.ca$
 ^0\.0\.0\.0\s(www\.)?usps\.com$
 ^0\.0\.0\.0\s(www\.)?vidible\.tv$
 ^0\.0\.0\.0\s(www\.)?virtualearth\.net$
