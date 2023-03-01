@@ -312,6 +312,8 @@ localhost$
 ^0\.0\.0\.0\s2\.android\.pool\.ntp\.org$
 ^0\.0\.0\.0\sa\.fsdn\.com$
 ^0\.0\.0\.0\saan\.amazon\.com$
+^0\.0\.0\.0\sablink\.notice\.hoopladigital\.com$
+^0\.0\.0\.0\sablink\.notice\.spriggy\.com\.au$
 ^0\.0\.0\.0\saccounts\.eu1\.gigya\.com$
 ^0\.0\.0\.0\sactivate\.adobe\.com$
 ^0\.0\.0\.0\sactivation\.adobedtm\.com$
@@ -559,6 +561,8 @@ localhost$
 ^0\.0\.0\.0\snews\.ebc\.net\.tw$
 ^0\.0\.0\.0\snexus\.ensighten\.com$
 ^0\.0\.0\.0\snmcheck\.gnome\.org$
+^0\.0\.0\.0\snotice\.hoopladigital\.com$
+^0\.0\.0\.0\snotice\.spriggy\.com\.au$
 ^0\.0\.0\.0\snotify\.xboxlive\.com$
 ^0\.0\.0\.0\sobs\.line-scdn\.net$
 ^0\.0\.0\.0\socsp\.rootg2\.amazontrust\.com$
