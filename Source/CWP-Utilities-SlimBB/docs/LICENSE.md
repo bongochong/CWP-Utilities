@@ -112,15 +112,15 @@
 
   **6.1**  New Versions.
 
-  Chongo Bong (AMK) (“Chongo Bong”) may publish revised and/or new versions of the License from time to time. Each version will be given a distinguishing version number.
+  Chon Bongo (AMK) (“Chon Bongo”) may publish revised and/or new versions of the License from time to time. Each version will be given a distinguishing version number.
 
   **6.2**  Effect of New Versions.
 
-  Once Covered Code has been published under a particular version of the License, You may always continue to use it under the terms of that version.  You may also choose to use such Covered Code under the terms of any subsequent version of the License published by Chongo Bong.  No one other than Chongo Bong has the right to modify the terms applicable to Covered Code created under this License.
+  Once Covered Code has been published under a particular version of the License, You may always continue to use it under the terms of that version.  You may also choose to use such Covered Code under the terms of any subsequent version of the License published by Chon Bongo.  No one other than Chon Bongo has the right to modify the terms applicable to Covered Code created under this License.
 
   **6.3**  Derivative Works.
 
-  If You create or use a modified version of this License (which you may only do in order to apply it to code which is not already Covered Code governed by this License), You must (a) rename Your license so that the phrases “Chongo Bong”, “CPAL” or any confusingly similar phrase do not appear in your license (except to note that your license differs from this License) and (b) otherwise make it clear that Your version of the license contains terms which differ from the CPAL.  (Filling in the name of the Initial Developer, Original Developer, Original Code or Contributor in the notice described in Exhibit A shall not of themselves be deemed to be modifications of this License.)
+  If You create or use a modified version of this License (which you may only do in order to apply it to code which is not already Covered Code governed by this License), You must (a) rename Your license so that the phrases “Chon Bongo”, “CPAL” or any confusingly similar phrase do not appear in your license (except to note that your license differs from this License) and (b) otherwise make it clear that Your version of the license contains terms which differ from the CPAL.  (Filling in the name of the Initial Developer, Original Developer, Original Code or Contributor in the notice described in Exhibit A shall not of themselves be deemed to be modifications of this License.)
 
 **7.**  DISCLAIMER OF WARRANTY.
 
@@ -184,13 +184,13 @@ The Original Code is Combined Windows Privacy Utilities as contained in this dir
 
 The Original Developer is the Initial Developer.
 
-The Initial Developer of the Original Code is Chongo Bong (AMK). All portions of the code written by Chongo Bong are Copyright (c) 2018-2019 Chongo Bong (AMK). All Rights Reserved.
+The Initial Developer of the Original Code is Chon Bongo (AMK). All portions of the code written by Chon Bongo are Copyright (c) 2018-2019 Chon Bongo (AMK). All Rights Reserved.
 
 **EXHIBIT B.**  Attribution Information
 
-Attribution Copyright Notice: Copyright (c) 2018-2019 Chongo Bong (AMK)
+Attribution Copyright Notice: Copyright (c) 2018-2019 Chon Bongo (AMK)
 
-Attribution Phrase: Originally developed by Chongo Bong (AMK)
+Attribution Phrase: Originally developed by Chon Bongo (AMK)
 
 Attribution URL: https://github.com/bongochong/
 
