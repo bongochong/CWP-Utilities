@@ -1,5 +1,5 @@
 # [Combined Windows Privacy Utilities](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.8.0.exe) 
-3/02/2023: I had some setbacks recently due to a significant death in the family, but have been working on relatively major additions and optimizations for a new release, which should arrive in a couple of months (or hopefully sooner). I'm still actively maintaining and updating this repository, so bear with me.  
+3/02/2023: I had some setbacks recently due to a significant death in the family, but have been working on relatively major additions and optimizations for a new release, which should arrive in a couple of months (or hopefully sooner). I'm still actively maintaining and updating this repo, so bear with me.  
 <p align="left">
   <img src="https://i.imgur.com/YaMNcVc.png">
   <img src="https://i.imgur.com/qROhmY0.png">
