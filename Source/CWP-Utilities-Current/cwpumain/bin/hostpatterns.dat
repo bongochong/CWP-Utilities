@@ -407,10 +407,13 @@ localhost$
 ^0\.0\.0\.0\schoice\.microsoft\.com$
 ^0\.0\.0\.0\schrome\.google\.com$
 ^0\.0\.0\.0\sclick\.bible\.com$
+^0\.0\.0\.0\sclick\.discord\.com$
 ^0\.0\.0\.0\sclick\.drizly\.com$
 ^0\.0\.0\.0\sclick\.e\.affirm\.com$
+^0\.0\.0\.0\sclick\.e\.bbcmail\.co\.uk$
 ^0\.0\.0\.0\sclick\.e\.progressive\.com$
 ^0\.0\.0\.0\sclick\.e\.tdbank\.com$
+^0\.0\.0\.0\sclick\.em\.blizzard\.com$
 ^0\.0\.0\.0\sclick\.email-stubhub\.com$
 ^0\.0\.0\.0\sclick\.email\.bbc\.com$
 ^0\.0\.0\.0\sclick\.email\.chope\.co$
@@ -420,6 +423,7 @@ localhost$
 ^0\.0\.0\.0\sclick\.engage\.xbox\.com$
 ^0\.0\.0\.0\sclick\.instacartemail\.com$
 ^0\.0\.0\.0\sclick\.justwatch\.com$
+^0\.0\.0\.0\sclick\.mail\.hotels\.com$
 ^0\.0\.0\.0\sclick\.official\.nike\.com$
 ^0\.0\.0\.0\sclick\.oneplus\.com$
 ^0\.0\.0\.0\sclick\.redditmail\.com$
