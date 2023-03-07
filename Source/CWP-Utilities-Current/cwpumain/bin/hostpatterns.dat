@@ -93,6 +93,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?conviva\.com$
 ^0\.0\.0\.0\s(www\.)?cookie-script\.com$
 ^0\.0\.0\.0\s(www\.)?countryflags\.io$
+^0\.0\.0\.0\s(www\.)?cutt\.ly$
 ^0\.0\.0\.0\s(www\.)?dailymotion\.com$
 ^0\.0\.0\.0\s(www\.)?db\.tt$
 ^0\.0\.0\.0\s(www\.)?directvnow\.com$
