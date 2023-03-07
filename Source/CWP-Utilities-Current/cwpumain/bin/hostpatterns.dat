@@ -153,6 +153,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?hostsfile\.org$
 ^0\.0\.0\.0\s(www\.)?howtogeek\.com$
 ^0\.0\.0\.0\s(www\.)?html5zombo\.com$
+^0\.0\.0\.0\s(www\.)?hugedomains\.com$
 ^0\.0\.0\.0\s(www\.)?icloud\.com$
 ^0\.0\.0\.0\s(www\.)?icscards\.nl$
 ^0\.0\.0\.0\s(www\.)?idol-dvd\.com$
@@ -271,6 +272,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?thetvdb\.com$
 ^0\.0\.0\.0\s(www\.)?timeinc\.net$
 ^0\.0\.0\.0\s(www\.)?tindersparks\.com$
+^0\.0\.0\.0\s(www\.)?tinypass\.com$
 ^0\.0\.0\.0\s(www\.)?tinyurl\.com$
 ^0\.0\.0\.0\s(www\.)?tomshardware\.com$
 ^0\.0\.0\.0\s(www\.)?travelzoo\.com$
