@@ -122,7 +122,6 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?embedly\.com$
 ^0\.0\.0\.0\s(www\.)?emptyloop\.com$
 ^0\.0\.0\.0\s(www\.)?ethermine\.org$
-^0\.0\.0\.0\s(www\.)?extratorrent\.cc$
 ^0\.0\.0\.0\s(www\.)?fanboy\.co\.nz$
 ^0\.0\.0\.0\s(www\.)?fide\.com$
 ^0\.0\.0\.0\s(www\.)?fiverr\.com$
@@ -273,7 +272,6 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?thetvdb\.com$
 ^0\.0\.0\.0\s(www\.)?timeinc\.net$
 ^0\.0\.0\.0\s(www\.)?tindersparks\.com$
-^0\.0\.0\.0\s(www\.)?tinypass\.com$
 ^0\.0\.0\.0\s(www\.)?tinyurl\.com$
 ^0\.0\.0\.0\s(www\.)?tomshardware\.com$
 ^0\.0\.0\.0\s(www\.)?travelzoo\.com$
@@ -459,7 +457,6 @@ localhost$
 ^0\.0\.0\.0\scse\.google\.com$
 ^0\.0\.0\.0\scsi\.gstatic\.com$
 ^0\.0\.0\.0\sctldl\.windowsupdate\.com$
-^0\.0\.0\.0\scws\.conviva\.com$
 ^0\.0\.0\.0\scwtv-mrss-akamai\.cwtv\.com$
 ^0\.0\.0\.0\scwtv-prod-elb\.digitalsmiths\.net$
 ^0\.0\.0\.0\sd2c8v52ll5s99u\.cloudfront\.net$
@@ -606,7 +603,6 @@ localhost$
 ^0\.0\.0\.0\spublishers\.basicattentiontoken\.org$
 ^0\.0\.0\.0\squery1\.finance\.yahoo\.com$
 ^0\.0\.0\.0\squery2\.finance\.yahoo\.com$
-^0\.0\.0\.0\sratas\.sanoma\.fi$
 ^0\.0\.0\.0\sraw\.githubusercontent\.com$
 ^0\.0\.0\.0\sreach-api\.urbanairship\.com$
 ^0\.0\.0\.0\sredirector\.googlevideo\.com$
@@ -705,5 +701,4 @@ localhost$
 ^0\.0\.0\.0\syap\.yahoo\.com$
 ^0\.0\.0\.0\syql\.yahoo\.com$
 ^0\.0\.0\.0\syui\.yahooapis\.com$
-^0\.0\.0\.0\szee\.cws\.conviva\.com$
 ^0\.0\.0\.0\sztd\.dds\.microsoft\.com$
