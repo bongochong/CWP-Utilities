@@ -172,7 +172,6 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?getdropbox\.com$
 ^0\.0\.0\.0\s(www\.)?getpocket\.com$
 ^0\.0\.0\.0\s(www\.)?ghostery\.com$
-^0\.0\.0\.0\s(www\.)?gigazine\.asia$
 ^0\.0\.0\.0\s(www\.)?giphy\.com$
 ^0\.0\.0\.0\s(www\.)?git\.io$
 ^0\.0\.0\.0\s(www\.)?github\.com$
