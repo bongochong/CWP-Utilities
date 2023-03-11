@@ -77,7 +77,6 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?babbel\.com$
 ^0\.0\.0\.0\s(www\.)?basicattentiontoken\.org$
 ^0\.0\.0\.0\s(www\.)?bbc\.com$
-^0\.0\.0\.0\s(www\.)?bblck\.me$
 ^0\.0\.0\.0\s(www\.)?beforeitsnews\.com$
 ^0\.0\.0\.0\s(www\.)?bet365\.com$
 ^0\.0\.0\.0\s(www\.)?beyondsecurity\.com$
@@ -744,7 +743,6 @@ localhost$
 ^0\.0\.0\.0\sspclient\.spotify\.com$
 ^0\.0\.0\.0\sspclient\.wg\.spotify\.com$
 ^0\.0\.0\.0\ssrc\.litix\.io$
-^0\.0\.0\.0\sssl\.bblck\.me$
 ^0\.0\.0\.0\sssl\.o\.auspost\.com\.au$
 ^0\.0\.0\.0\sssl\.o\.webmd\.com$
 ^0\.0\.0\.0\sssl\.reddit\.com$
