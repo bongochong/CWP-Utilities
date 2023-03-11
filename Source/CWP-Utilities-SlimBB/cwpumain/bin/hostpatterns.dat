@@ -413,6 +413,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?ytmnd\.com$
 ^0\.0\.0\.0\s(www\.)?zendesk\.com$
 ^0\.0\.0\.0\s(www\.)?zombo\.com$
+^0\.0\.0\.0\s(www\.)?zynga\.com$
 ^0\.0\.0\.0\s0\.client-channel\.google\.com$
 ^0\.0\.0\.0\s2\.android\.pool\.ntp\.org$
 ^0\.0\.0\.0\sa\.fsdn\.com$
