@@ -312,6 +312,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?serials\.ws$
 ^0\.0\.0\.0\s(www\.)?serverfault\.com$
 ^0\.0\.0\.0\s(www\.)?sevenforums\.com$
+^0\.0\.0\.0\s(www\.)?shoppy\.gg$
 ^0\.0\.0\.0\s(www\.)?shorl\.com$
 ^0\.0\.0\.0\s(www\.)?shortpixel\.ai$
 ^0\.0\.0\.0\s(www\.)?sift\.com$
