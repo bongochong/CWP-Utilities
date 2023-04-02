@@ -537,6 +537,7 @@ localhost$
 ^0\.0\.0\.0\sclients4\.google\.com$
 ^0\.0\.0\.0\sclients5\.google\.com$
 ^0\.0\.0\.0\sclients6\.google\.com$
+^0\.0\.0\.0\scmg\.streamguys1\.com$
 ^0\.0\.0\.0\scmp-cdn\.ghostery\.com$
 ^0\.0\.0\.0\scognito-identity\.us-east-1\.amazonaws\.com$
 ^0\.0\.0\.0\scollecting-consent\.g5e\.com$
