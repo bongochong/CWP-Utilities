@@ -422,6 +422,7 @@ localhost$
 ^0\.0\.0\.0\saccounts\.eu1\.gigya\.com$
 ^0\.0\.0\.0\sactivate\.adobe\.com$
 ^0\.0\.0\.0\sactivation\.adobedtm\.com$
+^0\.0\.0\.0\sadl\.windows\.com$
 ^0\.0\.0\.0\sads-admin\.brave\.com$
 ^0\.0\.0\.0\sads-admin\.brave\.software$
 ^0\.0\.0\.0\sads-admin\.bravesoftware\.com$
