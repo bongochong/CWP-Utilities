@@ -1,5 +1,5 @@
 # [Combined Windows Privacy Utilities](https://github.com/bongochong/CWP-Utilities/raw/master/Releases/CWP-Utilities-Stable-1.8.0.exe) 
-*2023 brought me some serious challenges and setbacks, due to a significant death in the family, which I am still recovering from. That being said, I have been working on notable additions and optimizations for a new release, which will eventually get pushed to this repo. I'm still actively maintaining and updating this software, so please bear with me.*  
+*2023 brought me some serious challenges and setbacks, due to a significant death in the family, which I am still recovering from. That being said, I have been working on notable additions and optimizations for a new release, which will eventually get pushed to this repo. I'm still actively maintaining this software, but if you truly can't wait for the improvements that are on the backburner while this project is in maintenance mode, I encourage you to install Cygwin and try out [the Cygwin port of my command line block list utilities](https://github.com/bongochong/CombinedPrivacyBlockLists/tree/master/BLT/Cygwin).*  
 <p align="left">
   <img src="https://i.imgur.com/YaMNcVc.png">
   <img src="https://i.imgur.com/qROhmY0.png">
