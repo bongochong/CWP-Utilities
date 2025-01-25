@@ -197,6 +197,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?hbo\.com$
 ^0\.0\.0\.0\s(www\.)?healthgrades\.com$
 ^0\.0\.0\.0\s(www\.)?here\.com$
+^0\.0\.0\.0\s(www\.)?heytapmobile\.com$
 ^0\.0\.0\.0\s(www\.)?hoopladigital\.com$
 ^0\.0\.0\.0\s(www\.)?hostsfile\.org$
 ^0\.0\.0\.0\s(www\.)?hotels\.com$
@@ -300,6 +301,7 @@ localhost$
 ^0\.0\.0\.0\s(www\.)?phonearena\.com$
 ^0\.0\.0\.0\s(www\.)?plex\.tv$
 ^0\.0\.0\.0\s(www\.)?pluto\.tv$
+^0\.0\.0\.0\s(www\.)?pornpics\.com$
 ^0\.0\.0\.0\s(www\.)?princeton\.edu$
 ^0\.0\.0\.0\s(www\.)?privacy-center\.org$
 ^0\.0\.0\.0\s(www\.)?progressive\.com$
