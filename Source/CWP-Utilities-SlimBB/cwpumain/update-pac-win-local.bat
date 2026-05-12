@@ -14,10 +14,10 @@ sed -i "s/0\\.0\\.0\\.0\\s//g" pacpatterns.dat >nul 2>nul
 busybox rm processing/pac/pac-* >nul 2>nul
 busybox rm processing/pac/*.pac >nul 2>nul
 @echo on
-curl -s -o processing/pac/1.pac "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/MD-ID-Fork.txt"
+curl -s -o processing/pac/1.pac "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/Mirrors/mvps.hosts"
 curl -s -o processing/pac/2.pac "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/disconnect_consolidated.txt"
-curl -s -o processing/pac/3.pac "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
-curl -s -o processing/pac/4.pac "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=nohtml&showintro=0&mimetype=plaintext"
+curl -s -o processing/pac/3.pac "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/adguard_mobile-hosts.txt"
+curl -s -o processing/pac/4.pac "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/Mirrors/yoyo.domains"
 curl -s -o processing/pac/5.pac "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/piperun-hosts.txt"
 busybox cat processing/pac/*.pac > processing/pac/pac-comb.txt
 sed -i -e "s/#.*$//" -e "/^$/d" -e "/^Site$/d" -e "s/\t\+/ /g" processing/pac/pac-comb.txt
