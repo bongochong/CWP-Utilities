@@ -25,10 +25,10 @@ curl -s -o processing/hosts/hosts.3 "https://raw.githubusercontent.com/bongochon
 curl -s -o processing/hosts/hosts.4 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/adguard_mobile-hosts.txt"
 curl -s -o processing/hosts/hosts.5 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/WindowsTelemetryBlockSupplements/SBBTYZ-IPv4.txt"
 curl -s -o processing/hosts/hosts.6 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/easylist_desktop-hosts.txt"
-curl -s -o processing/hosts/hosts.8 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/MD-ID-H-Fork.txt"
-curl -s -o processing/hosts/hosts.9 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/disconnect_consolidated.txt"
-curl -s -o processing/hosts/hosts.10 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/Mirrors/urlhausonline.hosts"
-curl -s -o processing/hosts/hosts.11 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/MiniLists/NoFormatting/AdditionalSuppleMini.txt"
+curl -s -o processing/hosts/hosts.7 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/MD-ID-H-Fork.txt"
+curl -s -o processing/hosts/hosts.8 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/ABP2Hosts/disconnect_consolidated.txt"
+curl -s -o processing/hosts/hosts.9 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/Mirrors/urlhausonline.hosts"
+curl -s -o processing/hosts/hosts.10 "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/MiniLists/NoFormatting/AdditionalSuppleMini.txt"
 busybox cat processing/hosts/hosts.* > processing/hosts/hosts-cat.final
 sed -i -e "s/#.*$//" -e "/[[:space:]]*#/d" -e "/[[:blank:]]*#/d" -e "s/\t\+/ /g" -e "s/^127.0.0.1/0.0.0.0/g" -e "s/^::1/0.0.0.0/g" -e "s/^::/0.0.0.0/g" -e "s/[[:space:]]*$//" -e "s/[[:blank:]]*$//" -e "s/[[:space:]]\+/ /g" -e "/^0.0.0.0 /! s/^/0.0.0.0 /" -e "/[\d128-\d255]/d" -e "/\^\document/d" -e "/\^/d" -e "/\*/d" -e "/\?/d" -e "/\//d" -e "/@/d" -e "/!/d" -e "/|/d" -e "/:/d" -e "/~/d" -e "/,/d" -e "/=/d" -e "/\[/d" -e "/\]/d" -e "/\//d" -e "/^0\.0\.0\.0[ ].*[ ].*.$/d" -e "s/\(.*\)/\L\1/" processing/hosts/hosts-cat.final
 pcregrep -v -f hostpatterns.dat processing/hosts/hosts-cat.final > processing/hosts/hosts-pre.final
